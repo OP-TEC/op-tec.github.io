@@ -1,128 +1,327 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Company Services</title>
-    <meta name="generator" content="Serif WebPlus X7">
-    <meta name="viewport" content="width=905">
-    <meta name="copyright" content="© 2013 Op-tec Systems Ltd">
-    <link rel="stylesheet" type="text/css" href="wpscripts/wpstyles.css">
-    <style type="text/css">
-      .P-1 { text-align:center;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#1f5b8b;background-color:transparent;font-variant:normal;font-size:12.0px;vertical-align:0; }
-      .C-1 { line-height:14.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#1f5b8b;background-color:transparent;text-decoration:none;font-variant:normal;font-size:12.0px;vertical-align:0; }
-      .OBJ-1 { padding:3px 0px 3px 0px; }
-      .C-2 { line-height:29.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:700;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:24.0px;vertical-align:0; }
-      .C-3 { line-height:18.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .P-2 { text-align:center;line-height:1px;font-family:"Verdana", sans-serif;font-style:italic;font-weight:normal;color:#e7e7e7;background-color:transparent;font-variant:normal;font-size:18.0px;vertical-align:0; }
-      .C-4 { line-height:22.00px;font-family:"Verdana", sans-serif;font-style:italic;font-weight:normal;color:#e7e7e7;background-color:transparent;text-decoration:none;font-variant:normal;font-size:18.4px;vertical-align:0; }
-      .P-3 { text-align:right;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#1f5b8b;background-color:transparent;font-variant:normal;font-size:17.0px;vertical-align:0; }
-      .C-5 { line-height:20.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#1f5b8b;background-color:transparent;text-decoration:none;font-variant:normal;font-size:17.4px;vertical-align:0; }
-      .OBJ-2 { background:transparent url('wpimages/wp05158567_06.png') no-repeat 34px 5px; }
-      .OBJ-3,.OBJ-3:link,.OBJ-3:visited { background-image:url('wpimages/wp541fa30c_06.png');background-repeat:no-repeat;background-position:0px 0px;text-decoration:none;display:block;position:absolute; }
-      .OBJ-3:hover { background-position:0px -74px; }
-      .OBJ-3:active,a:link.OBJ-3.Activated,a:link.OBJ-3.Down,a:visited.OBJ-3.Activated,a:visited.OBJ-3.Down,.OBJ-3.Activated,.OBJ-3.Down { background-position:0px -37px; }
-      .OBJ-3:focus { outline-style:none; }
-      button.OBJ-3 { background-color:transparent;border:none 0px;padding:0;display:inline-block;cursor:pointer; }
-      button.OBJ-3:disabled { pointer-events:none; }
-      .OBJ-3.Inline { display:inline-block;position:relative;line-height:normal; }
-      .OBJ-3 span,.OBJ-3:link span,.OBJ-3:visited span { color:#4d4d4d;font-family:Arial,sans-serif;font-weight:normal;text-decoration:none;text-align:center;text-transform:none;font-style:normal;left:1px;top:10px;width:124px;height:17px;font-size:13px;display:block;position:absolute;cursor:pointer; }
-      .OBJ-3:hover span { color:#ffffff; }
-      .OBJ-3.Disabled span,a:link.OBJ-3.Disabled span,a:visited.OBJ-3.Disabled span,a:hover.OBJ-3.Disabled span,a:active.OBJ-3.Disabled span { color:#e6e6e6; }
-      .P-4 { margin-top:0.0px;margin-bottom:12.0px;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .P-5 { margin-top:0.0px;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .P-6 { text-indent:-15.0px;line-height:1px;font-family:"Verdana", sans-serif;font-style:italic;font-weight:normal;color:#1f5b8b;background-color:transparent;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .C-6 { line-height:18.00px;font-family:"Verdana", sans-serif;font-style:italic;font-weight:normal;color:#1f5b8b;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
-      .OBJ-4 { padding:6px 0px 6px 0px; }
-      .P-7 { margin-left:15.0px;line-height:1px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:700;color:#000080;background-color:transparent;font-variant:normal;font-size:27.0px;vertical-align:0; }
-      .C-7 { line-height:32.00px;font-family:"Verdana", sans-serif;font-style:normal;font-weight:700;color:#000080;background-color:transparent;text-decoration:none;font-variant:normal;font-size:26.7px;vertical-align:0; }
-    </style>
-    <script type="text/javascript" src="wpscripts/jquery.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-      $("a.ActiveButton").bind({ mousedown:function(){if ( $(this).attr('disabled') === undefined ) $(this).addClass('Activated');}, mouseleave:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}, mouseup:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}});
-      });
-    </script>
-  </head>
-  <body style="height:1620px;background:#36a5d5 url('wpimages/wpf10629e9_06.png') repeat scroll center top;">
-    <div id="divMain" style="background:transparent;margin-left:auto;margin-right:auto;position:relative;width:905px;height:1620px;">
-      <img src="wpimages/wp9b37b473_06.png" alt="" width="886" height="1269" style="position:absolute;left:10px;top:318px;width:886px;height:1269px;">
-      <img alt="Process Automation and Information System Specialists" src="wpimages/wpe15c59af_06.png" style="position:absolute;left:267px;top:10px;width:628px;height:151px;">
-      <div class="OBJ-1" style="position:absolute;left:10px;top:1588px;width:886px;height:17px;overflow:hidden;">
-        <p class="Artistic-Body P-1"><span class="C-1">© Copyright 2015 Op-<wbr>tec Systems Ltd </span></p>
-      </div>
-      <img src="wpimages/wp6b0d7e5b_06.png" alt="" width="885" height="39" style="position:absolute;left:10px;top:1395px;width:885px;height:39px;">
-      <img alt="" src="wpimages/wpc7f5f5d4_06.png" style="position:absolute;left:10px;top:1394px;width:885px;height:1px;">
-      <div style="position:absolute;left:42px;top:1422px;width:277px;height:36px;overflow:hidden;">
-        <h2 class="Heading-2"><span class="C-2">Further Information</span></h2>
-      </div>
-      <div style="position:absolute;left:74px;top:1468px;width:201px;height:19px;overflow:hidden;"><p class="DefaultParagraph"><span class="C-3">Home</span></p></div>
-      <map id="map1" name="map1">
-        <area shape="rect" coords="7,5,9,9" href="index.html" alt="">
-        <area shape="poly" coords="16,10,11,4,5,10,6,11,11,6,16,11" href="index.html" alt="">
-        <area shape="poly" coords="15,11,11,7,7,11,7,17,9,17,9,12,12,12,12,17,15,17" href="index.html" alt="">
-        <area shape="poly" coords="20,19,20,1,1,1,1,20,20,20" href="index.html" alt="">
-        <area shape="poly" coords="20,20,21,19,21,2,20,1,1,1,1,20,2,21,20,21" href="index.html" alt="">
-      </map>
-      <img src="wpimages/wp19ced963_06.png" alt="" width="21" height="21" usemap="#map1" style="position:absolute;left:43px;top:1466px;width:21px;height:21px;">
-      <map id="map2" name="map2">
-        <area shape="poly" coords="17,7,13,11,17,15" href="contact.html" alt="">
-        <area shape="poly" coords="8,11,4,7,4,15" href="contact.html" alt="">
-        <area shape="poly" coords="12,11,12,12,10,12,9,11,5,15,16,15" href="contact.html" alt="">
-        <area shape="poly" coords="16,6,5,6,9,11,12,11" href="contact.html" alt="">
-        <area shape="poly" coords="20,19,20,1,1,1,1,20,20,20" href="contact.html" alt="">
-        <area shape="poly" coords="20,20,21,19,21,2,20,1,1,1,1,20,2,21,20,21" href="contact.html" alt="">
-      </map>
-      <img src="wpimages/wpb15cf745_06.png" alt="" width="21" height="21" usemap="#map2" style="position:absolute;left:43px;top:1500px;width:21px;height:21px;">
-      <div style="position:absolute;left:74px;top:1502px;width:201px;height:19px;overflow:hidden;">
-        <p class="DefaultParagraph"><span class="C-3">Contact Us</span></p>
-      </div>
-      <div style="position:absolute;left:74px;top:1536px;width:201px;height:19px;overflow:hidden;">
-        <p class="DefaultParagraph"><span class="C-3">Company Brochure</span></p>
-      </div>
-      <div style="position:absolute;left:267px;top:178px;width:628px;height:82px;overflow:hidden;">
-        <p class="Body P-2"><span class="C-4">DCS, PLC &amp; SCADA systems, process control, factory automation, application software, information systems, data acquisition,<br>&nbsp;system integration, communications and networking.</span></p>
-      </div>
-      <div style="position:absolute;left:10px;top:210px;width:255px;height:50px;overflow:hidden;">
-        <p class="Body P-3"><span class="C-5">Open Technology Solutions for Process Control</span></p>
-      </div>
-      <map id="map3" name="map3">
-        <area shape="rect" coords="2,4,20,19" href="OP-TEC%20Systems%20-%20Brochure.pdf" target="_blank" alt="">
-        <area shape="poly" coords="20,19,20,1,1,1,1,20,20,20" href="OP-TEC%20Systems%20-%20Brochure.pdf" target="_blank" alt="">
-        <area shape="poly" coords="20,20,21,19,21,2,20,1,1,1,1,20,2,21,20,21" href="OP-TEC%20Systems%20-%20Brochure.pdf" target="_blank" alt="">
-      </map>
-      <img src="wpimages/wp1135950f_06.png" alt="" width="21" height="21" usemap="#map3" style="position:absolute;left:43px;top:1534px;width:21px;height:21px;">
-      <img alt="" src="wpimages/wp311ff04c_05_06.jpg" style="position:absolute;left:10px;top:10px;width:256px;height:197px;">
-      <img alt="" src="wpimages/wp6407d512_05_06.jpg" style="position:absolute;left:614px;top:1400px;width:277px;height:186px;">
-      <div class="OBJ-2" style="position:absolute;left:11px;top:261px;width:885px;height:57px;">
-        <a href="index.html" id="nav_413_B1" class="OBJ-3 ActiveButton" style="display:block;position:absolute;left:39px;top:10px;width:126px;height:37px;">
-          <span>Home</span>
-        </a>
-        <a href="services.html" id="nav_413_B2" class="OBJ-3 ActiveButton Down" style="display:block;position:absolute;left:175px;top:10px;width:126px;height:37px;">
-          <span>Company&nbsp;Services</span>
-        </a>
-        <a href="benefits.html" id="nav_413_B3" class="OBJ-3 ActiveButton" style="display:block;position:absolute;left:311px;top:10px;width:126px;height:37px;">
-          <span>Client&nbsp;Benefits</span>
-        </a>
-        <a href="comments.html" id="nav_413_B4" class="OBJ-3 ActiveButton" style="display:block;position:absolute;left:448px;top:10px;width:126px;height:37px;">
-          <span>Client&nbsp;Comments</span>
-        </a>
-        <a href="employment.html" id="nav_413_B5" class="OBJ-3 ActiveButton" style="display:block;position:absolute;left:584px;top:10px;width:126px;height:37px;">
-          <span>Employment</span>
-        </a>
-        <a href="contact.html" id="nav_413_B6" class="OBJ-3 ActiveButton" style="display:block;position:absolute;left:720px;top:10px;width:126px;height:37px;">
-          <span>Contact&nbsp;Us</span>
-        </a>
-      </div>
-      <div class="OBJ-4" style="position:absolute;left:10px;top:365px;width:885px;height:1020px;overflow:hidden;">
-        <p class="Artistic-Body P-4"><span class="C-3">Op-<wbr>tec Systems offers a complete range of project engineering and consultancy services in the fields of industrial automation and information systems to the process and manufacturing industries. Through core services of technical consultancy, system design, application programming, systems integration and project management, we provide our clients with a total solution, from initial concept to commissioning and on-<wbr>going support.</span></p>
-        <p class="Artistic-Body P-4"><span class="C-3">Our wide ranging experience across a wide spectrum of industries and applications enable us to provide substantial input to control, instrumentation and data processing projects, ensuring optimum performance and support throughout the life of the application.</span></p>
-        <p class="Artistic-Body P-4"><span class="C-3">The commitment of the Company and the dedication &amp; expertise of our staff, give us the confidence to successfully develop and implement diverse automation solutions for our clients.</span></p>
-        <p class="Artistic-Body P-5"><span class="C-3">Typical Company services include:</span></p>
-        <ul style="list-style-type:disc;margin:0;padding:0;">
-          <li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Site investigation and system audits</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Consultancy and feasibility studies</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Preparation of User Requirement and Functional Design Specifications</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Control system and vendor selection<img alt="" src="wpimages/wp5271e259_05_06.jpg" style="float:right;margin:6px 0px 6px 6px;width:437px;height:507px;"></span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Project management</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Control panel design and systems engineering</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Control system assembly and checkout</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">System integration and testing</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Application software design and implementation</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Programmable logic controllers (PLC)</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Human/machine interfaces (HMI)</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Distributed control systems (DCS)</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Supervisory control and data acquisition (SCADA) systems</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Condition monitoring systems</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Energy monitoring systems</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Real-<wbr>time process data reporting systems</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Plant-<wbr>wide data historian systems</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Management information systems (MIS)</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Reverse engineering of existing applications</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Bespoke software solutions</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Pre-<wbr>commissioning, commissioning and site trials</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Control system validation</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Customised product and application training</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Control system upgrades and expansions</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Support and maintenance of automation and control systems supplied by ourselves and others.</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Upgrade and replacement of obsolete control &amp; monitoring systems</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">DCS, PLC and SCADA software conversion (e.g. "reverse engineering" of legacy systems and configuration of original application in current-<wbr>generation system)</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Provision of an "on-<wbr>call" extension to the Client's own C&amp;I and MIS engineering resources.</span></li><li class="Italic-Bullet P-6" style="text-indent:0;margin-left:50.0px;"><span class="C-6">Supply and support of OPsCon replacement console for Bailey Infi and Net 90 DCSs.</span></li>
-        </ul>
-      </div>
-      <div class="OBJ-4" style="position:absolute;left:10px;top:318px;width:885px;height:34px;overflow:hidden;"><p class="Body P-7"><span class="C-7">Company Services</span></p></div>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Op-tec Systems Ltd">
+
+    <title>Services - Op-tec Systems</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="top">
+
+    <!-- Navigation -->
+             <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                        <div class="navbar-header">
+                <a href="index.html" class="pull-left"><img src="img/OptecLogo-1.png" style="max-width:62px; margin-top: 2px;"></a>
+                <p style="color:#083E62"><small> &nbsp; &nbsp; &nbsp; <i class="fa fa-phone"></i> &nbsp; 01743 340189<br>
+                 &nbsp; &nbsp; &nbsp; <i class="fa fa-envelope-o"></i> &nbsp; projects@op-tec.co.uk</small></p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="active"><a href="services.html">SERVICES</a></li>
+                    <li><a href="testimonials.html">TESTIMONIALS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+<!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+         <div class="item active">
+                <img src="img/hand-laptop-notebook-typing.jpg" alt="Laptop keyboard">
+             <div class="carousel-caption">
+           <h2 class="hidden-xs">OPEN TECHNOLOGY FOR PROCESS CONTROL</h2>
+           </div>
+        </div>
+        </div>
+    </header>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- /.row -->
+
+       
+        <!-- /.row -->
+
+        <!-- Service Panels -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">SERVICES</h1>
+                
+            </div>
+        </div>
+        <div class="row">
+            
+             <div class="col-md-6">
+            <p>Op-tec offer a complete range of project engineering and consultancy services to the process and manufacturing industries. With experience and competency in technical consultancy, system design, application programming, systems integration and project management, we provide a total solution - from initial concept through installation and commissioning, to continuing on-site support.</p>
+            <p>We have become a key engineering partner to smaller manufacturers, where an in-house control systems resource is not cost effective. In these cases our customer benefits from having trained and experienced control systems experts available, without the overhead costs associated with full-time personnel.</p>
+                 <img class="img-responsive hidden-md hidden-lg" src="img/sea-industry-harbor-harbour.jpg" alt="Harbour crane" height="42"><br class="hidden-md hidden-lg">
+                 <p>When implementing upgrades and expansions to existing systems, Op-tec’s engineers adapt their programming style to match the existing configuration for ease of maintenance and support.</p>
+
+<p>A flexible and personalised service helps to ensure a clear understanding of the project requirements, including addressing the clients' wider business needs.</p>
+                 
+            <p>With todays increasingly connected industrial automation systems, remote assistance and support is not just increasingly possible, but reliable and secure. Where opportunities exist to work in this manner we will highlight these, while respecting requests to work locally should your company procedures require it.</p>
+                   </div>
+            <div class="col-md-6">
+                <img class="img-responsive hidden-xs hidden-sm" src="img/sea-industry-harbor-harbour.jpg" alt="Harbour crane" height="42"><br>
+            </div>
+        </div>
     </div>
-  </body>
+        <div class="container">
+        <!-- Service Tabs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">Core Offerings</h3>
+            </div>
+            <div class="col-lg-12">
+
+                <ul id="myTab" class="nav nav-tabs nav-justified">
+                    <li class="active"><a href="#service-one" data-toggle="tab"><i class="fa fa-cogs"></i> Systems Integration</a>
+                    </li>
+                    <li class=""><a href="#service-two" data-toggle="tab"><i class="fa fa-crosshairs"></i> Consultancy</a>
+                    </li>
+                    <li class=""><a href="#service-three" data-toggle="tab"><i class="fa fa-car"></i> Service</a>
+                    </li>
+                    <li class=""><a href="#service-four" data-toggle="tab"><i class="fa fa-database"></i> Backup &amp; Recovery</a>
+                    </li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="service-one">
+                        <div class="col-md-6">
+                        <p><br>Op-tec has broad systems engineering capabilities and proven track record in delivering innovative solutions that meet and often exceed expectations. We have the capability to deliver at any scale, from small additions and upgrades to existing installations, through to full turnkey projects, taking responsibility for system design and performance.</p>
+                            <p>Listed are industrial automation vendors whose products we have previous experience with.</p>
+                            <br><img class="img-responsive center-block" src="img/Systems%20integration.jpg" alt="Systems Integration">
+                        </div>
+                        <div class="col-md-6">
+                            
+                        <p><br>Distributed Control Systems (DCS):</p>
+                            <ul><li>ABB</li>
+                                <li>Emerson</li>
+                                <li>Schneider</li>
+                            <li>Siemens</li></ul>
+                            
+                            
+                        <p><br>Supervisory Control and Data Acquisition (SCADA) systems<br>and Programmable Logic Controllers (PLC):</p>
+                            
+                            <ul><li>ABB</li>
+                                <li>GE</li>
+                                <li>Mitsubishi</li>
+                                <li>Rockwell / Allen-Bradley</li>
+                            <li>Schneider</li>
+                            <li>Siemens</li></ul>
+                      
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="service-two">
+                        <div class="col-md-6">
+                        <p><br>We offer a broad portfolio of services to support your projects, ensuring resources are used efficiently to gain the most from the technology and expertise you have invested in.</p>
+                         <p>Our engineers have a wealth of expereince and access to insights from our clients in other industries making them valuable team members during your improvement project. </p>
+                            <p><br>Specialities:</p>
+                            <ul>
+                            <li>Obsolescence planning</li>
+                                <li>HMI design and operator effectiveness</li>
+                                <li>Alarm Management</li>
+                                <li>System design and feasibility studies</li>
+                                <li>Control loop tuning/optimisation</li>
+                                <li>Fieldbus/smart device integration and asset management</li>
+                                <li>3<sup>rd</sup> party system/package integration</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                        <br><img class="img-responsive center-block" src="img/projector-814832_1920.jpg" alt="Projector">    
+                        
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="service-three">
+                        <div class="col-md-6">
+                            <p><br>Our engineers' technical expertise and process knowledge makes us perfectly equipped to provide operational support through predictive, preventative and responsive maintenance activities.</p>
+                            <p>Our services allow owners of industrial automation systems to maintain and improve the efficiency and output of their processes.</p>
+                            <p><br>Typical service activities:</p>
+                            <ul><li>Engineer call-out</li>
+                                <li>Routine maintenance</li>
+                            <li>Staged system upgrades</li>
+                            <li>Patching and security updates</li>
+                            <li>Configuration of asset management systems</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <br><img class="img-responsive center-block" src="img/ram-893259_1920.jpg" alt="Computer maintenance">
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="service-four">
+                        <div class="col-md-6">
+                        
+                        <br><img class="img-responsive center-block" src="img/night-computer-hdd-hard-drive.jpg" alt="Computer hard disk">
+                        </div>
+                        <div class="col-md-6">
+                        <p><br>The majority of control systems now run on standard PC hardware and MS Windows operating systems. While this provides many benefits (widely available support and spares, familiar interface for users) it does mean use of hardware and software designed for non-industrial applications.</p><p>To ensure your system can be bought back should the worst happen, we offer the following services:</p>
+                            <ul><li>Review of current procedures</li>
+                            <li>File verification</li>
+                            <li>Secure off-site file storage</li>
+                            <li>Remote backup management</li></ul>
+                            <p>That said, we at Op-tec know only too well that many sites are still running older systems using the OEM's workstations and operating systems. In these cases an audit of current practises is recommended, to include a validation of exisiting backups.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Service List -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">Other Services</h3>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Site investigation and system audits</h4>
+                        <p>Review of installed hardware and software. Prioritised recommendations.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">User requirement specifications</h4>
+                        <p>Preparation of User Requirement Specifications.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Feasibility studies</h4>
+                        <p>Project evaluation and review against cost and time constraints.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Training and coaching</h4>
+                        <p>System specific engineer, maintenance and operation courses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Virtualisation</h4>
+                        <p>Upgrade of PCs/servers from traditional to virtualised architecture.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Control system and vendor selection</h4>
+                        <p>Technical evaluation of technology and proposed solutions.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Project management</h4>
+                        <p>Effective management of your automation projects.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Training and coaching</h4>
+                        <p>System specific engineer, maintenance and operation courses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Condition monitoring systems</h4>
+                        <p>Energy, vibration or smart device diagnostic information reporting.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Reverse engineering</h4>
+                        <p>Requirement or design specifications from existing applications.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Operational and cyber security</h4>
+                        <p>Review of current practises, recommendations, and implementation.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <h4 class="media-heading">Need help with something else?</h4>
+                        <p>We can't list everything here, if you have a specific requirement or issue give us a call.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+            
+
+
+
+
+        <hr>
+<p class="text-right"><a href="#top">Back to top <i class="fa fa-chevron-up"></i></a></p>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 text-center">
+                    <p id="companydetails"><br><strong>Op-tec Systems Ltd</strong>
+                       <small><ul class="list-unstyled list-inline"><li>Registered in England &amp; Wales &nbsp;&nbsp;&nbsp;</li><li>56 North St., Shrewsbury, Shropshire, SY1 2JL&nbsp;&nbsp;&nbsp;</li><li>Company no. 03251387 &nbsp;&nbsp;&nbsp;</li><li>VAT reg. GB 681 9321 19</li></ul>
+                    <small><strong>&copy; Op-tec Systems Ltd. All rights reserved.</strong></small></small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+</body>
+
 </html>
