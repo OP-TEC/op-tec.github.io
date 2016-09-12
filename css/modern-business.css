@@ -112,6 +112,13 @@ footer {
     color: white;
 }
 
+#companydetails a:link, 
+#companydetails a:hover,
+#companydetails a:visited,
+#companydetails a:active {
+    color: white;
+}
+
 /* Responsive Styles */
 
 @media(max-width:991px) {
@@ -130,3 +137,4 @@ footer {
         height: 70%;
     }
 }
+
