@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: http://op-tec.co.uk/legal-information.html
+Disallow: http://op-tec.co.uk/uploads/*
 Sitemap: http://op-tec.co.uk/sitemap.xml
 User-agent: Twitterbot
 Disallow:
