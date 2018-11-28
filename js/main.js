@@ -30,14 +30,14 @@
 	var toggleBtnColor = function () {
 
 	
-		if ( $('#optec-hero').length > 0 ) {	
-			$('#optec-hero').waypoint( function( direction ) {
+		if ( $('.optec-hero').length > 0 ) {	
+			$('.optec-hero').waypoint( function( direction ) {
 				if( direction === 'down' ) {
 					$('.optec-nav-toggle').addClass('dark');
 				}
-			} , { offset: - $('#optec-hero').height() } );
+			} , { offset: - $('.optec-hero').height() } );
 
-			$('#optec-hero').waypoint( function( direction ) {
+			$('.optec-hero').waypoint( function( direction ) {
 				if( direction === 'up' ) {
 					$('.optec-nav-toggle').removeClass('dark');
 				}
