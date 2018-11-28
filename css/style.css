@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 30px;
 }
 
-#optec-hero {
+.optec-hero {
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
@@ -122,11 +122,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 @media screen and (max-width: 480px) {
-  #optec-hero {
+  .optec-hero {
     height: 450px;
   }
 }
-#optec-hero .optec-overlay {
+.optec-hero .optec-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -136,115 +136,117 @@ h1, h2, h3, h4, h5, h6 {
   opacity: .54;
   z-index: 9;
 }
-#optec-hero .optec-intro {
+.optec-hero .optec-intro {
   display: table;
   width: 100%;
   z-index: 10;
   position: relative;
 }
 @media screen and (max-width: 480px) {
-  #optec-hero .optec-intro {
+  .optec-hero .optec-intro {
     height: 450px;
   }
 }
-#optec-hero .optec-intro > div {
+.optec-hero .optec-intro > div {
   vertical-align: middle;
   display: table-cell;
 }
-#optec-hero .optec-intro > div .optec-left-position {
+.optec-hero .optec-intro > div .optec-left-position {
   width: 65%;
   float: left;
 }
 @media screen and (max-width: 992px) {
-  #optec-hero .optec-intro > div .optec-left-position {
+  .optec-hero .optec-intro > div .optec-left-position {
     width: 100%;
   }
 }
-#optec-hero .optec-intro > div .fh5co-center-position {
+.optec-hero .optec-intro > div .fh5co-center-position {
   width: 65%;
   text-align: center;
   margin: 0 auto;
 }
 @media screen and (max-width: 992px) {
-  #optec-hero .optec-intro > div .fh5co-center-position {
+  .optec-hero .optec-intro > div .fh5co-center-position {
     width: 100%;
     text-align: center;
   }
 }
-#optec-hero .optec-intro > div .fh5co-right-position {
+.optec-hero .optec-intro > div .fh5co-right-position {
   width: 65%;
   float: right;
   text-align: right;
 }
 @media screen and (max-width: 992px) {
-  #optec-hero .optec-intro > div .fh5co-right-position {
+  .optec-hero .optec-intro > div .fh5co-right-position {
     width: 100%;
     text-align: left;
   }
 }
-#optec-hero .optec-intro > div h2 {
+.optec-hero .optec-intro > div h2 {
   font-size: 70px;
   line-height: 87px;
   font-weight: 100;
   color: white;
 }
 @media screen and (max-width: 992px) {
-  #optec-hero .optec-intro > div h2 {
+  .optec-hero .optec-intro > div h2 {
     font-size: 40px;
     line-height: 57px;
     text-align: center;
   }
 }
-#optec-hero .optec-intro > div h3 {
+.optec-hero .optec-intro > div h3 {
   font-weight: 100;
   font-size: 30px;
   line-height: 45px;
   color: white;
 }
 @media screen and (max-width: 992px) {
-  #optec-hero .optec-intro > div h3 {
+  .optec-hero .optec-intro > div h3 {
     font-size: 24px;
     line-height: 37px;
     text-align: center;
   }
 }
-#optec-hero .optec-intro > div .btn-outline, #optec-hero .optec-intro > div .btn-primary {
+.optec-hero .optec-intro > div .btn-outline, .optec-hero .optec-intro > div .btn-primary {
   padding: 20px 30px !important;
   min-width: 200px;
   font-size: 18px;
 }
+
 @media screen and (max-width: 480px) {
-  #optec-hero .optec-intro > div .btn-outline, #optec-hero .optec-intro > div .btn-primary {
+  .optec-hero .optec-intro > div .btn-outline, .optec-hero .optec-intro > div .btn-primary {
     padding: 10px 30px !important;
     width: 100%;
   }
-}
-#optec-hero .optec-intro > div .btn-outline {
+   }
+.optec-hero .optec-intro > div .btn-outline {
   border-color: rgba(255, 255, 255, 0.2);
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
 }
-#optec-hero .optec-intro > div .btn-outline:hover {
+.optec-hero .optec-intro > div .btn-outline:hover {
   border-color: rgba(255, 255, 255, 0.4);
   color: white;
   background-color: rgba(255, 255, 255, 0.2);
 }
-#optec-hero .optec-learn-more {
+
+.optec-hero .optec-learn-more {
   position: absolute;
   bottom: -25px;
   left: 50%;
   z-index: 12;
   text-align: center;
 }
-#optec-hero .optec-learn-more a {
+.optec-hero .optec-learn-more a {
   display: block;
 }
-#optec-hero .optec-learn-more a .text {
+.optec-hero .optec-learn-more a .text {
   display: block;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 20px;
 }
-#optec-hero .optec-learn-more a .arrow {
+.optec-hero .optec-learn-more a .arrow {
   display: block;
   width: 50px;
   height: 50px;
@@ -255,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#optec-hero .optec-learn-more a .arrow i {
+.optec-hero .optec-learn-more a .arrow i {
   top: 10px;
   position: relative;
   color: #fff;
@@ -640,7 +642,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-border-radius: 0;
   border-radius: 0;
 }
-
+/*
 #fh5co-subscribe {
   background: #f9f9f9;
   padding: 3em 0;
@@ -717,7 +719,7 @@ h1, h2, h3, h4, h5, h6 {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
   }
-}
+}*/
 
 #optec-footer {
   padding-bottom: 0;
