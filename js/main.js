@@ -30,14 +30,14 @@
 	var toggleBtnColor = function () {
 
 	
-		if ( $('.optec-hero').length > 0 ) {	
-			$('.optec-hero').waypoint( function( direction ) {
+		if ( $('#optec-hero').length > 0 ) {	
+			$('#optec-hero').waypoint( function( direction ) {
 				if( direction === 'down' ) {
 					$('.optec-nav-toggle').addClass('dark');
 				}
-			} , { offset: - $('.optec-hero').height() } );
+			} , { offset: - $('#optec-hero').height() } );
 
-			$('.optec-hero').waypoint( function( direction ) {
+			$('#optec-hero').waypoint( function( direction ) {
 				if( direction === 'up' ) {
 					$('.optec-nav-toggle').removeClass('dark');
 				}
@@ -46,8 +46,55 @@
 			} );
 		}
 
+if ( $('#optec-hero2').length > 0 ) {	
+			$('#optec-hero2').waypoint( function( direction ) {
+				if( direction === 'down' ) {
+					$('.optec-nav-toggle').addClass('dark');
+				}
+			} , { offset: - $('#optec-hero2').height() } );
 
+			$('#optec-hero2').waypoint( function( direction ) {
+				if( direction === 'up' ) {
+					$('.optec-nav-toggle').removeClass('dark');
+				}
+			} , { 
+				offset:  function() { return -$(this.element).height() + 0; }
+			} );
+		}
 
+        if ( $('#optec-hero3').length > 0 ) {	
+			$('#optec-hero3').waypoint( function( direction ) {
+				if( direction === 'down' ) {
+					$('.optec-nav-toggle').addClass('dark');
+				}
+			} , { offset: - $('#optec-hero3').height() } );
+
+			$('#optec-hero3').waypoint( function( direction ) {
+				if( direction === 'up' ) {
+					$('.optec-nav-toggle').removeClass('dark');
+				}
+			} , { 
+				offset:  function() { return -$(this.element).height() + 0; }
+			} );
+		}
+        
+        if ( $('#optec-hero4').length > 0 ) {	
+			$('#optec-hero4').waypoint( function( direction ) {
+				if( direction === 'down' ) {
+					$('.optec-nav-toggle').addClass('dark');
+				}
+			} , { offset: - $('#optec-hero4').height() } );
+
+			$('#optec-hero4').waypoint( function( direction ) {
+				if( direction === 'up' ) {
+					$('.optec-nav-toggle').removeClass('dark');
+				}
+			} , { 
+				offset:  function() { return -$(this.element).height() + 0; }
+			} );
+		}
+        
+        
 	};
 
 
