@@ -28,7 +28,6 @@
 	};
 
 	var toggleBtnColor = function () {
-
 	
 		if ( $('#optec-hero').length > 0 ) {	
 			$('#optec-hero').waypoint( function( direction ) {
@@ -45,11 +44,8 @@
 				offset:  function() { return -$(this.element).height() + 0; }
 			} );
 		}        
-        
-
-
 	
-		if ( $('#optec-hero2').length > 0 ) {	
+		else ( $('#optec-hero2').length > 0 ) {	
 			$('#optec-hero2').waypoint( function( direction ) {
 				if( direction === 'down' ) {
 					$('.optec-nav-toggle').addClass('dark');
@@ -64,10 +60,8 @@
 				offset:  function() { return -$(this.element).height() + 0; }
 			} );
 		}        
-  
-
-	
-		if ( $('#optec-hero3').length > 0 ) {	
+  	
+		else ( $('#optec-hero3').length > 0 ) {	
 			$('#optec-hero3').waypoint( function( direction ) {
 				if( direction === 'down' ) {
 					$('.optec-nav-toggle').addClass('dark');
@@ -82,11 +76,8 @@
 				offset:  function() { return -$(this.element).height() + 0; }
 			} );
 		}        
-        
-
-
-	
-		if ( $('#optec-hero4').length > 0 ) {	
+        	
+		else ( $('#optec-hero4').length > 0 ) {	
 			$('#optec-hero4').waypoint( function( direction ) {
 				if( direction === 'down' ) {
 					$('.optec-nav-toggle').addClass('dark');
@@ -175,18 +166,6 @@
     };
 
 
-	//var testimonialFlexslider = function() {
-	//	var $flexslider = $('.flexslider');
-	//	$flexslider.flexslider({
-	//	  animation: "fade",
-	//	  manualControls: ".flex-control-nav li",
-	//	  directionNav: false,
-	//	  smoothHeight: true,
-	//	  useCSS: false /* Chrome fix*/
-	//	});
-	//}
-
-
 	var goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
@@ -202,37 +181,6 @@
 	
 	};
 
-
-
-	// Animations
-
-	//var contentWayPoint = function() {
-	//	var i = 0;
-	//	$('.animate-box').waypoint( function( direction ) {
-
-	//		if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-				
-	//			i++;
-
-	//			$(this.element).addClass('item-animate');
-	//			setTimeout(function(){
-
-	//				$('body .animate-box.item-animate').each(function(k){
-	//					var el = $(this);
-	//					setTimeout( function () {
-	//						el.addClass('fadeInUp animated');
-	//						el.removeClass('item-animate');
-	//					},  k * 200, 'easeInOutExpo' );
-	//				});
-	//				
-	//			}, 100);
-	//			
-	//		}
-//
-	//	} , { offset: '95%' } );
-	//};
-	
-	
 
 	// Document on load.
 	$(function(){
