@@ -46,9 +46,7 @@
 			} );
 		}        
         
-	};
 
-    	var toggleBtnColor = function () {
 
 	
 		if ( $('#optec-hero2').length > 0 ) {	
@@ -66,10 +64,7 @@
 				offset:  function() { return -$(this.element).height() + 0; }
 			} );
 		}        
-        
-	};
-    
-    	var toggleBtnColor = function () {
+  
 
 	
 		if ( $('#optec-hero3').length > 0 ) {	
@@ -88,9 +83,7 @@
 			} );
 		}        
         
-	};
-    
-    	var toggleBtnColor = function () {
+
 
 	
 		if ( $('#optec-hero4').length > 0 ) {	
