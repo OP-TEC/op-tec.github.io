@@ -45,7 +45,7 @@
 			} );
 		}        
 	
-		else ( $('#optec-hero2').length > 0 ) {	
+		else if ( $('#optec-hero2').length > 0 ) {	
 			$('#optec-hero2').waypoint( function( direction ) {
 				if( direction === 'down' ) {
 					$('.optec-nav-toggle').addClass('dark');
@@ -61,7 +61,7 @@
 			} );
 		}        
   	
-		else ( $('#optec-hero3').length > 0 ) {	
+		else if ( $('#optec-hero3').length > 0 ) {	
 			$('#optec-hero3').waypoint( function( direction ) {
 				if( direction === 'down' ) {
 					$('.optec-nav-toggle').addClass('dark');
@@ -77,7 +77,7 @@
 			} );
 		}        
         	
-		else ( $('#optec-hero4').length > 0 ) {	
+		else if ( $('#optec-hero4').length > 0 ) {	
 			$('#optec-hero4').waypoint( function( direction ) {
 				if( direction === 'down' ) {
 					$('.optec-nav-toggle').addClass('dark');
