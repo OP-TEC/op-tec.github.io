@@ -1,0 +1,10 @@
+- name: Company Profile
+  link: /profile.html
+- name: Privacy Policy
+  link: /legal-information.html#privacy
+- name: Website Terms of Use
+  link: /legal-information.html#terms
+- name: Registration Details
+  link: /contact.html#registration
+- name: Site Map
+  link: /sitemap.html

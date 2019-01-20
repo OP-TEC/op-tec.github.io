@@ -1,0 +1,144 @@
+---
+layout: default
+title: Latest
+description: Read the latest news from Op-tec Systems
+---
+<div class="container">
+<div class="jumbotron box-custom p-md-5 text-white bg-dark watermark"><!-- Featured post -->
+    <div class="col-md-6 px-0">
+        {% for post in site.posts limit:1 %}
+        <strong class="d-inline-block mb-2 text-muted">{{ post.categories }}</strong>
+        <h1 class="display-4"><a class="text-light" href="{{ post.url }}">{{ post.title }}</a></h1>
+        <div class="mb-1">{{ post.date | date_to_string }}
+            {% assign author = site.authors | where: 'short_name', post.author | first %}
+            {% if author %} - <a href="{{ author.url }}" class="text-white">{{ author.short_name }}</a>
+            {% endif %}
+        </div>
+        <p class="lead my-3">{{ post.excerpt }}</p>
+        <p class="lead mb-0"><a href="{{ post.url }}" class="text-white">Continue reading...</a></p>
+        {% endfor %}
+    </div>
+</div><!-- /.Featured post -->
+<div class="row mb-2"><!-- Recent posts (2 & 3) -->
+        <div class="col-md-6"><!-- Recent post (2) -->
+          <div class="card box-custom flex-md-row mb-4 h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                {% for post in site.posts offset:1 limit:1 %}
+              <strong class="d-inline-block mb-2 text-muted">{{ post.categories }}</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              <div class="mb-1 text-muted">{{ post.date | date_to_string }}
+                {% assign author = site.authors | where: 'short_name', post.author | first %}
+                {% if author %} - <a href="{{ author.url }}">{{ author.short_name }}</a>
+                {% endif %}
+                </div>
+              <p class="card-text mb-auto">{{ post.excerpt }}</p>
+              <a href="{{ post.url }}">Continue reading...</a>
+                {% endfor %}
+            </div>
+          </div>
+        </div><!-- /.Recent post (2) -->
+        <div class="col-md-6"><!-- Recent post (3) -->
+          <div class="card box-custom flex-md-row mb-4 h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                {% for post in site.posts offset:2 limit:1 %}
+              <strong class="d-inline-block mb-2 text-muted">{{ post.categories }}</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+              <div class="mb-1 text-muted">{{ post.date | date_to_string }}
+                {% assign author = site.authors | where: 'short_name', post.author | first %}
+                {% if author %} - <a href="{{ author.url }}">{{ author.short_name }}</a>
+                {% endif %}
+                </div>
+              <p class="card-text mb-auto">{{ post.excerpt }}</p>
+              <a href="{{ post.url }}">Continue reading...</a>
+                {% endfor %}
+            </div>
+          </div>
+        </div><!-- /.Recent post (3) -->
+</div><!-- /.Recent posts (2 & 3) -->
+<div class="row mb-2"><!-- Recent posts (4 & 5) -->
+    <div class="col-md-6"><!-- Recent post (4) -->
+        <div class="card box-custom flex-md-row mb-4 h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                {% for post in site.posts offset:3 limit:1 %}
+                <strong class="d-inline-block mb-2 text-muted">{{ post.categories }}</strong>
+                <h3 class="mb-0"><a class="text-dark" href="{{ post.url }}">{{ post.title }}</a></h3>
+                <div class="mb-1 text-muted">{{ post.date | date_to_string }}
+                    {% assign author = site.authors | where: 'short_name', post.author | first %}
+                    {% if author %} - <a href="{{ author.url }}">{{ author.short_name }}</a>
+                    {% endif %}
+                </div>
+                <p class="card-text mb-auto">{{ post.excerpt }}</p>
+                <a href="{{ post.url }}">Continue reading...</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div><!-- /.Recent post (4) -->
+    <div class="col-md-6"><!-- Recent post (5) -->
+        <div class="card box-custom flex-md-row mb-4 h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+                {% for post in site.posts offset:4 limit:1 %}
+                <strong class="d-inline-block mb-2 text-muted">{{ post.categories }}</strong>
+                <h3 class="mb-0"><a class="text-dark" href="{{ post.url }}">{{ post.title }}</a></h3>
+                <div class="mb-1 text-muted">{{ post.date | date_to_string }}
+                    {% assign author = site.authors | where: 'short_name', post.author | first %}
+                    {% if author %} - <a href="{{ author.url }}">{{ author.short_name }}</a>
+                    {% endif %}
+                </div>
+                <p class="card-text mb-auto">{{ post.excerpt }}</p>
+                <a href="{{ post.url }}">Continue reading...</a>
+                {% endfor %}
+            </div>
+        </div>
+    </div><!-- /.Recent post (5) -->
+</div><!-- /.Recent posts (4 & 5) -->
+<main role="main" class="container">
+    <div class="row">
+        <div class="col-lg-9"><!-- Archive posts (6 - n) -->
+            <div class="row">
+                <div class="col">
+                    <h3>Archive</h3>
+                </div>
+            </div>
+            {% for post in site.posts offset:5 %}
+            <div class="row">
+                <div class="col">
+                    <div class="blog-post">
+                        <hr>
+                        <h2 class="blog-post-title"><a class="text-dark" href="{{ post.url }}">{{ post.title }}</a></h2>
+                        <p class="blog-post-meta"><strong class="d-inline-block mb-2 text-muted">{{ post.categories }} </strong>
+                        &nbsp; {{ post.date | date_to_string }}                
+                        {% assign author = site.authors | where: 'short_name', post.author | first %}
+                        {% if author %}
+                            - <a href="{{ author.url }}">{{ author.short_name }}</a>
+                        {% endif %}
+                        </p>
+                    </div>   
+                </div>
+            </div>   
+            <div class="row">
+                {% if post.thumbnail %}
+                <div class="col-sm-auto">
+                    <a href="{{ post.url }}"><img style="max-width: 150px; max-height: 150px;" src="{{ post.thumbnail }}"></a>
+                </div>
+                {% else %}
+                {% endif %}
+                <div class="col">
+                    <p><a href="{{ post.url }}">{{ post.excerpt }}</a></p>
+                </div>
+            </div><!-- /.blog-post -->
+            {% endfor %}
+        </div><!-- /.Archive posts (6 - n) -->
+        <aside class="col-md-4 blog-sidebar"><!-- blog-sidebar -->
+            <div class="sidebar-module sidebar-module-inset">
+            
+ 
+        
+            </div>
+        </aside><!-- /.blog-sidebar -->
+    </div><!-- /.row --> 
+</main>
+</div>

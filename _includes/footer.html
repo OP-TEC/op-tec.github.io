@@ -1,0 +1,53 @@
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted">
+            <div class="row navbar-light bg-light bg-custom">
+                <div class="col-md-3 col-sm-6 col-xs-12 navbar-nav ft-spacing">
+                    <h3>Op-tec Systems Ltd</h3>
+                    <ul class="navbar-nav">
+                        {% for item in site.data.navigation %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+                            {% endfor %}
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 navbar-nav ft-spacing">
+                    <h3 class="d-none d-sm-block"> &nbsp;</h3>
+                    <ul class="navbar-nav">
+                        {% for item in site.data.navigation2 %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+                            {% endfor %}
+                        </li>
+                    </ul><br>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 navbar-nav ft-spacing">
+                    <h3>Contact</h3>
+                    <p><a class="nav-link" href="mailto: projects@op-tec.co.uk">projects@op-tec.co.uk</a></p>
+                    <address class="small">
+                        <a class="nav-link" href="https://goo.gl/maps/BgzLBsUe8J22">
+                            Stockport Business &amp; Innovation Centre<br>
+                            Broadstone Mill<br>
+                            Broadstone Road<br>
+                            Stockport<br>
+                            SK23 7DL
+                        </a>
+                    </address>
+                    <p class=""><a class="nav-link" href="tel:+441616604293">0161 660 4293</a></p><br>
+                </div>        
+                <div class="col-md-3 col-sm-6 col-xs-12 navbar-nav ft-spacing">       
+                    <h3>Follow</h3>
+                    <p class="row">
+                        <a class="nav-link" href="https://www.linkedin.com/company/3025042?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A3025042%2Cidx%3A1-1-1%2CtarId%3A1457274325219%2Ctas%3Aop-tec" title="LinkedIn profile"> &nbsp; &nbsp; <span style="font-size: 1.5em;" class="fab fa-linkedin-in"></span></a>
+                        <a class="nav-link" href="https://twitter.com/OptecSystems" title="Twitter profile"> &nbsp; &nbsp; <span style="font-size: 1.5em;" class="fab fa-twitter"></span></a>
+                        <a class="nav-link" href="https://www.facebook.com/Op-tec-Systems-775188072581274/" title="Facebook profile"> &nbsp; &nbsp; <span style="font-size: 1.5em;" class="fab fa-facebook-f"></span></a>
+                    </p>         
+                </div>
+                <div class="col-lg-12 navbar-nav">
+                    <p class="text-center"><small>Copyright &copy; 2018 Op-tec Systems Ltd. All rights reserved.</small></p>
+                </div>
+            </div>
+        </span>  
+    </div>
+</footer>

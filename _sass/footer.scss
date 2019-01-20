@@ -1,0 +1,18 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: static;
+  bottom: 0;
+  width: 100%;
+  /*height: 60px; /* Set the fixed height of the footer here */
+  line-height: 30px; /* Vertically center the text there */
+  background-color: #ffffff;
+}
+
+.ft-spacing { /* padding for columns in footer */
+    padding-left: 10px; 
+    padding-right: 10px;
+}

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="container">
+        <div clss="row">
+            <div class="jumbotron box-custom p-md-5 text-white bg-light">
+                <h1>{{ page.title }}</h1>
+                <p>{{ page.date | date_to_string }} {% assign author = site.authors | where: 'short_name', page.author | first %}
+                {% if author %}
+                - {{ author.name }}
+                {% endif %}</p>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7 offset-sm-1">
+            {{ content }}
+            <hr><p><small>
+                {% if author %}
+                More from <a href="{{ author.url }}">{{ author.short_name }}</a>
+                {% endif %}
+            </small></p><br>
+               
+        </div>
+        <div class="col-sm-3 offset-sm-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <a class="twitter-timeline" href="https://twitter.com/OptecSystems">Tweets by OptecSystems</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8" type="0208aeea4d79da434b3bc7de-text/javascript"></script><br>
+</div>
+        </div>
+    </div>
+    
+        <div class="row">
+    {% include share_bookmark.html %}
+    </div>
+    
+
+    
+
+    
+</div>
