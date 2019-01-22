@@ -39,6 +39,10 @@ a, a:focus, a:hover {
   background-color: #116297;
   border-color: #116297; }
 
+.disabled {
+  border-color: rgba(100, 100, 100, 0.7);
+  color: rgba(100, 100, 100, 0.7) !important; }
+
 .fa-info-circle {
   color: #116297; }
 
@@ -145,12 +149,16 @@ html {
   /*height: 60px; /* Set the fixed height of the footer here */
   line-height: 30px;
   /* Vertically center the text there */
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin-top: 15px; }
 
 .ft-spacing {
   /* padding for columns in footer */
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 20px;
+  padding-right: 20px; }
+
+address {
+  line-height: 20px; }
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
