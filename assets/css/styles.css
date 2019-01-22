@@ -131,8 +131,7 @@ input[type=radio] {
   /* Opera */
   padding: 10px; }
 
-.speechbubble-l, .speechbubble-r {
-  /* make background of speechbubble light grey and round corners */
+.speechbubble {
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
