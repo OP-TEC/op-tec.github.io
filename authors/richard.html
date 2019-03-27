@@ -1,7 +1,15 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80447528-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-80447528-1', { 'anonymize_ip': true });
+</script>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content=""> 
 <meta name="author" content="Op-tec Systems Ltd">
@@ -180,7 +188,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script>$(function(){'use strict'
 $('[data-toggle="offcanvas"]').on('click',function(){$('.offcanvas-collapse').toggleClass('open')})})</script>
-<script src="/assets/js/cookiealert.js"></script>
+<script type="text/javascript">
+/* Bootstrap Cookie Alert by Wruczek * https://github.com/Wruczek/Bootstrap-Cookie-Alert * Released under MIT license */
+!function(){"use strict";var e=document.querySelector(".cookiealert"),t=document.querySelector(".acceptcookies");e.offsetHeight,function(e){for(var t=e+"=",o=decodeURIComponent(document.cookie).split(";"),c=0;c<o.length;c++){for(var n=o[c];" "===n.charAt(0);)n=n.substring(1);if(0===n.indexOf(t))return n.substring(t.length,n.length)}return""}("acceptCookies")||e.classList.add("show"),t.addEventListener("click",function(){!function(e,t,o){var c=new Date;c.setTime(c.getTime()+24*o*60*60*1e3);var n="expires="+c.toUTCString();document.cookie=e+"="+t+";"+n+";path=/"}("acceptCookies",!0,365),e.classList.remove("show")})}();</script>    
 <script>$('[data-toggle="tooltip"]').tooltip();</script>
     </body>
 </html>
