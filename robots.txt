@@ -1,0 +1,8 @@
+##################################
+# Op-tec Systems' robots.txt file#
+##################################
+
+User-agent: *
+Allow: /*
+
+Sitemap: https://op-tec.co.uk/sitemap.xml
