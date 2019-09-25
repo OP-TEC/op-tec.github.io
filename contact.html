@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="keywords" content="contact details, contact us, Stockport, systems integrator uk, systems integrator stockport, systems integrator manchester, address, phone number, map">
+<meta name="keywords" content="contact details, contact us, Stockport, Op-tec Systems, address, phone number, map, email, book an appointment">
 <meta name="description" content="Contact Op-tec Systems - industrial control and automation specialists based in Stockport, Greater Manchester"> 
 <meta name="author" content="Op-tec Systems Ltd">
 <title>How to find us, get in touch and business information</title>
@@ -17,6 +17,9 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#ffc40d">
 <meta name="theme-color" content="#ffffff">
+        <!-- Include leaflet.js for map on contact page -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
         
     </head>
     <body>
@@ -87,7 +90,7 @@
             <script>
             var optecmap = L.map('mapid').setView([53.434488, -2.165970], 8);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 16, attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' + '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'}).addTo(optecmap);
-              var marker = L.marker([53.434488, -2.165970]).addTo(optecmap);
+            var marker = L.marker([53.434488, -2.165970]).addTo(optecmap);
             </script>    
         </div>
     </div>
