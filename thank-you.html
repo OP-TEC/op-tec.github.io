@@ -28,6 +28,20 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-52JVHXF');</script>
 <!-- End Google Tag Manager -->
+<!-- Phone snippet -->
+<script type='text/javascript'>
+    var callback = function(formatted_number, mobile_number) {
+      var e = document.getElementById('number');
+      e.href = 'tel:' + mobile_number;
+      e.innerHTML = "";
+      e.appendChild(document.createTextNode(formatted_number));
+    };
+    gtag('config', 'AW-878452392/P4JECLaU5NIBEKi98KID', {
+      'phone_conversion_number': '0161 660 4293',
+      'phone_conversion_callback': callback
+    });
+  </script>
+  <!-- End Google Tag Manager -->
         
     </head>
     <body>
@@ -139,7 +153,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6 col-xs-12 navbar-nav ft-spacing">
                     <h3><a href="/contact">Contact</a></h3>
-                    <a class="nav-link" href="tel:+441616604293">0161 660 4293</a>
+                    <a class="nav-link" href="tel:+441616604293" id="number">0161 660 4293</a>
                     <a class="nav-link" href="mailto:projects@op-tec.co.uk">projects@op-tec.co.uk</a>
                     <address class="small">
                         <a class="nav-link" href="https://goo.gl/maps/BgzLBsUe8J22">

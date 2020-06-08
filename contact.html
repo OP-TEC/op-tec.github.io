@@ -28,6 +28,20 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-52JVHXF');</script>
 <!-- End Google Tag Manager -->
+<!-- Phone snippet -->
+<script type='text/javascript'>
+    var callback = function(formatted_number, mobile_number) {
+      var e = document.getElementById('number');
+      e.href = 'tel:' + mobile_number;
+      e.innerHTML = "";
+      e.appendChild(document.createTextNode(formatted_number));
+    };
+    gtag('config', 'AW-878452392/P4JECLaU5NIBEKi98KID', {
+      'phone_conversion_number': '0161 660 4293',
+      'phone_conversion_callback': callback
+    });
+  </script>
+  <!-- End Google Tag Manager -->
         <!-- Include leaflet.js for map on contact page -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="   crossorigin=""/>
 <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
@@ -92,7 +106,7 @@
                 <div class="card-body">
 <h1 class="display-3"><b>Contact</b></h1>
                  <h2><span class="fas fa-phone-alt"></span>
-            <abbr title="Phone"></abbr> &nbsp; <a href="tel:00441616604293">0161 660 4293</a>
+            <abbr title="Phone"></abbr> &nbsp; <a href="tel:00441616604293" id="number">0161 660 4293</a>
         </h2>   
                     
                     
@@ -197,7 +211,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6 col-xs-12 navbar-nav ft-spacing">
                     <h3><a href="/contact">Contact</a></h3>
-                    <a class="nav-link" href="tel:+441616604293">0161 660 4293</a>
+                    <a class="nav-link" href="tel:+441616604293" id="number">0161 660 4293</a>
                     <a class="nav-link" href="mailto:projects@op-tec.co.uk">projects@op-tec.co.uk</a>
                     <address class="small">
                         <a class="nav-link" href="https://goo.gl/maps/BgzLBsUe8J22">
