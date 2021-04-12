@@ -101,7 +101,7 @@
 <lastmod>2020-12-10T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://op-tec.co.uk/views/cyber-security-basics</loc>
+<loc>https://op-tec.co.uk/latest/cyber-security-basics</loc>
 <lastmod>2021-01-26T00:00:00+00:00</lastmod>
 </url>
 <url>
@@ -113,11 +113,11 @@
 <lastmod>2021-02-09T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://op-tec.co.uk/about/richard-banyard</loc>
+<loc>https://op-tec.co.uk/knowledge/richard-banyard</loc>
 <lastmod>2021-02-10T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://op-tec.co.uk/views/Much-ado-about-heating</loc>
+<loc>https://op-tec.co.uk/latest/Much-ado-about-heating</loc>
 <lastmod>2021-03-08T00:00:00+00:00</lastmod>
 </url>
 <url>
@@ -152,6 +152,9 @@
 <loc>https://op-tec.co.uk/booking-confirmation</loc>
 </url>
 <url>
+<loc>https://op-tec.co.uk/knowledge</loc>
+</url>
+<url>
 <loc>https://op-tec.co.uk/dcs-support</loc>
 </url>
 <url>
@@ -162,6 +165,9 @@
 </url>
 <url>
 <loc>https://op-tec.co.uk/intelligence-report</loc>
+</url>
+<url>
+<loc>https://op-tec.co.uk/client-profile</loc>
 </url>
 <url>
 <loc>https://op-tec.co.uk/latest</loc>

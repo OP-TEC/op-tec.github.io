@@ -3,34 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Different control system types • Op-tec Systems</title>
-    <meta name="description" content="We often get asked the difference between DCS and PLC/SCADA-based systems, and where PACs come in to it. So here's an attempt to clear things up.
-History
-DCSs (Distributed Control Systems) were originally developed to control large industrial processes and typically have a number of autonomous controllers located across a plant. With microprocessors running control algorithms in the field, central computers were left to provide the operator interface, and this proved more reliable than centralised control architectures.The control function block concept was also a key feature of early DCSs, a single entity which provided both the logic and graphical interface to control equipment. Because the two were created together, subsequent modification and expansion of the system was relatively easy.
-PLCs (Programmable Logic Controllers), on the other hand, first addressed the needs of the car manufacturers. Modular devices, that were more flexible than discrete controllers, relays and sensors, PLCs could be reprogrammed allowing assembly lines to be modified and updated without re-wiring individual devices. PLCs were also resilient to hot and dusty shop floor environments, not suitable for the digital computers of the time. 
-While we're at it... RTUs (Remote Terminal Units) are sometimes called Remote Telemetry Units due to their suitability for connecting geographically diverse pieces of equipment to a SCADA. RTUs traditionally communicated wirelessly and couldn't execute control algorithms, but are otherwise functionally similar to PLCs.
-SCADA (Supervisory Control And Data Acquisition) systems were typically networked computers providing graphical interfaces, data collection and storage facilities to a wide variety of PLCs and RTUs. SCADA solutions were first adopted where equipment was located across vast distances, for example the water, gas and electrical networks.
-Today
-With the adoption of more 'open' communication standards, little separates modern DCS and PLC/SCADA solutions. DCSs used to be based on proprietary technology but now bear more resemblance to PLC/SCADA systems to benefit from widely available technology. Likewise, manufacturers of traditional SCADAs now make importing PLC taglists into system databases almost automatic, making configuration changes more DCS-like.
-PLC and RTU technology has also converged, with either able to communicate wirelessly or run control algorithms.
-To describe higher-spec units many vendors now use the term PAC (Programmable Automation Controller). PACs tend to have more memory, connectivity options and faster CPUs than a 'standard' PLC.
-So which do you need?
-This will be covered in detail with another post, coming soon.">
+    <meta name="description" content="Definitions of different control system types and components">
+    
     <meta name="keywords" content="">
     
     	<!-- Twitter Cards -->
 	<meta name="twitter:title" content="Different control system types">
-	<meta name="twitter:description" content="We often get asked the difference between DCS and PLC/SCADA-based systems, and where PACs come in to it. So here's an attempt to clear things up.
-History
-DCSs (Distributed Control Systems) were originally developed to control large industrial processes and typically have a number of autonomous controllers located across a plant. With microprocessors running control algorithms in the field, central computers were left to provide the operator interface, and this proved more reliable than centralised control architectures.The control function block concept was also a key feature of early DCSs, a single entity which provided both the logic and graphical interface to control equipment. Because the two were created together, subsequent modification and expansion of the system was relatively easy.
-PLCs (Programmable Logic Controllers), on the other hand, first addressed the needs of the car manufacturers. Modular devices, that were more flexible than discrete controllers, relays and sensors, PLCs could be reprogrammed allowing assembly lines to be modified and updated without re-wiring individual devices. PLCs were also resilient to hot and dusty shop floor environments, not suitable for the digital computers of the time. 
-While we're at it... RTUs (Remote Terminal Units) are sometimes called Remote Telemetry Units due to their suitability for connecting geographically diverse pieces of equipment to a SCADA. RTUs traditionally communicated wirelessly and couldn't execute control algorithms, but are otherwise functionally similar to PLCs.
-SCADA (Supervisory Control And Data Acquisition) systems were typically networked computers providing graphical interfaces, data collection and storage facilities to a wide variety of PLCs and RTUs. SCADA solutions were first adopted where equipment was located across vast distances, for example the water, gas and electrical networks.
-Today
-With the adoption of more 'open' communication standards, little separates modern DCS and PLC/SCADA solutions. DCSs used to be based on proprietary technology but now bear more resemblance to PLC/SCADA systems to benefit from widely available technology. Likewise, manufacturers of traditional SCADAs now make importing PLC taglists into system databases almost automatic, making configuration changes more DCS-like.
-PLC and RTU technology has also converged, with either able to communicate wirelessly or run control algorithms.
-To describe higher-spec units many vendors now use the term PAC (Programmable Automation Controller). PACs tend to have more memory, connectivity options and faster CPUs than a 'standard' PLC.
-So which do you need?
-This will be covered in detail with another post, coming soon.">
+	<meta name="twitter:description" content="Definitions of different control system types and components">
+	
 	
 	
 	
@@ -42,18 +22,8 @@ This will be covered in detail with another post, coming soon.">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Different control system types">
 	<meta property="og:image" content="https://op-tec.co.uk/images/engineers-using-simulator-3862149.jpg">
-	<meta property="og:description" content="We often get asked the difference between DCS and PLC/SCADA-based systems, and where PACs come in to it. So here's an attempt to clear things up.
-History
-DCSs (Distributed Control Systems) were originally developed to control large industrial processes and typically have a number of autonomous controllers located across a plant. With microprocessors running control algorithms in the field, central computers were left to provide the operator interface, and this proved more reliable than centralised control architectures.The control function block concept was also a key feature of early DCSs, a single entity which provided both the logic and graphical interface to control equipment. Because the two were created together, subsequent modification and expansion of the system was relatively easy.
-PLCs (Programmable Logic Controllers), on the other hand, first addressed the needs of the car manufacturers. Modular devices, that were more flexible than discrete controllers, relays and sensors, PLCs could be reprogrammed allowing assembly lines to be modified and updated without re-wiring individual devices. PLCs were also resilient to hot and dusty shop floor environments, not suitable for the digital computers of the time. 
-While we're at it... RTUs (Remote Terminal Units) are sometimes called Remote Telemetry Units due to their suitability for connecting geographically diverse pieces of equipment to a SCADA. RTUs traditionally communicated wirelessly and couldn't execute control algorithms, but are otherwise functionally similar to PLCs.
-SCADA (Supervisory Control And Data Acquisition) systems were typically networked computers providing graphical interfaces, data collection and storage facilities to a wide variety of PLCs and RTUs. SCADA solutions were first adopted where equipment was located across vast distances, for example the water, gas and electrical networks.
-Today
-With the adoption of more 'open' communication standards, little separates modern DCS and PLC/SCADA solutions. DCSs used to be based on proprietary technology but now bear more resemblance to PLC/SCADA systems to benefit from widely available technology. Likewise, manufacturers of traditional SCADAs now make importing PLC taglists into system databases almost automatic, making configuration changes more DCS-like.
-PLC and RTU technology has also converged, with either able to communicate wirelessly or run control algorithms.
-To describe higher-spec units many vendors now use the term PAC (Programmable Automation Controller). PACs tend to have more memory, connectivity options and faster CPUs than a 'standard' PLC.
-So which do you need?
-This will be covered in detail with another post, coming soon.">
+	<meta name="og:description" content="Definitions of different control system types and components">
+	
 	<meta property="og:url" content="https://op-tec.co.uk/latest/control-system-types">
 	<meta property="og:site_name" content="Op-tec Systems">
 
@@ -68,7 +38,6 @@ This will be covered in detail with another post, coming soon.">
     <meta http-equiv="cleartype" content="on">
 
     <link rel="stylesheet" href="https://op-tec.co.uk/css/main.css">
-    
     <!-- HTML5 Shiv and Media Query Support for IE -->
     <!--[if lt IE 9]>
       <script src="https://op-tec.co.uk/js/vendor/html5shiv.min.js"></script>
@@ -192,32 +161,92 @@ This will be covered in detail with another post, coming soon.">
 	
 	
 </div><!-- ./author-content -->
-<div>
-	<p class="author-bio">More from Projects...</p>
-	<p class="author-bio">
-		
-		
-			<a href="/client-profile/QL-Tech">Quantum Leap Technologies</a><br>
-		
-			<a href="/about/richard-banyard">Get to know Richard Banyard</a><br>
-		
-			<a href="/client-profile/tennants-fine-chemicals">Tennants Fine Chemicals</a><br>
-		
-			<a href="/knowledge/800xA">Support available for ABB System 800xA</a><br>
-		
-			<a href="/knowledge/using-data-to-inform-maintenance">Using data to inform maintenance</a><br>
-		
-			<a href="/latest/how-to-keep-using-RS3-DCS">Support available for Emerson RS3</a><br>
-		
-			<a href="/latest/benefits-of-control-system-server-virtualisation">Benefits of virtualisation</a><br>
-		
-			<a href="/news/ISO-9001-transferred">ISO 9001 certification transferred to BSI</a><br>
-		
-			<a href="/latest/control-system-types">Different control system types</a><br>
-		
-			<a href="/latest/ISO-9001-acheived">Op-tec achieves ISO 9001</a><br>
-		
-	</p>
+<div class="row">
+	<div class="column">
+		<p class="author-bio">More from Projects ...</p>
+		<p class="author-bio">
+			
+			
+				<a href="/client-profile/QL-Tech">Quantum Leap Technologies</a><br>
+			
+				<a href="/knowledge/richard-banyard">Get to know Richard Banyard</a><br>
+			
+				<a href="/client-profile/tennants-fine-chemicals">Tennants Fine Chemicals</a><br>
+			
+				<a href="/knowledge/800xA">Support available for ABB System 800xA</a><br>
+			
+				<a href="/knowledge/using-data-to-inform-maintenance">Using data to inform maintenance</a><br>
+			
+				<a href="/latest/how-to-keep-using-RS3-DCS">Support available for Emerson RS3</a><br>
+			
+				<a href="/latest/benefits-of-control-system-server-virtualisation">Benefits of virtualisation</a><br>
+			
+				<a href="/news/ISO-9001-transferred">ISO 9001 certification transferred to BSI</a><br>
+			
+				<a href="/latest/control-system-types">Different control system types</a><br>
+			
+				<a href="/latest/ISO-9001-acheived">Op-tec achieves ISO 9001</a><br>
+			
+		</p>
+	</div>
+	<div class="column">
+		<p class="author-bio">More 
+			blog articles
+			...
+		</p>
+		<p class="author-bio">
+			
+			
+				<a href="/latest/Much-ado-about-heating">Much ado about heating</a><br>
+			
+				<a href="/latest/cyber-security-basics">Don't know where to start? Try the basics</a><br>
+			
+				<a href="/latest/do-you-invest-in-training-people">Do you invest in training people?</a><br>
+			
+				<a href="/latest/are-you-a-grandmaster-or-a-centaur">Are you a grandmaster or a centaur?</a><br>
+			
+				<a href="/latest/are-you-driving-blind">Are you choosing to drive blind?</a><br>
+			
+				<a href="/latest/transferring-is-the-worst">Transferring is the worst</a><br>
+			
+				<a href="/latest/ATT&CK!">ATT&CK!</a><br>
+			
+				<a href="/latest/Windows-7-end-of-life">Windows 7 end of life announcement</a><br>
+			
+				<a href="/latest/make-better-decisions">Have you got what it takes to make decisions?</a><br>
+			
+				<a href="/latest/new-interfaces-for-old-machines">New interfaces for old machines</a><br>
+			
+				<a href="/latest/how-to-keep-using-RS3-DCS">Support available for Emerson RS3</a><br>
+			
+				<a href="/latest/a-humble-PLC-saves-the-day">A humble PLC saves the day</a><br>
+			
+				<a href="/latest/benefits-of-control-system-server-virtualisation">Benefits of virtualisation</a><br>
+			
+				<a href="/latest/its-a-spectrum">It's a wide spectrum</a><br>
+			
+				<a href="/latest/tempting-isnt-it">Tempting isn't it?</a><br>
+			
+				<a href="/latest/open-technology">Open technology</a><br>
+			
+				<a href="/latest/save-your-energy">Save your energy. Sit down.</a><br>
+			
+				<a href="/latest/aint-broke">If it ain't broke don't fix it?</a><br>
+			
+				<a href="/latest/legacy-control-systems">Management of legacy controls and automation</a><br>
+			
+				<a href="/latest/iiot-industry-4.0">IIoT and Industry 4.0 Explained</a><br>
+			
+				<a href="/latest/new-address">Op-tec's main office has moved to Stockport</a><br>
+			
+				<a href="/latest/control-system-types">Different control system types</a><br>
+			
+				<a href="/latest/ISO-9001-acheived">Op-tec achieves ISO 9001</a><br>
+			
+				<a href="/latest/control-system-upgrades">Time to upgrade?</a><br>
+			
+		</p>
+	</div>
 </div>
 				</footer><!-- /.footer -->
 			</div><!-- /.content -->
