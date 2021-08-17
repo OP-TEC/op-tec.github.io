@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://op-tec.co.uk/atom.xml" rel="self" type="application/atom+xml" /><link href="https://op-tec.co.uk/" rel="alternate" type="text/html" /><updated>2021-08-02T17:30:43+01:00</updated><id>https://op-tec.co.uk/atom.xml</id><title type="html">Op-tec Systems</title><subtitle>This is a description of Op-tec's awesome site.</subtitle><entry><title type="html">Avoid getting locked into a single automation vendor</title><link href="https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in" rel="alternate" type="text/html" title="Avoid getting locked into a single automation vendor" /><published>2021-07-13T00:00:00+01:00</published><updated>2021-07-13T00:00:00+01:00</updated><id>https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in">&lt;p&gt;If you represent a large multi-national company, and are looking to standardise on one automation vendor who will become a strategic partner, this article isn’t for you. With your scale you’ll have enough power over your chosen supplier to agree pricing structures, encourage development of new products, and ensure support for your equipment continues for as long as you need it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://op-tec.co.uk/atom.xml" rel="self" type="application/atom+xml" /><link href="https://op-tec.co.uk/" rel="alternate" type="text/html" /><updated>2021-08-17T11:35:53+01:00</updated><id>https://op-tec.co.uk/atom.xml</id><title type="html">Op-tec Systems</title><subtitle>This is a description of Op-tec's awesome site.</subtitle><entry><title type="html">Should you accept automation vendors’ vision of the future?</title><link href="https://op-tec.co.uk/latest/should-you-accept-automation-vendors-vision-of-the-future" rel="alternate" type="text/html" title="Should you accept automation vendors’ vision of the future?" /><published>2021-08-17T00:00:00+01:00</published><updated>2021-08-17T00:00:00+01:00</updated><id>https://op-tec.co.uk/latest/should-you-accept-automation-vendors-vision-of-the-future</id><content type="html" xml:base="https://op-tec.co.uk/latest/should-you-accept-automation-vendors-vision-of-the-future">&lt;p&gt;Automation vendors develop great products and services. They excel at leveraging the latest technological developments to solve the problems facing industries they work in. After creating a vision for the future, vendors put a lot of effort into communicating it to the market.&lt;/p&gt;
+
+&lt;p&gt;Much of this communciation is educational, and used by many to stay up to date with automation industry trends and opportunities for improvement.  understanding what is possible allows owners of factories, plants and facilicities to plan investment and&lt;/p&gt;
+
+&lt;p&gt;But does what they’re recommending fit into &lt;strong&gt;your&lt;/strong&gt; strategy and address &lt;strong&gt;your&lt;/strong&gt; problems?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Take Integrated Control and Safety Systems (ICSS).&lt;/p&gt;
+
+  &lt;p&gt;If you’re not familiar, this is the concept of sourcing all control and safety systems from one supplier in a fully integrated package.&lt;/p&gt;
+
+  &lt;p&gt;A big market for ICSS is the oil &amp;amp; gas industry, where safety (shutdown) systems can be as large and complex as the process control systems they supervise. Here the benefits typically cited by vendors make installing an ICSS solution very appealing:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Simplified system/network architecture&lt;/li&gt;
+    &lt;li&gt;Fast and efficient communications between control and safety systems&lt;/li&gt;
+    &lt;li&gt;Cost savings from reduction in required spares (thanks to common hardware) and engineering hours (standard programming and maintenance interfaces)&lt;/li&gt;
+    &lt;li&gt;Increased visibility of safety system information&lt;/li&gt;
+    &lt;li&gt;Ability to avoid duplicating functionality (process data read by safety equipment can easily be used for process control)&lt;/li&gt;
+    &lt;li&gt;Single supplier for all programmable automation equipment&lt;/li&gt;
+    &lt;li&gt;The list goes on…&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;ICSS’s are, of course, good for automation vendors too. By increasing their scope of supply they can push out competitors, and have a larger ‘installed base’ to offer service and support packages on. It would seem a win-win …&lt;/p&gt;
+
+  &lt;p&gt;Except, something else is very important to the oil &amp;amp; gas industry: &lt;strong&gt;cyber security&lt;/strong&gt;. In particular the risk associated with losing control while integrity of the emergency shutdown system is also compromised. Security incidents in recent years have led several oil majors to review their ICSS architectures and put additional measures in place to address this risk.&lt;/p&gt;
+
+  &lt;p&gt;When writing this article I couldn’t find a single vendor website which mentioned cyber security on the page explaining their ICSS solution.&lt;/p&gt;
+
+  &lt;p&gt;I’m not saying ICSSs are insecure or claims their manufacturers make are untrue.&lt;/p&gt;
+
+  &lt;p&gt;I am saying it pays to test solutions against your own strategy, requirements and risk appetite.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;End-users tend to focus more on reducing initial project costs than lifecycle ownership costs. They can control the (competitive) project tendering process, but have little purchasing power when buying spare parts from a (sole) supplier. This leads automation vendors to use higher-margin service revenue to recover profit lost during projects.&lt;/p&gt;
+
+&lt;p&gt;Understanding and avoiding the potential pitfalls of recommended solutions is crucial to building infrastructure which supports, rather than undermines, your long-term strategy. Suppliers will always be happy to save you time and money early on by using ‘tried and testeed’ or ‘standard’ solutions - they know it’ll pay them in the long-term.&lt;/p&gt;
+
+&lt;p&gt;This doesn’t only apply to highly automated and integrated companies. How many machine suppliers now build a facility for remote access into their equipment? Who owns the data, taken from your plant, driving the web portal you use to monitor energy consumption? I could go on.&lt;/p&gt;
+
+&lt;p&gt;Treat the future vision presented by suppliers with healthy scepticism. Ensuring you fully understand the long-term implications of competing designs and approaches will ensure you don’t end up living someone else’s future.&lt;/p&gt;</content><author><name>Richard Banyard</name><email>richard.banyard@op-tec.co.uk</email></author><category term="latest" /><summary type="html">Automation vendors develop great products and services. They excel at leveraging the latest technological developments to solve the problems facing industries they work in. After creating a vision for the future, vendors put a lot of effort into communicating it to the market.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22thumb%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22feature%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash.jpg%22,%20%22credit%22=%3E%22Are%20you%20being%20pushed%20into%20someone%20else's%20future?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22thumb%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22feature%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash.jpg%22,%20%22credit%22=%3E%22Are%20you%20being%20pushed%20into%20someone%20else's%20future?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Avoid getting locked into a single automation vendor</title><link href="https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in" rel="alternate" type="text/html" title="Avoid getting locked into a single automation vendor" /><published>2021-07-13T00:00:00+01:00</published><updated>2021-07-13T00:00:00+01:00</updated><id>https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in">&lt;p&gt;If you represent a large multi-national company, and are looking to standardise on one automation vendor who will become a strategic partner, this article isn’t for you. With your scale you’ll have enough power over your chosen supplier to agree pricing structures, encourage development of new products, and ensure support for your equipment continues for as long as you need it.&lt;/p&gt;
 
 &lt;p&gt;For everyone else, particularly SMEs, the downsides of being reliant on a single supplier often outweigh the ups. Do any of these sound familiar: lack of bargaining power; no access to the latest innovations until they’re adopted by your supplier; feeling forced into product updates; excessive license costs to transfer data into other systems?&lt;/p&gt;
 
@@ -335,112 +379,4 @@ This is a trap, which many organisations who fail to properly integrate new tech
 }},            
 {&quot;@type&quot;: &quot;Question&quot;,&quot;name&quot;: &quot;Is 800xA really 'the worlds number one' distributed control system?&quot;,&quot;acceptedAnswer&quot;: {&quot;@type&quot;: &quot;Answer&quot;,&quot;text&quot;: &quot;This title, often quoted in ABB's marketing material, is based on research by the ARC Advisory Group. ARC have found 800xA to be the distributed control system (DCS) with largest global market share for the last 20 years.&quot;
 }}]
-}&lt;/script&gt;</content><author><name>Projects</name><email>projects@op-tec.co.uk</email></author><category term="knowledge" /><summary type="html">800xA is the world's leading* distributed control system (DCS). However its power and flexibility come with a cost. It's not known as the easiest system to work with - making it hard to find quality independent support, ensure updates and backups are managed correctly, and the configuration keeps pace with changes to plant and operations. If you're looking for help with 800xA you may be experiencing one or more of these challenges: Routine maintenance and updates If left too long it can take days rather than minutes to recover from system failures or security incidents. Changes and modifications Out of date control systems aren't fit for purpose, leading people to work around, rather than benefit from them. Integrating 3rd party equipment Crucial to capture, store and analyse valuable process data but often seen as a nice to have, then never done. Adding extra features and functions Your sophisticated DCS isn't delivering the benefits promised thanks to constraints during the initial project. It now feels too hard or too expensive to add extra functions. Op-tec's engineers have a wealth of experience working with 800xA and offer services which complement software support you may already be getting. Get in touch if you'd like to learn more about how we can help reduce the cost of owning this incredibly powerful technology. &amp;nbsp; +44 161 660 4293 &amp;nbsp; projects&amp;#64;op-tec.co.uk * 800xA is the world's number one DCS based on global market share. This is based on annual reports by the ARC Advisory Group which for the last 20 years have found 800xA to be the most common DCS. ABB's history of acquisitions has gone a long way to securing this accolade. Many of these installations will have been originally supplied by one of the companies ABB has bought over the years: Taylor founded 1851, acquired by Combustion Engineering in 1983 Bailey Controls founded 1916, became part of Elsag Bailey Process Automation in 1989 Combustion Engineering merger of Grieve Grate and American Stoker in 1912, acquired 1990 Fischer &amp; Porter founded 1937, acquired by Elsag Bailey Process Automation in 1994 Elsag Bailey Process Automation merger of Bailey Controls and Elsag Group in 1989, acquired 1998 Alfa Laval Automation merger of SattControl and Alfa Laval in 1986, acquired 1998</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22engineers-using-simulator-3862149.jpg%22,%20%22thumb%22=%3E%22engineers-using-simulator-3862149.jpg%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22engineers-using-simulator-3862149.jpg%22,%20%22thumb%22=%3E%22engineers-using-simulator-3862149.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Using data to inform maintenance</title><link href="https://op-tec.co.uk/knowledge/using-data-to-inform-maintenance" rel="alternate" type="text/html" title="Using data to inform maintenance" /><published>2020-11-20T00:00:00+00:00</published><updated>2020-11-20T00:00:00+00:00</updated><id>https://op-tec.co.uk/knowledge/using-data-to-inform-maintenance</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/using-data-to-inform-maintenance">&lt;p&gt;How you use data analysis to inform maintenance activity can have a huge impact on the efficiency of your operations. It may never be possible to eliminate the risk of an unplanned shutdown entirely, but smart use of plant data can significantly reduce it.&lt;/p&gt;
-
-&lt;p&gt;If you’re sick of praying for things to keep working until the end of the day / week / month / year, keep reading!&lt;/p&gt;
-
-&lt;p&gt;Below are simple explanations of common maintenance approaches. If you’re new to the concept of data-informed maintenance, know there are companies out there already pushing far beyond these techniques. For example, using machine learning to identify external factors such as weather patterns or employee behaviour to better inform predictions. Or allowing their systems to automatically order spare parts and schedule preventative work before human operators have the chance to notice anything’s up.&lt;/p&gt;
-
-&lt;p&gt;Most likely you’ll say to yourself “we already do this” as you read through. If so, ask whether your existing processes are as effective as they could be. We see people manually undertaking this work &lt;strong&gt;a lot&lt;/strong&gt;, storing records on paper or retrieving it from ‘offline’ equipment only to import it into another system.&lt;/p&gt;
-
-&lt;p&gt;So read on, then ask: ‘Could my organisation improve it’s maintenance regimes?’&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;corrective-maintenance&quot;&gt;Corrective maintenance&lt;/h2&gt;
-
-&lt;p&gt;Wait until something breaks, then take action.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“If it ain’t broke, don’t fix it”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Because it requires doing nothing this is often seen as the most cost-effective option. Only true if the cost of downtime, in-house expertise, and spare parts is less than those associated with a data-driven approach if this is the case.&lt;/p&gt;
-
-&lt;p&gt;If equipment in question is critical to operations rapid repair or replacement will be necessary to minimise disruption. Also referred to as reactive maintenance. This approach risks significant costs should catastrophic failure occur, where repair or replacement is not possible within a defined timeframe.&lt;/p&gt;
-
-&lt;p&gt;No data is needed for this approach. Information available is often used to diagnose the cause of failures after the event.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;e.g. replacing a blown bulb&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;preventive-maintenance&quot;&gt;Preventive maintenance&lt;/h2&gt;
-
-&lt;p&gt;Intervene before failure becomes likely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“When was the cambelt last changed?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Maintenance activities are performed before they’re required; typically at predetermined intervals based on historical records or manufacturer recommendations. Sometimes referred to as ‘proactive maintenance’ this technique allows work to be carried out during planned shutdowns minimising disruption. Taking this approach means performing maintenance before it’s needed, so the assumption is the resource needed to do this if cheaper than implementing a more data-driven approach.&lt;/p&gt;
-
-&lt;p&gt;This technique can be improved over time by using measurement, analysis and periodic testing to better inform service intervals.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;e.g. changing car engine oil every 10,000 miles&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;risk-based-maintenance&quot;&gt;Risk-based maintenance&lt;/h2&gt;
-
-&lt;p&gt;Take the impact into account.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“Get that boiler serviced before winter”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The effect a failure will have on operations and it’s likelihood is used to allocate available resource efficiently. The condition of assets will also be monitored to ensure changing risks, as equipment and machinery ages, is taken into account.&lt;/p&gt;
-
-&lt;p&gt;The quantity and quality of data used can vary widely, from the objective analysis of an employee to automated anaylsis of assets over time. It may also be useful to consider factors other than just equipment condition, such as market demand or stock levels.  Information gathered can also inform the schedule for replacing or upgrading equipment.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;e.g. waiting until a shutdown to install software updates&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;condition-based-maintenance&quot;&gt;Condition-based maintenance&lt;/h2&gt;
-
-&lt;p&gt;Monitor ‘health’ for warning signs.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“No signs of wear…“&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Maintenance work is informed through performance monitoring of equipment. Typically, key parameters are recorded over time, and trends which indicate pending failure identified. Manual inspection during outages can also be used to determine when work needs to be carried out.&lt;/p&gt;
-
-&lt;p&gt;Automated systems record device parameters over time. Maintenance is required when values deviate from ‘normal’ indicating the probability of a failure has increased to an unacceptable level.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;e.g. a motor drawing more current than usual&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;predictive-maintenance&quot;&gt;Predictive maintenance&lt;/h2&gt;
-
-&lt;p&gt;Specific thresholds for action.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“What does this warning light mean?”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;People are automatically alerted when specific scenarios are detected. The characteristics and failure modes of an asset will be known, so when partnered with condition monitoring pending failure can be detected and people warned.&lt;/p&gt;
-
-&lt;p&gt;Depending on how sophisticated a piece of equipment is, this may be a single error or warning light or a detailed fault code which accurately indentifies the issue.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;e.g. car running in “limp mode” until it’s taken to the garage&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;prescriptive-maintenance&quot;&gt;Prescriptive maintenance&lt;/h2&gt;
-
-&lt;p&gt;Recommended action provided.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“The freezer says it needs defrosting”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Users receive specific recommended actions to prevent failure. So rather than a description of the problem, they are given information about the action they need to take to avoid a failure.&lt;/p&gt;
-
-&lt;p&gt;No time is needed to fault-find or diagnose problems, as the piece of equipment states exacty what is required to address the situation. This also reduces the skill and expertise personnel need to be able to operate and maintain the asset. Original Equipment Manufacturers (OEMs) may provide this functionality for ‘user serviceable’ equipment, but ensure that more complicated or costly fixes&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;e.g. dashboard: check tyre pressures&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;reliability-centered-maintenance&quot;&gt;Reliability-centered maintenance&lt;/h2&gt;
-
-&lt;p&gt;Identifying the best maintenance approach for each asset.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;“We can’t suffer a failure”&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Past breakdowns are analysed to identify the best maintenance approach for each item of equipment, based on it’s historic and/or anticipated reliability.&lt;/p&gt;
-
-&lt;p&gt;In this instance an assets performance and reliability inform the most appropriate maintenance regime. New equipment will be maintained largely in line with the manufacturers recommendations. Then more weight given to historical records of condition and failure rate as the equipment ages. Like risk-based maintenance, when implemented properly this method is labour intensive, requiring knowledge of an assets’ failure modes.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;e.g. establishing the safe minimum level of maintenance for an aircraft&lt;/em&gt;&lt;/p&gt;</content><author><name>Projects</name><email>projects@op-tec.co.uk</email></author><category term="knowledge" /><summary type="html">How you use data analysis to inform maintenance activity can have a huge impact on the efficiency of your operations. It may never be possible to eliminate the risk of an unplanned shutdown entirely, but smart use of plant data can significantly reduce it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22praying-man-small.jpg%22,%20%22feature%22=%3E%22praying-man.jpg%22,%20%22thumb%22=%3E%22praying-man-small.jpg%22,%20%22credit%22=%3E%22Not%20the%20most%20effective%20maintenance%20regime%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22praying-man-small.jpg%22,%20%22feature%22=%3E%22praying-man.jpg%22,%20%22thumb%22=%3E%22praying-man-small.jpg%22,%20%22credit%22=%3E%22Not%20the%20most%20effective%20maintenance%20regime%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+}&lt;/script&gt;</content><author><name>Projects</name><email>projects@op-tec.co.uk</email></author><category term="knowledge" /><summary type="html">800xA is the world's leading* distributed control system (DCS). However its power and flexibility come with a cost. It's not known as the easiest system to work with - making it hard to find quality independent support, ensure updates and backups are managed correctly, and the configuration keeps pace with changes to plant and operations. If you're looking for help with 800xA you may be experiencing one or more of these challenges: Routine maintenance and updates If left too long it can take days rather than minutes to recover from system failures or security incidents. Changes and modifications Out of date control systems aren't fit for purpose, leading people to work around, rather than benefit from them. Integrating 3rd party equipment Crucial to capture, store and analyse valuable process data but often seen as a nice to have, then never done. Adding extra features and functions Your sophisticated DCS isn't delivering the benefits promised thanks to constraints during the initial project. It now feels too hard or too expensive to add extra functions. Op-tec's engineers have a wealth of experience working with 800xA and offer services which complement software support you may already be getting. Get in touch if you'd like to learn more about how we can help reduce the cost of owning this incredibly powerful technology. &amp;nbsp; +44 161 660 4293 &amp;nbsp; projects&amp;#64;op-tec.co.uk * 800xA is the world's number one DCS based on global market share. This is based on annual reports by the ARC Advisory Group which for the last 20 years have found 800xA to be the most common DCS. ABB's history of acquisitions has gone a long way to securing this accolade. Many of these installations will have been originally supplied by one of the companies ABB has bought over the years: Taylor founded 1851, acquired by Combustion Engineering in 1983 Bailey Controls founded 1916, became part of Elsag Bailey Process Automation in 1989 Combustion Engineering merger of Grieve Grate and American Stoker in 1912, acquired 1990 Fischer &amp; Porter founded 1937, acquired by Elsag Bailey Process Automation in 1994 Elsag Bailey Process Automation merger of Bailey Controls and Elsag Group in 1989, acquired 1998 Alfa Laval Automation merger of SattControl and Alfa Laval in 1986, acquired 1998</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22engineers-using-simulator-3862149.jpg%22,%20%22thumb%22=%3E%22engineers-using-simulator-3862149.jpg%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22engineers-using-simulator-3862149.jpg%22,%20%22thumb%22=%3E%22engineers-using-simulator-3862149.jpg%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
