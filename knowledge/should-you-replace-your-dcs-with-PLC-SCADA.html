@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Should you replace your DCS with PLC-SCADA? • Op-tec Systems</title>
+    <meta name="description" content="For decades owners of large complex processes have relied on Distributed Control Systems to control their plants. Is technology this still the best choice?">
+    
+    <meta name="keywords" content="">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Should you replace your DCS with PLC-SCADA?">
+	<meta name="twitter:description" content="For decades owners of large complex processes have relied on Distributed Control Systems to control their plants. Is technology this still the best choice?">
+	
+	
+	<meta name="twitter:creator" content="@https://twitter.com/richard_banyard">
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://op-tec.co.uk/images/alexander-tsang-ppN1zRQrCEg-unsplash.jpg">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Should you replace your DCS with PLC-SCADA?">
+	<meta property="og:image" content="https://op-tec.co.uk/images/alexander-tsang-ppN1zRQrCEg-unsplash_small.jpg">
+	<meta name="og:description" content="For decades owners of large complex processes have relied on Distributed Control Systems to control their plants. Is technology this still the best choice?">
+	
+	<meta property="og:url" content="https://op-tec.co.uk/knowledge/should-you-replace-your-dcs-with-PLC-SCADA">
+	<meta property="og:site_name" content="Op-tec Systems">
+
+    <link rel="canonical" href="https://op-tec.co.uk/knowledge/should-you-replace-your-dcs-with-PLC-SCADA">
+
+    <link href="https://op-tec.co.uk/atom.xml" type="application/atom+xml" rel="alternate" title="Op-tec Systems Atom Feed">
+    <link href="https://op-tec.co.uk/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="https://op-tec.co.uk/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://op-tec.co.uk/js/vendor/html5shiv.min.js"></script>
+      <script src="https://op-tec.co.uk/js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://op-tec.co.uk/" class="site-title"><img src="https://op-tec.co.uk/images/Op-tec logo rectangle.png" class="site-logo" alt="Op-tec Systems"></a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Op-tec Systems</a></li>
+	
+    
+    <li><a href="https://op-tec.co.uk/industries" >Industries</a></li>
+  
+    
+    <li><a href="https://op-tec.co.uk/services" >Services</a></li>
+  
+    
+    <li><a href="https://op-tec.co.uk/articles" >Insights</a></li>
+  
+    
+    <li><a href="https://op-tec.co.uk/about" >About</a></li>
+  
+    
+    <li><a href="https://op-tec.co.uk/#contact" >Contact</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <ul class="menu-item">
+    <li>
+      <a href="https://op-tec.co.uk">
+        <img src="https://op-tec.co.uk/images/Op-tec-logo-nav-menu.png" alt="teaser" class="teaser">
+        <div class="title">Home</div>
+        <p class="excerpt"></p>
+      </a>
+    </li>
+    <li>
+      <a href="https://op-tec.co.uk/industries">
+        <img src="https://op-tec.co.uk/images/pexels-edward-jenner-4033148.jpg" alt="teaser" class="teaser">
+        <div class="title">Industries</div>
+        <p class="excerpt">The industries we serve</p>
+      </a>
+    </li><li>
+      <a href="https://op-tec.co.uk/services">
+        <img src="https://op-tec.co.uk/images/loui-kiaer-CielzQJR0SQ-unsplash.jpg" alt="teaser" class="teaser">
+        <div class="title">Services</div>
+        <p class="excerpt">How we help our clients</p>
+      </a>
+    </li><li>
+      <a href="https://op-tec.co.uk/articles">
+        <img src="https://op-tec.co.uk/images/pexels-brotin-biswas-518543.jpg" alt="teaser" class="teaser">
+        <div class="title">Insights</div>
+        <p class="excerpt">News, views and knowledge articles</p>
+      </a>
+    </li><li>
+      <a href="https://op-tec.co.uk/about">
+        <img src="https://op-tec.co.uk/images/Richard-working.jpg" alt="teaser" class="teaser">
+        <div class="title">About</div>
+        <p class="excerpt">More about us</p>
+      </a>
+    </li><li>
+      <a href="https://op-tec.co.uk/#contact">
+        <img src="https://op-tec.co.uk/images/pexels-laura-tancredi-7065255.jpg" alt="teaser" class="teaser">
+        <div class="title">Contact</div>
+        <p class="excerpt">Contact us</p>
+      </a>
+    </li>
+    <hr>
+    <li>
+      <a href="https://op-tec.co.uk/5-reasons">
+        <img src="https://op-tec.co.uk/images/man-at-desk-thumbnail.jpg" alt="teaser" class="teaser">
+        <div class="title">5 Reasons</div>
+        <p class="excerpt">Learn how automation can help you</p>
+      </a>
+    </li>
+    <li>
+      <a href="https://op-tec.co.uk/digital-benchmark">
+        <img src="https://op-tec.co.uk/images/Digital-Benchmark-Report-thumbnail.jpg" alt="teaser" class="teaser">
+        <div class="title">Digital Benchmark</div>
+        <p class="excerpt">Generate a Digital Benchmark Report&trade;</p>
+      </a>
+    </li>
+    <li>
+      <a href="https://op-tec.co.uk/downloads/Op-tec_Systems.pdf">
+        <img src="https://op-tec.co.uk/images/brochure-thumbnail.jpg" alt="teaser" class="teaser">
+        <div class="title">Profile</div>
+        <p class="excerpt">Download our brochure</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+<div id="js-menu-screen" class="menu-screen"></div>
+    
+      <div id="page-wrapper">
+<div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article" style="max-width: 52em;">
+		
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="https://op-tec.co.uk/images/alexander-tsang-ppN1zRQrCEg-unsplash.jpg" class="page-feature-image" alt="Should you replace your DCS with PLC-SCADA?" itemprop="image">
+				<div class="image-credit"><a href="" itemprop="citation">Is a DCS still the best choice?</a></div><!-- /.image-credit -->
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		
+		
+		<div class="page-title">
+			<h1>Should you replace your DCS with PLC-SCADA?</h1>
+		</div>
+		<div class="inner-wrap" style="width: auto;">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<h2 id="-white-paper-">[ White Paper ]</h2>
+
+<div style="text-align: right"><small>Download a PDF copy of this article <a href="https://op-tec.co.uk/downloads/Should_you_replace_your_DCS_with_PLC-SCADA.pdf" target="_blank"><u>here</u></a></small></div>
+<hr />
+
+<p>For decades owners of large, complex, continuous and batch processes have relied on Distributed Control Systems (DCS) to control their plants. This technology is designed specifically for this purpose and reduces engineering costs associated with design, build, operation and maintenance phases of the project lifecycle.</p>
+
+<p>However, to gain these benefits, asset owners must pay for the greater upfront development costs DCS vendors incur with more expensive software, hardware and engineering hours – and can easily become ‘locked in’ to their suppliers ecosystem by the proprietary nature of the technology. In recent years an increasing number of end user organisations are looking to save on industrial automation by using cheaper, PLC and SCADA technology.</p>
+
+<p>As more of a ‘blank canvas’ Programmable Logic Controllers (PLC) and Supervisory Control And Data Acquisition (SCADA) systems require more engineering time and expertise to develop and maintain solutions of equivalent complexity and function.</p>
+
+<p>Essentially this discussion boils down to a trade-off between engineering a solution from scratch or buying one with a large number of components already made. As you’d expect, there’s more factors you’ll want to consider based on your company’s situation and objectives but this paper aims to give you clear guidelines for making the right decision.</p>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+
+<ul>
+  <li>Gain high-level insight into the fundamental difference between these control system types</li>
+  <li>Understand the pros and cons of each, and how these impact ownership costs over system lifetime</li>
+  <li>See a direct costed comparison of the two system types</li>
+  <li>Learn about how DCS and PLC-SCADA solutions are likely to develop in the future</li>
+  <li>Main factors which should drive your decision</li>
+</ul>
+
+<hr />
+
+<h2 id="introduction">Introduction</h2>
+
+<p>To provide centralised control of your plant you need a DCS or SCADA based control system. These provide interfaces for staff in control rooms and on the factory/plant floor, giving them visibility and control over operations.</p>
+
+<p>If you have an existing DCS, or are looking at implementing one, it pays to thoroughly understand the differences. Despite the technology these systems are based on having converged to some degree in recent years, they still represent significantly different options. The best choice for your organisation doesn’t necessarily depend on the complexity of your process - more your in-house engineering expertise, risk-appetite and supply chain strategy.</p>
+
+<hr />
+
+<h2 id="the-difference">The Difference</h2>
+
+<p>You can be forgiven for thinking there’s no longer a big difference between DCS and PLC-SCADA systems. Nearly all the functionality offered by a DCSs can be provided by a PLC-SCADA-based system. Also, since most vendors recommend installation on Microsoft’s Windows operating systems there’s little to tell them apart when interacting with them day-to-day.</p>
+
+<p>Before we dive in, let’s clear up some ambiguity in the terminology being used. When people in the industrial automation industry typically refer to DCS, we really mean <strong>proprietary</strong> distributed control systems. Over time the DCS acronym has moved from being used to define an architecture where <em>“<a href="https://en.wikipedia.org/wiki/Distributed_control_system">autonomous controllers are distributed throughout the system</a>”</em> to tightly integrated control systems based on the proprietary technology of a single supplier. As opposed to PLC-SCADA solutions which, even if all components are purchased from one supplier are based on <strong>open</strong> communication protocols.</p>
+
+<p>Historically, DCS solutions were best suited to large, highly automated plants, operating in highly regulated industries. Here the perceived reduction in risk associated with sourcing all process control and automation equipment from a single supplier - “having one number to call” (should things go wrong) - was worth paying a premium for. Add the fact DCSs were easier for in-house engineers to modify and expand alongside changes to the physical plant, meant previous generations of SCADA technology were unable to compete.</p>
+
+<p>PLC-SCADA systems on the other hand grew out of discrete manufacturing industries where automation tends to turn things on and off, rather than closely control a chemical processes. Here small, low-cost equipment was needed which didn’t often need to be connected to anything else. Over time the machines controlled have grown more sophisticated, and centralised data acquisition and supervision introduced. The resulting evolution has narrowed the gap between PLC-SCADA solutions and DCSs in terms of their capabilities. However the initial overhead associated with designing a system of comparable functionality and scale to a DCS, means PLC-SCADA solutions are still considered by many as unsuitable for large or complex applications.</p>
+
+<h4 id="myths-to-dispel">Myths to dispel</h4>
+
+<p>Most of the myths listed below were true at one time. However making decisions based on these common misconceptions today risks missing the opportunities available from using the latest PLC and SCADA technology.</p>
+
+<ul>
+  <li><strong>PLC-based systems aren’t capable of handling large quantities of signals (I/O)</strong> Modern PLCs are capable of processing just as many (sometimes more) signals as DCS controllers. Further the software and database technology adopted by modern SCADAs is more than capable of handling huge numbers of signals, powering advanced graphic displays and more. RWH Provide an example e.g. S7 1500 and how many signals it can manage.</li>
+  <li><strong>Integration with higher-level business systems is only possible with a DCS</strong> Modern SCADAs are just as capable of being integrated into MES and ERP systems as DCS solutions. In fact there can be no additional license to pay unlike when these integrations are offered by DCS vendors.</li>
+  <li><strong>High-availability and redundant architectures require a DCS</strong> PLCs are now available from a number of manufacturers which allow redundant and high-availability architectures to be built. Remote I/O systems with hot-swappable modules are also exist, compatible with industry standard, open communication protocols.</li>
+  <li><strong>Only a DCS can provide multi-operator interfaces and advanced alarm management</strong> Another area where modern SCADAs have caught up. There may be more configuration effort required but features such as alarm KPI dashboards, email and SMS texts and integration with external systems is all possible.</li>
+  <li><strong>Frequent plant modifications/extensions are easier with a DCS</strong> Once a library of software modules have been created in a PLC-SCADA system the engineering time to perform plant expansions and modifications is equivalent to a DCS, and the method for doing so no more complicated providing sufficient thought has gone into this process during initial system design.</li>
+  <li><strong>PLC-SCADA systems can’t handle batch operations</strong> While complex batch processes may be easier to design and build using a DCS; simple processes and recipe management can be performed by PLC-SCADA systems.</li>
+  <li><strong>DCSs represent the latest technology and offers a ‘higher end’ solution than PLC-SCADA</strong> On the contrary, PLC-SCADA products are where the latest technological developments are introduced first. Due to the regulated industries they serve, and the certainty that vendors provide as part of their offer, DCS technology  often lags that of PLC-SCADA systems.</li>
+</ul>
+
+<p>Today, there are few – if any – ‘hard’ technical differences between the two types of system exist. Owners of complex batch processes may still benefit from tight integration between the batch engine and PLC logic of a DCS solution but even this advantage is being eroded as Manufacturing Execution Systems develop.</p>
+
+<blockquote>
+  <p><strong><em>So… if a “DCS” can be built with products based on open technology just as well as proprietary ones, is a discussion still needed?</em></strong></p>
+</blockquote>
+
+<hr />
+
+<h2 id="whats-changed">What’s Changed?</h2>
+
+<p>End-user views on this debate are changing at different rates across industries. I’ve seen chemicals manufacturers with batch processes ‘upgrade’ from DCS to PLC-SCADA solutions. Others in the same industry still see the benefits of keeping their DCS. Many however are now evaluating both technologies when they look to replace aging equipment which is no longer supported by the original manufacturer.</p>
+
+<p>So are there best practice guidelines? Not really. Many write on this subject, some try to distil the decision down to simple criteria such as the number of signals or whether the process is continuous. More recent thinking on the subject – at least from those without a vested interest in selling DCSs -  acknowledge the decision often comes down to “non-technical” factors. This is another way of saying the best solution for a company will likely be determined by its culture, competence, innovation strategy and the total cost of ownership over the lifetime of a system, rather than the technical limitations of available technology.</p>
+
+<h4 id="current-thinking">Current Thinking</h4>
+
+<p>Like a company’s <a href="https://www.investopedia.com/terms/m/make-or-buy-decision.asp">decision to make or buy</a>, whether a DCS or PLC-SCADA is best is now determined by factors such as:</p>
+
+<ul>
+  <li><strong>In-house control and automation expertise</strong> – what expertise do you have at the moment? Are you planning to keep this into the future, increase or decrease the size of your engineering department. This likely has the biggest impact on the decision. As without in-house knowledge and capacity to own and drive development of control systems your company is likely better off buying-in engineering expertise.</li>
+  <li><strong>Supply chain management strategy</strong> – how do you use equipment and technology? Whether you proactively manage assets throughout their life, or run them into the ground then replace them, has a bearing not only on the DCS vs PLC-SCADA decision but also on who you use to supply the technology.</li>
+  <li><strong>Innovation strategy</strong> – are you looking to select technology ‘once and for all’, or do you intend to continue developing and improving it throughout its life? Whether you operate in a highly regulated industry also has a bearing on this, but will not be the sole contributor to this factor.</li>
+</ul>
+
+<p>Fundamentally, the choice comes down to whether your organisation is willing (and able) to take responsibility for specification of its automation technology; or happy to trust this to a supplier. To determine the best choice for your organisation you must evaluate the costs of doing this work in-house against those associated with accepting a suppliers standard solution.</p>
+
+<p>If you’re in a technical role, consider whether other purchases tend to be tightly controlled by an in-house subject matter expert or trusted advisor. If so, there should be appetite to invest in taking the same approach for industrial automation.</p>
+
+<p>Or are you the budget holder? In which case, how much do you value the contribution of operational technology to your business’s strategy objectives? Are you willing to trust this to a supplier - motivated not only to show you results but also sell as much technology to you as possible?</p>
+
+<h4 id="lifecycle-costs">Lifecycle Costs</h4>
+
+<p>To understand where the two options stand in terms of their cost of ownership, we conducted a survey of automation vendors and end users. We reviewed the prices vendors say they charge for different products and services, then compared them to the costs end users told us they’ve paid. We then normalised the results to come up with comparable numbers for a ‘typical’ control system<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+
+<p>A projection showing the annual costs of DCS ownership over 20 years including initial project delivery are shown below:</p>
+
+<p><img src="/images/DCS-annual-cost-of-ownership.png" alt="DCS annual cost of ownership projection" style="float: left" /></p>
+
+<p>Annual costs are broken into the following categories:</p>
+
+<ul>
+  <li>Engineering – in-house and/or external engineers</li>
+  <li>Hardware – physical system components</li>
+  <li>Software – one-off software licenses</li>
+  <li>Subscription – ongoing cost of incremental product updates, security patches and upgrades</li>
+</ul>
+
+<p>The projection for a PLC-SCADA system with the same specification:</p>
+
+<p><img src="/images/PLC-SCADA-annual-cost-of-ownership.png" alt="PLC-SCADA annual cost of ownership projection" style="float: left" /></p>
+
+<p>It is clear PLC-SCADA based solutions are not always cheaper, initial project costs (shown here spread over the first 2 years) look equivalent. PLC-SCADA solutions typically need a more detailed requirements capture and design phase during the initial project – say where a legacy system is being replaced and limited documentation exists. In these cases the increased cost of engineering counters savings made in software and hardware costs associated with a DCS which comes to some degree pre-configured.</p>
+
+<p>Our research shows initial project costs for PLC-SCADA solutions working out at £75,000 more than those for an equivalent DCS (£2.375 million, rather than £2.3 million respectively).</p>
+
+<p>That said, savings start to be realised following the initial project, after which the cost of maintaining, updating and upgrading a PLC-SCADA solution remains cheaper throughout the lifetime of the system. This is down to PLC-SCADA system owners having a choice of potential suppliers throughout the system lifecycle.</p>
+
+<p>To allow an easier comparison of the Total Cost of Ownership the projection below shows the accumulated costs associated with each system type.</p>
+
+<p><img src="/images/TCO-projections.png" alt="Total cost of ownership projections" style="float: left" /></p>
+
+<p>After 20 years the total cost of ownership of each system works out to be:</p>
+
+<p class="center">DCS Total Cost of Ownership 		= 	£6,305,000<br />
+
+PLC-SCADA Total Cost of Ownership 	= 	£4,920,250<br />
+
+<b>Difference 				= 	£1,385,000</b></p>
+
+<p>The stark differential during the systems’ operational phase is due to increased costs in 3 of the 4 categories analysed:</p>
+
+<ul>
+  <li>Engineering – DCS vendors tend to charge more for engineering services</li>
+  <li>Hardware – additional/spare hardware for DCSs tends to be more expensive</li>
+  <li>Software – charges for connecting 3rd party systems, increasing system size and adding functionality also tend to be more expensive within the ‘walled garden’ of a DCS solution</li>
+</ul>
+
+<h4 id="other-considerations">Other Considerations</h4>
+
+<h6 id="pricing-risk">Pricing Risk</h6>
+
+<p>Many end users put their decision to select a DCS down to “pricing risk”, this could also be described as “pricing convenience”. The main reason for DCS being considered “less risky” is using a single supplier for all design, system components, installation and support, removes integration risk.</p>
+
+<p>In selecting a DCS solution you give responsibility for system design, reliability, availability and lifecycle management to your chosen supplier. Whereas buying a PLC-SCADA solution requires more of this work be done either in-house or by a 3rd party, typically a systems integrator who buys-in system components.</p>
+
+<p>Should any aspect of the initial project or subsequent system performance not meet the agreed specification, dialogue is only needed with one party in the case of a DCS. With a PLC-SCADA solution, while the systems integrator is the first point of contact they will need to liaise with component manufacturers and/or other service providers to resolve issues.</p>
+
+<p>Whether savings made over the system lifecycle justify the additional work involved in managing or outsourcing this risk is dependent on how well equipped your organisation is, or intends to be, in this area. Knowing many end user organisations have reduced headcount over recent years, outsourcing much of their high-level engineering; DCS vendors make buying their solutions easy and often discount projects to secure the higher margin ‘service’ business they know follows.</p>
+
+<h6 id="innovation">Innovation</h6>
+
+<p>If your company embraces the latest technology and aims to define, rather than adopt, industry best practice there are compelling reasons to select a PLC-SCADA solution.</p>
+
+<p>Technology used to build proprietary DCSs tends to lag that used in PLC and SCADA products. This is due to its historic use in highly regulated industries where equipment typically needs to have been ‘proven in use’ before it can be put into active service. Most vendors provide both DCS and PLC-SCADA solutions. Because the number PLC-SCADA systems sold outnumbers those of DCS, development of PLC and SCADA technology is prioritised. DCS solutions can then be built on top of this software and equipment once it has spent a sufficient time running in production environments.</p>
+
+<p>PLC and SCADA products, on the whole, come onto the market equipped with the latest features and are compatible with the latest communication protocols. Also the flexibility offered by a system based on Open Technology greatly reduces the integration costs associated with experimenting with new technology and conducting proof of concept projects.</p>
+
+<h6 id="digital-transformation-and-industry-40">Digital Transformation and Industry 4.0</h6>
+
+<p>With all companies at least considering – if not well into the process of – digitising their operations, understanding how your control system fits into your organisations’ digital strategy is essential.</p>
+
+<p>While DCS vendors continue to charge significant license fees to connect 3rd party systems to their products, the manufacturers of modern SCADAs encourage their connection to other systems by including the necessary functionality as standard. This allows scalable modern system architectures compatible with the latest IIoT (Industrial Internet of Things) smart devices, advanced data analytics and integration with IT systems.</p>
+
+<p>Below are representations of a ‘traditional’ or Industry 3 automation architecture and that of a modern Industry 4.0 solution.</p>
+
+<p><img src="/images/Control-system-architectures.jpg" alt="Control system architectures" style="float: left" /></p>
+
+<p>The traditional system (left) requires all data to flow through every component, requiring updates to each when changes are made. The Industry 4.0 system architecture features a central repository (‘Unified Namespace’), automatically updated when one of the satellite systems is updated. This greatly reduces the costs of keeping systems up to date, and encourages innovation and experimentation where advanced data analytics continually propose better ways to work.</p>
+
+<p>Due to their proprietary nature and way DCSs are licensed the costs of using them to build an architecture based on Industry 4.0 principles will increase significantly through time. Unfortunately we weren’t able to include for this in the projections above due to a lack of installed examples. As this will be an increasingly important consideration for most owners of DCSs, it will no doubt be the subject of a subsequent white paper.</p>
+
+<hr />
+
+<h2 id="best-approach-for-you">Best Approach for You</h2>
+
+<p>A PLC-SCADA based solution deserves serious consideration by every company facing this discussion. To determine whether it’s the option you should select boils down to whether you can answer the following question positively:</p>
+
+<blockquote>
+  <p><strong><em>Is your organisation equipped, willing and able to take responsibility for the design and upkeep of its control systems?</em></strong></p>
+</blockquote>
+
+<p>If so you are in a position to benefit from the cost savings, commercial and technological advantages of a PLC-SCADA solution.</p>
+
+<p>Use the checklist below to evaluate this in more detail. Your organisation may have other criteria which need to be considered, and likely won’t give equal weight to the considerations we outline. So before you start add any additional criteria to this list then consider a weighting to apply to each.</p>
+
+<p>Consider how strongly you agree with the statements in each category. A higher score suggests a PLC-SCADA based solution will better suit your organisation.</p>
+
+<p><strong>Innovation</strong></p>
+<ul>
+  <li>Formal process exist for conducting proof of concept projects - justifying them, measuring their success, then acting on the results.</li>
+  <li>Investment is made into generating ideas and research and development.</li>
+  <li>We develop best practice.</li>
+</ul>
+
+<p><strong>Skills</strong></p>
+<ul>
+  <li>System documentation is kept up to date, backups are regularly taken, and lifecycle management plan is in place and technology is a key component of the business strategy.</li>
+  <li>We have dedicated technical resources in-house or trusted suppliers who are reliable.</li>
+</ul>
+
+<p><strong>Suppliers</strong></p>
+<ul>
+  <li>We prefer to put technology purchases and support contracts out to competitive tender.</li>
+  <li>Going to the market with new project opportunities ensures we always consider the latest technology and make the most of supplier experience.</li>
+</ul>
+
+<p><strong>Culture</strong></p>
+<ul>
+  <li>The company invests strategically in increasing the productivity of its workforce.</li>
+  <li>Our customers’ needs drive continual innovation and improvement.</li>
+  <li>We constantly update and adapt our processes to fit market and client requirements.</li>
+</ul>
+
+<p><strong>Cost</strong></p>
+<ul>
+  <li>The organisation is willing to invest now, to make future savings.</li>
+  <li>Having multiple potential suppliers is a key part of our procurement strategy.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<blockquote>
+  <p><strong><em>Is your organisation equipped, willing and able to take responsibility for the design and upkeep of its control systems?</em></strong></p>
+</blockquote>
+
+<p>This doesn’t have to be done in-house, but if you plan to use external contractors it’s crucial to incentivise them correctly so their interests align with yours. Do this by effectively communicating your long-term strategy and objectives, then ensuring success of any contracts contribute towards them.</p>
+
+<p>If your company is not in a position to take responsibility in this way, or you’d prefer to build a strategic partnership with a single supplier, a DCS represents a better solution. But if you take this route, do not begrudge the subsequent charges made to maintain and improve the system, remembering the work you saved by opting for this approach.</p>
+
+<p>Get in touch if you would like to discuss any aspect of this white paper, or are looking for help or advice making this important and enduring decision.</p>
+
+<p class="center"><span class="fas fa-phone-alt"></span>
+  <abbr title="Phone"></abbr> &nbsp; <a href="tel:00441616604293" id="number">+44 161 660 4293</a>
+</p>
+<p class="center"><span class="fas fa-envelope"></span>
+  <abbr title="Email"></abbr> &nbsp; <a href="mailto:projects@op-tec.co.uk?subject=Maximising%20the%20return%20from%20technology%20projects">projects&#64;op-tec.co.uk</a>
+</p>
+
+<hr />
+<div style="text-align: right"><small>Download a PDF copy of this article <a href="https://op-tec.co.uk/downloads/Should_you_replace_your_DCS_with_PLC-SCADA.pdf" target="_blank"><u>here</u></a></small></div>
+<p><br /></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>We based our projections on the following assumptions:</p>
+      <ul>
+        <li>20 year system lifetime</li>
+        <li>System with 3,500 signals (I/O points) and 8 operator consoles</li>
+        <li>Commitment to vendor software subscriptions and 5 yearly updates to the latest system version</li>
+        <li>One plant modification project carried out every 5 years (starting in year 3)</li>
+      </ul>
+
+      <p><strong>NOTE:</strong> Cost information provided is for comparative and discussion purposes only and should not be used to budget for, benchmark or otherwise price a control system. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+				<br>
+				<div class="page-meta">
+	<p>Published: <time datetime="2021-09-17T00:00:00Z" itemprop="datePublished">17 September 2021</time></p>
+</div><!-- /.page-meta -->
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	<a href="https://op-tec.co.uk/knowledge/richard-banyard">
+		<img src="https://op-tec.co.uk/images/Richard.jpg" alt="Richard Banyard">
+	</a>
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" ><a href="https://op-tec.co.uk/knowledge/richard-banyard" itemprop="author">Richard Banyard</a> <small><small>MEng CEng MBA MIET GICSP</small></small></h3>
+	<p class="author-bio">Managing Director</p>
+	<p class="author-bio"></p>
+	
+	<a href="https://www.linkedin.com/in/richardbanyard/" class="btn-social linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i> &nbsp; LinkedIn</a>
+	
+	
+	<a href="https://twitter.com/richard_banyard" class="btn-social twitter"><i class="fab fa-twitter" aria-hidden="true"></i> &nbsp; Twitter</a>
+	
+</div><!-- ./author-content -->
+<div class="row">
+	<div class="column">
+		<p class="author-bio">More from Richard ...</p>
+		<p class="author-bio">
+			
+			
+				<a href="/knowledge/should-you-replace-your-dcs-with-PLC-SCADA">Should you replace your DCS with PLC-SCADA?</a><br>
+			
+				<a href="/latest/should-you-accept-automation-vendors-vision-of-the-future">Should you accept automation vendors' vision of the future?</a><br>
+			
+				<a href="/knowledge/how-to-avoid-vendor-lock-in">Avoid getting locked into a single automation vendor</a><br>
+			
+				<a href="/knowledge/why-technology-projects-fail-to-deliver">Maximise your ROI from technology projects</a><br>
+			
+				<a href="/latest/cyber-security-basics">Don't know where to start? Try the basics</a><br>
+			
+				<a href="/latest/do-you-invest-in-training-people">Do you invest in training people?</a><br>
+			
+				<a href="/latest/are-you-a-grandmaster-or-a-centaur">Are you a grandmaster or a centaur?</a><br>
+			
+				<a href="/latest/are-you-driving-blind">Are you choosing to drive blind?</a><br>
+			
+				<a href="/latest/transferring-is-the-worst">Transferring is the worst</a><br>
+			
+				<a href="/latest/ATT&CK!">ATT&CK!</a><br>
+			
+				<a href="/latest/Windows-7-end-of-life">Windows 7 end of life announcement</a><br>
+			
+				<a href="/latest/make-better-decisions">Have you got what it takes to make decisions?</a><br>
+			
+				<a href="/latest/tempting-isnt-it">Tempting isn't it?</a><br>
+			
+				<a href="/latest/open-technology">Open technology</a><br>
+			
+				<a href="/latest/iiot-industry-4.0">IIoT and Industry 4.0 Explained</a><br>
+			
+				<a href="/latest/new-address">Op-tec's main office has moved to Stockport</a><br>
+			
+				<a href="/latest/control-system-upgrades">Time to upgrade?</a><br>
+			
+		</p>
+	</div>
+	<div class="column">
+		<p class="author-bio">More 
+			knowledge articles
+			...
+		</p>
+		<p class="author-bio">
+			
+			
+				<a href="/knowledge/should-you-replace-your-dcs-with-PLC-SCADA">Should you replace your DCS with PLC-SCADA?</a><br>
+			
+				<a href="/knowledge/how-to-avoid-vendor-lock-in">Avoid getting locked into a single automation vendor</a><br>
+			
+				<a href="/knowledge/richard-banyard">Get to know Richard Banyard</a><br>
+			
+				<a href="/knowledge/why-technology-projects-fail-to-deliver">Maximise your ROI from technology projects</a><br>
+			
+				<a href="/knowledge/800xA">Support available for ABB System 800xA</a><br>
+			
+				<a href="/knowledge/using-data-to-inform-maintenance">Using data to inform maintenance</a><br>
+			
+		</p>
+	</div>
+</div>
+				</footer><!-- /.footer -->
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+</div>
+
+      <div id="page-wrapper">
+<footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<div class="row">
+			<ul class="menu-item">
+			
+			
+				<li><a href="https://op-tec.co.uk/" >Home</a></li>
+			
+			
+				<li><a href="https://op-tec.co.uk/articles" >Insights</a></li>
+			
+			
+				<li><a href="https://op-tec.co.uk/services" >Services</a></li>
+			
+			
+				<li><a href="https://op-tec.co.uk/about" >About</a></li>
+			
+			
+				<li><a href="https://op-tec.co.uk/receive-emails" >Subscribe</a></li>
+			
+			
+				<li><a href="https://op-tec.co.uk/legal-information" >Terms</a></li>
+			
+			</ul>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="column">
+				<h4 id="contact">Contact us</h4>
+				<p><span class="fas fa-phone-alt"></span>
+					<abbr title="Phone"></abbr> &nbsp; <a class="black" href="tel:00441616604293" id="number">+44 161 660 4293</a>
+				<br><br><span class="fas fa-envelope"></span>
+					<abbr title="Email"></abbr> &nbsp; <a class="black" href="mailto:projects@op-tec.co.uk">projects&#64;op-tec.co.uk</a>
+				<br><br><span class="fas fa-map-marker-alt"></span> &nbsp; <small>
+					Op-tec Systems Ltd<br>
+					&nbsp; &nbsp; &nbsp; &nbsp;Stockport Business &amp; Innovation Centre<br>
+					&nbsp; &nbsp; &nbsp; &nbsp;Broadstone Mill<br>
+					&nbsp;  &nbsp; &nbsp; &nbsp;Broadstone Road<br>
+					&nbsp;  &nbsp; &nbsp; &nbsp;Stockport<br>
+					&nbsp;  &nbsp; &nbsp; &nbsp;SK5 7DL</small>
+				</p>
+				<p><small>Registered in England and Wales<br>
+					Company # 03251387<br>
+					VAT # 681932119</small>
+				</p>
+			</div>
+			<div class="column">
+				<h4 style="text-align:center"><a href="https://op-tec.co.uk/downloads/FS708969.pdf" target="_blank"><img width="150" src="/images/mark-of-trust-certified-ISO-9001-quality-management-systems-black-logo-En-GB-1019.png" alt="BSI ISO 9001 mark of trust"></a><br></h4>
+				
+			</div>
+		</div>
+	</nav><!-- /.bottom-menu -->
+	<hr>
+	<p class="copyright">&#169; 2021 <a href="https://op-tec.co.uk">Op-tec Systems Ltd</a></p>
+</footer>
+</div>
+    
+    <script src="https://op-tec.co.uk/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://op-tec.co.uk/js/main.js"></script>
+
+  </body>
+
+</html>

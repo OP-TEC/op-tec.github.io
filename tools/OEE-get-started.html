@@ -2,13 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Get started with OEE • Op-tec Systems</title>
+    <title>OEE Explained • Op-tec Systems</title>
     <meta name="description" content="Learn how we help you develop an automation strategy to deliver your business objectives">
     
     
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Get started with OEE">
+	<meta name="twitter:title" content="OEE Explained">
 	<meta name="twitter:description" content="Learn how we help you develop an automation strategy to deliver your business objectives">
 	
 	
@@ -20,7 +20,7 @@
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Get started with OEE">
+	<meta property="og:title" content="OEE Explained">
 	<meta property="og:image" content="https://op-tec.co.uk/images/Op-tec-logo-nav-menu.png">
 	<meta name="og:description" content="Learn how we help you develop an automation strategy to deliver your business objectives">
 	
@@ -143,91 +143,124 @@
 </button>
 <div id="js-menu-screen" class="menu-screen"></div>
     
-      <div id="main" role="main">
-	<article class="wrap" itemscope="" itemtype="http://schema.org/Article" style="max-width: 52em;">	
-		<div class="inner-wrap" style="width: auto;"><br />
-			<div id="content" class="page-content" itemprop="articleBody">
-				<h1 class="center">What's OEE?</h1>
-				<p>Overall Equipment Effectiveness. OEE is a measure of how well the assets within a production/manufacturing plant are utilised. It's expressed as a percentage of the plant's full or theoretical maximum capacity and is calculated as follows:</p>
-				<p class="center"><b>OEE = Availability x Performance x Quality</b></p>
-				<p>Where:<br />
-				Availability = Operating Time / Scheduled Time<br />
-				Performance = (Parts Produced x Ideal Cycle Time) / Operating Time<br />
-				Quality = (Units Produced - Defective Units) / Units Produced</p>
-				<p>OEE is a simple and powerful KPI which can help you to identify the bottlenecks in your production process. Don't upgrade equipment before understanding whether you're addressing the root cause of performance concerns.</p>
-				<p>The tool below is intended for you if you're new to OEE, and are interested in what your current OEE is likely to be and how if can be improved.</p>
-				<br />
-				<fieldset><!-- INPUT FORM -->
-					<form>
-						<h2>OEE Estimator</h2>
-						<p>Consider your production facility and answer the questions below honestly (none of the data is stored, and you won't be asked for any personal details). Only be answering as honestly as possible will you gain insight into what your OEE is likely to be currently.</p>
-						<h4>Availability</h4>
-						<p>Consider your production process. How many hours a week is it designed to run for? (this is the ideal world figure, so include for scheduled maintenance outages, and rota'd breaks, but not breakdowns or any unplanned events)</p>
-						<label for="scheduled_time">Scheduled running hours per week:</label>
-						<input type="number" id="scheduled_time" placeholder="e.g. enter '168' if production is supposed to run 24 x 7" />
-						<p>Now think about a typical week, how long is production typically stopped during the scheduled running time?</p>
-						<label for="stopped_time">Unscheduled stopped time (hours/week):</label>
-						<input type="number" id="stopped_time" placeholder="e.g. '14' if production is typically stopped for 14 hours/week" />
-						<br />
-						<h4>Performance</h4>
-						<p>Maximum throughput under ideal circumstances (never achieved)</p>
-						<label for="max_production">Max. production (units/hour):</label>
-						<input type="number" id="max_production" placeholder="e.g. theoretical/design maximum production throughput" />
-						<p>This will be compared with the production rate you typically achieve.</p>
-						<label for="actual_production">Actual production regardless of quality (units/hour):</label>
-						<input type="number" id="actual_production" placeholder="" />
-						<h4>Quality</h4>
-						<p>The last input needed, is the number of defects (units which don't meet quality criteria, so need to be scrapped or reworked) experienced at the actual production rate above.</p>
-						<label for="defect_rate">Quantity of defects (units/hour):</label>
-						<input type="number" id="defect_rate" placeholder="" />
-						<br />
-						<button type="button" onclick="calculate_oee()">Generate results</button>
-					</form>
-				</fieldset><!-- ./INPUT FORM -->
-		<br />
-<div style="overflow: hidden;">
-    <h2 style="float: left;"><b>OEE</b></h2>
-    <h2 style="float: right;" id="oee">0%</h2>
+      <div class="page-lead white" style="background-image: url('https://op-tec.co.uk/images/lenny-kuhne-jHZ70nRk7Ns-unsplash.jpg');">
+    <div class="wrap page-lead-content">
+        <h1>OEE Explained</h1>
+        <br />
+        <p>Measuring manufacturing productivity</p>
+        <br />
+    </div> 
 </div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Availability</b></p>
-    <p style="float: right;" id="availability">0%</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Performance</b></p>
-    <p style="float: right;" id="performance">0%</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Quality</b></p>
-    <p style="float: right;" id="quality">0%</p>
-</div>
-<br />
+<div id="page-wrapper">
+	<div id="main" role="main">
+		<article class="wrap" itemscope="" itemtype="http://schema.org/Article" style="max-width: 52em;">	
+			<div class="inner-wrap" style="width: auto;"><br />
+				<div id="content" class="page-content" itemprop="articleBody">
+					<p><b>Overall Equipment Effectiveness</b> is a measure of how well assets in a production/manufacturing process are utilised. It's expressed as a percentage of the plant's full or theoretical maximum capacity and is calculated as follows:</p>
+					<h3 class="center"><b>OEE = Availability x Performance x Quality</b></h3>
+					<p><small>Where:<br />
+					Availability = Operating Time / Scheduled Time<br />
+					Performance = (Parts Produced x Ideal Cycle Time) / Operating Time<br />
+					Quality = (Units Produced - Defective Units) / Units Produced</small></p>
+					<hr />
+					<p>An indicator of productivity, OEE is seen as a key metric by manufacturers looking to understand the causes of inefficiency within their operations. Because it can be universally applied, OEE is also used to benchmark improvements and draw comparisons between processes, sites or companies.</p>  
+					<p>The 'OEE Estimator' below can be used to gain familiarity with this metric. Enter information related to your business, or play around to get a feel for the impact different inputs have on the final result.</p>
+					<br />
+					<fieldset><!-- INPUT FORM -->
+						<form>
+							<h2>OEE Estimator</h2>
+							<h4>Availability</h4>
+							<p>How many hours per week is production scheduled?<br />
+							<small>Include for scheduled maintenance and rota'd breaks, but not breakdowns or unplanned events</small></p>
+							<label for="scheduled_time">Scheduled running (hours/week):</label>
+							<input type="number" id="scheduled_time" placeholder="e.g. '168' if production is supposed to run 24 x 7" />
+							<br />
+							<p>In a typical week, for how long is production stopped during the scheduled running time?<br />
+							<small>Include for breakdowns, resolving quality issues and other unplanned events</small></p>
+							<label for="stopped_time">Unscheduled stopped time (hours/week):</label>
+							<input type="number" id="stopped_time" placeholder="e.g. '4' if production is disrupted for 4 hours/week" />
+							<br />
+							<h4>Performance</h4>
+							<p>What's maximum throughput, under ideal circumstances?<br />
+							<small>Likely never achieved</small></p>
+							<label for="max_production">Max. production (units/hour):</label>
+							<input type="number" id="max_production" placeholder="Theoretical/design maximum production rate" />
+							<br />
+							<p>What production rate is typically achieved?<br />
+							<small>Regardless of quality</small></p>
+							<label for="actual_production">Actual production (units/hour):</label>
+							<input type="number" id="actual_production" placeholder="Production rate achieved" />
+							<br />
+							<h4>Quality</h4>
+							<p>How many defects are produced when operating at the rate above?<br />
+							<small>Units which don't meet quality criteria, so need to be scrapped or reworked</small></p>
+							<label for="defect_rate">Number of defects (units/hour):</label>
+							<input type="number" id="defect_rate" placeholder="Defect rate" />
+							<br />
+							<p><small><b>NOTE:</b> Data entered below isn't stored, so if you want to record your results you need to screenshot or print this page.</small></p>
+							<button type="button" onclick="calculate_oee()">Generate results</button>
+						</form>
+					</fieldset><!-- ./INPUT FORM -->
+					<br />
+					<div style="overflow: hidden;">
+						<h2 style="float: left;"><b>OEE</b></h2>
+						<h2 style="float: right;" id="oee">0%</h2>
+					</div>
+					<div style="overflow: hidden;">
+						<p style="float: left;"><b>Availability</b></p>
+						<p style="float: right;" id="availability">0%</p>
+					</div>
+					<div style="overflow: hidden;">
+						<p style="float: left;"><b>Performance</b></p>
+						<p style="float: right;" id="performance">0%</p>
+					</div>
+					<div style="overflow: hidden;">
+						<p style="float: left;"><b>Quality</b></p>
+						<p style="float: right;" id="quality">0%</p>
+					</div>
+					<hr />
+					<h2>What does good look like?</h2>
+					<p>Due to the nauture of the calculation, achieving a high OEE is challenging. Scores of 95% in each of the 3 areas only gives an OEE of just under 85.7%. World-class is considered between 75% - 90% depending on product complexity and variety, and 60% manufacturers .</p>
+					<p>As such, lower scores are common. If you entered data for your process above and got a lower result than you were expecting, know that many companies start out with scores &lt;&nbsp;40%.</p>
+					<p>Depending on your product and process the different components can be easier or harder to improve. It's rare for a company to get similar scores in each area - particularly those just starting out - and it's not likely to be helpful to aim for this.</p>
+					<p>Like any KPI, pursuing improvements in OEE without regard for the characteristics of your specific product, market and processes is unlikely to bring about sustainable improvement. Using the measurement effectively involves looking at performance in detail. To do this users of OEE consider "Six Big Losses", common causes for inefficiency.</p> 
+					<hr />
+					<h2>Six Big Losses</h2>
+					<p>Each OEE component has 2 main types of loss:</p>
+					<h4>Availability</h4>
+					<p><b>Equipment failure</b> - e.g. breakages, emergency shutdowns, faults<br />
+						<b>Planned stops</b> - e.g. cleaning, retooling, starting up/shutting down</p>
+					<h4>Performance</h4>
+					<p><b>Speed loss</b> - e.g. inconsistent inputs, lack of maintenance, machine age/condition<br />
+						<b>Minor stops</b> - e.g. jams, clearing obstructions, adjusting settings</p>
+					<h4>Quality</h4>
+					<p><b>Start up defects</b> - e.g. incorrect settings, equipment warming up/cooling down, incompatibility<br />
+						<b>Production defects</b> - e.g. incorrect settings, operator error, starting up/shutting down</p>
 
-
-
-                <script>
-				function calculate_oee() {
-    var scheduled_time = parseInt(document.getElementById("scheduled_time").value),
-		stopped_time = parseInt(document.getElementById("stopped_time").value),
-		max_production = parseInt(document.getElementById("max_production").value),
-		actual_production = parseInt(document.getElementById("actual_production").value),
-		defect_rate = parseInt(document.getElementById("defect_rate").value),
-        availability = (scheduled_time - stopped_time) / scheduled_time,
-		performance = ((actual_production * (scheduled_time - stopped_time)) / (scheduled_time - stopped_time)) / max_production,
-		quality = (actual_production - defect_rate) / actual_production,
-		oee = ((availability * performance) * quality);
-	document.getElementById("oee").innerHTML = (Math.round(oee * 100)) + "%",
-	document.getElementById("availability").innerHTML = (Math.round(availability * 100)) + "%",
-	document.getElementById("performance").innerHTML = (Math.round(performance * 100)) + "%",
-	document.getElementById("quality").innerHTML = (Math.round(quality * 100)) + "%";
-}
-				
-				
-				
-				</script>
+					<script>
+					function calculate_oee() {
+		var scheduled_time = parseInt(document.getElementById("scheduled_time").value),
+			stopped_time = parseInt(document.getElementById("stopped_time").value),
+			max_production = parseInt(document.getElementById("max_production").value),
+			actual_production = parseInt(document.getElementById("actual_production").value),
+			defect_rate = parseInt(document.getElementById("defect_rate").value),
+			availability = (scheduled_time - stopped_time) / scheduled_time,
+			performance = ((actual_production * (scheduled_time - stopped_time)) / (scheduled_time - stopped_time)) / max_production,
+			quality = (actual_production - defect_rate) / actual_production,
+			oee = ((availability * performance) * quality);
+		document.getElementById("oee").innerHTML = (Math.round(oee * 100)) + "%",
+		document.getElementById("availability").innerHTML = (Math.round(availability * 100)) + "%",
+		document.getElementById("performance").innerHTML = (Math.round(performance * 100)) + "%",
+		document.getElementById("quality").innerHTML = (Math.round(quality * 100)) + "%";
+	}
+					
+					
+					
+					</script>
+				</div>
 			</div>
-		</div>
-	</article>
+		</article>
+	</div>
 </div>
 
       <div id="page-wrapper">
