@@ -143,186 +143,196 @@
 </button>
 <div id="js-menu-screen" class="menu-screen"></div>
     
-      <div id="main" role="main">
-	<article class="wrap" itemscope="" itemtype="http://schema.org/Article" style="max-width: 52em;">	
-		<div class="inner-wrap" style="width: auto;"><br />
-			<div id="content" class="page-content" itemprop="articleBody">
-				<h1 class="center">Don't buy new equipment until you know your OEE</h1>
-				<p>OEE is a simple and powerful KPI which can help you to identify the bottlenecks in your production process. Don't upgrade equipment before understanding whether you're addressing the root cause of performance concerns.</p>
-				<p>The tool below allows you to understand the relationship between the OEE performance of a machine, line, or an entire facility on the profit &amp; loss statement. Enter some approximate numbers for your business together with the OEE estimate you created <a href="/">here</a> to see the impact mprovements in OEE would deliver.</p>
-				<br />
-				<fieldset><!-- INPUT FORM -->
-					<form>
-						<h2>OEE Improvement Impact</h2>
-						<p>Plug some approximate numbers from your own business into the form below.</p>
-						<label for="total_hours">Total planned hours:</label>
-						<p>Total planned hours per year (e.g. 365 x 24 = 8760)</p>
-						<input type="number" id="total_hours" value="8760" />
-						<label for="max_production">Max. production (units/hour):</label>
-						<p>Maximum throughput under ideal circumstances (never achieved)</p>
-						<input type="number" id="max_production" value="25" />
-						<label for="unit_sell_price">Sell price (£/unit):</label>
-						<input type="number" id="unit_sell_price" value="5" />
-						<label for="variable_cost">Variable cost (£/unit):</label>
-						<input type="number" id="variable_cost" value="3" />
-						<label for="maintenance_budget">Annual maintenance budget (£):</label>
-						<input type="number" id="maintenance_budget" value="50000" />
-						<label for="depreciation">Annual depreciation (£):</label>
-						<input type="number" id="depreciation" value="30000" />
-						<label for="other_fixed_costs">Other fixed costs (£):</label>
-						<input type="number" id="other_fixed_costs" value="75000" />
-						<p> <label for="oee_radio_buttons">Baseline OEE:</label>
-							<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="60" checked="checked" /> 60%</label>
-							<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="65" /> 65%</label>
-							<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="70" /> 70%</label>
-							<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="75" /> 75%</label>
-							<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="80" /> 80%</label>
-						</p>
-						<p> <label for="oee_improvement_radio_buttons">Anticipated improvement in OEE:</label>
-							<label><input type="radio" class="radio" name="oee_improvement_radio_button" id="oee_improvement_radio_button" value="5" /> 5%</label>
-							<label><input type="radio" class="radio" name="oee_improvement_radio_button" id="oee_improvement_radio_button" value="10" checked="checked" /> 10%</label>
-							<label><input type="radio" class="radio" name="oee_improvement_radio_button" id="oee_improvement_radio_button" value="15" /> 15%</label>
-						</p>
-						<br />
-						<button type="button" onclick="calculate()">Generate results</button>
-					</form>
-				</fieldset><!-- ./INPUT FORM -->
-		<br />
+      <div class="page-lead white" style="background-image: url('https://op-tec.co.uk/images/lenny-kuhne-jHZ70nRk7Ns-unsplash.jpg');">
+    <div class="wrap page-lead-content">
+        <h1>Impact of OEE Improvement</h1>
+        <br />
+        <p>Don't buy new equipment until you know your OEE</p>
+        <br />
+    </div> 
+</div>
+<div id="page-wrapper">
+	<div id="main" role="main">
+		<article class="wrap" itemscope="" itemtype="http://schema.org/Article" style="max-width: 52em;">	
+			<div class="inner-wrap" style="width: auto;"><br />
+				<div id="content" class="page-content" itemprop="articleBody">
+					<br />
+					<p>OEE is a simple and powerful KPI which can help you to identify the bottlenecks in your production process. Don't upgrade equipment before understanding whether you're addressing the root cause of performance concerns.</p>
+					<p>The tool below allows you to understand the relationship between the OEE performance of a machine, line, or an entire facility on the profit &amp; loss statement. Enter some approximate numbers for your business together with the OEE estimate you created <a href="/tools/OEE-get-started">here</a> to see the impact improvements in OEE would deliver.</p>
+					<br />
+					<fieldset><!-- INPUT FORM -->
+						<form>
+							<h2>OEE Improvement Impact</h2>
+							<p>Plug some approximate numbers from your own business into the form below.</p>
+							<label for="total_hours">Total planned hours:</label>
+							<p>Total planned hours per year (e.g. 365 x 24 = 8760)</p>
+							<input type="number" id="total_hours" value="8760" />
+							<label for="max_production">Max. production (units/hour):</label>
+							<p>Maximum throughput under ideal circumstances (never achieved)</p>
+							<input type="number" id="max_production" value="25" />
+							<label for="unit_sell_price">Sell price (£/unit):</label>
+							<input type="number" id="unit_sell_price" value="5" />
+							<label for="variable_cost">Variable cost (£/unit):</label>
+							<input type="number" id="variable_cost" value="3" />
+							<label for="maintenance_budget">Annual maintenance budget (£):</label>
+							<input type="number" id="maintenance_budget" value="50000" />
+							<label for="depreciation">Annual depreciation (£):</label>
+							<input type="number" id="depreciation" value="30000" />
+							<label for="other_fixed_costs">Other fixed costs (£):</label>
+							<input type="number" id="other_fixed_costs" value="75000" />
+							<p> <label for="oee_radio_buttons">Baseline OEE:</label>
+								<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="60" checked="checked" /> 60%</label>
+								<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="65" /> 65%</label>
+								<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="70" /> 70%</label>
+								<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="75" /> 75%</label>
+								<label><input type="radio" class="radio" name="oee_radio_button" id="oee_radio_button" value="80" /> 80%</label>
+							</p>
+							<p> <label for="oee_improvement_radio_buttons">Anticipated improvement in OEE:</label>
+								<label><input type="radio" class="radio" name="oee_improvement_radio_button" id="oee_improvement_radio_button" value="5" /> 5%</label>
+								<label><input type="radio" class="radio" name="oee_improvement_radio_button" id="oee_improvement_radio_button" value="10" checked="checked" /> 10%</label>
+								<label><input type="radio" class="radio" name="oee_improvement_radio_button" id="oee_improvement_radio_button" value="15" /> 15%</label>
+							</p>
+							<br />
+							<button type="button" onclick="calculate()">Generate results</button>
+						</form>
+					</fieldset><!-- ./INPUT FORM -->
+			<br />
 
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Max. production</b></p>
-    <p style="float: right;" id="ideal_production">219,000 units</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Baseline OEE</b></p>
-    <p style="float: right;" id="baseline_oee">60%</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Improved OEE</b></p>
-    <p style="float: right;" id="improved_oee">70%</p>
-</div>
-		<h2>Baseline scenario</h2>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Actual production</b></p>
-    <p style="float: right;" id="actual_production">131,400 units</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Revenue</b></p>
-    <p style="float: right;" id="revenue">£657,000.00</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Cost of sales</b></p>
-    <p style="float: right;" id="cost_of_sales">£394,200.00</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Gross profit</b></p>
-    <p style="float: right;" id="gross_profit">£262,800.00</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Fixed costs</b></p>
-    <p style="float: right;" id="fixed_costs">£155,000.00</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Net profit</b></p>
-    <p style="float: right;" id="net_profit"><b><u>£107,800.00</u></b></p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Net profit (%)</b></p>
-    <p style="float: right;" id="net_profit_percent">16%</p>
-</div>		
-<hr />
-<h2>Improved scenario</h2>
-
-
-
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Actual production</b></p>
-    <p style="float: right;" id="improved_actual_production">164,250 units</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Revenue</b></p>
-    <p style="float: right;" id="improved_revenue">£821,250.00</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Cost of sales</b></p>
-    <p style="float: right;" id="improved_cost_of_sales">£492,750.00</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Gross profit</b></p>
-    <p style="float: right;" id="improved_gross_profit">£328,500.00</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Fixed costs</b></p>
-    <p style="float: right;" id="fixed_costs2">£155,000.00</p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Net profit</b></p>
-    <p style="float: right;" id="improved_net_profit"><b><u>£173,500.00</u></b></p>
-</div>
-<div style="overflow: hidden;">
-    <p style="float: left;"><b>Net profit (%)</b></p>
-    <p style="float: right;" id="improved_net_profit_percent">21%</p>
-</div>		
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Max. production</b></p>
+		<p style="float: right;" id="ideal_production">219,000 units</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Baseline OEE</b></p>
+		<p style="float: right;" id="baseline_oee">60%</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Improved OEE</b></p>
+		<p style="float: right;" id="improved_oee">70%</p>
+	</div>
+			<h2>Baseline scenario</h2>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Actual production</b></p>
+		<p style="float: right;" id="actual_production">131,400 units</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Revenue</b></p>
+		<p style="float: right;" id="revenue">£657,000.00</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Cost of sales</b></p>
+		<p style="float: right;" id="cost_of_sales">£394,200.00</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Gross profit</b></p>
+		<p style="float: right;" id="gross_profit">£262,800.00</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Fixed costs</b></p>
+		<p style="float: right;" id="fixed_costs">£155,000.00</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Net profit</b></p>
+		<p style="float: right;" id="net_profit"><b><u>£107,800.00</u></b></p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Net profit (%)</b></p>
+		<p style="float: right;" id="net_profit_percent">16%</p>
+	</div>		
+	<hr />
+	<h2>Improved scenario</h2>
 
 
 
-<br />
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Actual production</b></p>
+		<p style="float: right;" id="improved_actual_production">164,250 units</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Revenue</b></p>
+		<p style="float: right;" id="improved_revenue">£821,250.00</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Cost of sales</b></p>
+		<p style="float: right;" id="improved_cost_of_sales">£492,750.00</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Gross profit</b></p>
+		<p style="float: right;" id="improved_gross_profit">£328,500.00</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Fixed costs</b></p>
+		<p style="float: right;" id="fixed_costs2">£155,000.00</p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Net profit</b></p>
+		<p style="float: right;" id="improved_net_profit"><b><u>£173,500.00</u></b></p>
+	</div>
+	<div style="overflow: hidden;">
+		<p style="float: left;"><b>Net profit (%)</b></p>
+		<p style="float: right;" id="improved_net_profit_percent">21%</p>
+	</div>		
 
 
 
-                <script>
-				function calculate() {
-    var total_hours = parseInt(document.getElementById("total_hours").value),
-		max_production = parseInt(document.getElementById("max_production").value),
-		baseline_oee = (document.querySelector('input[name="oee_radio_button"]:checked').value)/100,
-		improvement_oee = (document.querySelector('input[name="oee_improvement_radio_button"]:checked').value)/100,
-		unit_sell_price = parseInt(document.getElementById("unit_sell_price").value),
-		variable_cost = parseInt(document.getElementById("variable_cost").value),
-		maintenance_budget = parseInt(document.getElementById("maintenance_budget").value),
-		depreciation = parseInt(document.getElementById("depreciation").value),
-		other_fixed_costs = parseInt(document.getElementById("other_fixed_costs").value),
-        ideal_production = total_hours * max_production,
-		actual_production = (ideal_production * baseline_oee),
-		revenue = actual_production * unit_sell_price,
-		cost_of_sales = variable_cost * actual_production,
-		gross_profit = revenue - cost_of_sales,
-		fixed_costs = maintenance_budget + depreciation + other_fixed_costs,
-		net_profit = gross_profit - fixed_costs,
-		net_profit_percent = (net_profit/revenue) * 100,
-		/* Improved figures */
-		improved_oee = (baseline_oee + improvement_oee),
-		improved_actual_production = ideal_production * improved_oee,
-		improved_revenue = improved_actual_production * unit_sell_price,
-		improved_cost_of_sales = variable_cost * improved_actual_production,
-		improved_gross_profit = improved_revenue - improved_cost_of_sales,
-		improved_net_profit = improved_gross_profit - fixed_costs,
-		improved_net_profit_percent = (improved_net_profit/improved_revenue) * 100;
-		document.getElementById("ideal_production").innerHTML = (new Intl.NumberFormat().format(ideal_production) + " units"),
-		document.getElementById("baseline_oee").innerHTML = ((baseline_oee * 100) + "%"),
-		document.getElementById("actual_production").innerHTML = (new Intl.NumberFormat().format(actual_production) + " units"),
-		document.getElementById("revenue").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(revenue),
-		document.getElementById("cost_of_sales").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(cost_of_sales),
-		document.getElementById("gross_profit").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(gross_profit),
-		document.getElementById("fixed_costs").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(fixed_costs),
-		document.getElementById("net_profit").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(net_profit),
-		document.getElementById("net_profit_percent").innerHTML = (Math.round(net_profit_percent) + "%"),
-		/* Improved figures */
-		document.getElementById("improved_oee").innerHTML = ((improved_oee * 100) + "%"),
-		document.getElementById("improved_actual_production").innerHTML = (new Intl.NumberFormat().format(improved_actual_production) + " units"),
-		document.getElementById("improved_revenue").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(improved_revenue),
-		document.getElementById("improved_cost_of_sales").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(improved_cost_of_sales),
-		document.getElementById("improved_gross_profit").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(improved_gross_profit),
-		document.getElementById("fixed_costs2").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(fixed_costs),
-		document.getElementById("improved_net_profit").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(improved_net_profit),
-		document.getElementById("improved_net_profit_percent").innerHTML = (Math.round(improved_net_profit_percent) + "%");
-}
-				
-				
-				
-				</script>
+	<br />
+
+
+
+					<script>
+					function calculate() {
+		var total_hours = parseInt(document.getElementById("total_hours").value),
+			max_production = parseInt(document.getElementById("max_production").value),
+			baseline_oee = (document.querySelector('input[name="oee_radio_button"]:checked').value)/100,
+			improvement_oee = (document.querySelector('input[name="oee_improvement_radio_button"]:checked').value)/100,
+			unit_sell_price = parseInt(document.getElementById("unit_sell_price").value),
+			variable_cost = parseInt(document.getElementById("variable_cost").value),
+			maintenance_budget = parseInt(document.getElementById("maintenance_budget").value),
+			depreciation = parseInt(document.getElementById("depreciation").value),
+			other_fixed_costs = parseInt(document.getElementById("other_fixed_costs").value),
+			ideal_production = total_hours * max_production,
+			actual_production = (ideal_production * baseline_oee),
+			revenue = actual_production * unit_sell_price,
+			cost_of_sales = variable_cost * actual_production,
+			gross_profit = revenue - cost_of_sales,
+			fixed_costs = maintenance_budget + depreciation + other_fixed_costs,
+			net_profit = gross_profit - fixed_costs,
+			net_profit_percent = (net_profit/revenue) * 100,
+			/* Improved figures */
+			improved_oee = (baseline_oee + improvement_oee),
+			improved_actual_production = ideal_production * improved_oee,
+			improved_revenue = improved_actual_production * unit_sell_price,
+			improved_cost_of_sales = variable_cost * improved_actual_production,
+			improved_gross_profit = improved_revenue - improved_cost_of_sales,
+			improved_net_profit = improved_gross_profit - fixed_costs,
+			improved_net_profit_percent = (improved_net_profit/improved_revenue) * 100;
+			document.getElementById("ideal_production").innerHTML = (new Intl.NumberFormat().format(ideal_production) + " units"),
+			document.getElementById("baseline_oee").innerHTML = ((baseline_oee * 100) + "%"),
+			document.getElementById("actual_production").innerHTML = (new Intl.NumberFormat().format(actual_production) + " units"),
+			document.getElementById("revenue").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(revenue),
+			document.getElementById("cost_of_sales").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(cost_of_sales),
+			document.getElementById("gross_profit").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(gross_profit),
+			document.getElementById("fixed_costs").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(fixed_costs),
+			document.getElementById("net_profit").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(net_profit),
+			document.getElementById("net_profit_percent").innerHTML = (Math.round(net_profit_percent) + "%"),
+			/* Improved figures */
+			document.getElementById("improved_oee").innerHTML = ((improved_oee * 100) + "%"),
+			document.getElementById("improved_actual_production").innerHTML = (new Intl.NumberFormat().format(improved_actual_production) + " units"),
+			document.getElementById("improved_revenue").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(improved_revenue),
+			document.getElementById("improved_cost_of_sales").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(improved_cost_of_sales),
+			document.getElementById("improved_gross_profit").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(improved_gross_profit),
+			document.getElementById("fixed_costs2").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(fixed_costs),
+			document.getElementById("improved_net_profit").innerHTML = new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(improved_net_profit),
+			document.getElementById("improved_net_profit_percent").innerHTML = (Math.round(improved_net_profit_percent) + "%");
+	}
+					
+					
+					
+					</script>
+				</div>
 			</div>
-		</div>
-	</article>
+		</article>
+	</div>
 </div>
 
       <div id="page-wrapper">
