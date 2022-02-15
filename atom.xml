@@ -1,12 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://op-tec.co.uk/atom.xml" rel="self" type="application/atom+xml" /><link href="https://op-tec.co.uk/" rel="alternate" type="text/html" /><updated>2022-02-01T17:58:27+00:00</updated><id>https://op-tec.co.uk/atom.xml</id><title type="html">Op-tec Systems</title><subtitle>Independent automation consultant</subtitle><entry><title type="html">Avoid being disappointed by your control system upgrade</title><link href="https://op-tec.co.uk/latest/avoid-being-disappointed-by-your-control-system-upgrade" rel="alternate" type="text/html" title="Avoid being disappointed by your control system upgrade" /><published>2022-02-01T00:00:00+00:00</published><updated>2022-02-01T00:00:00+00:00</updated><id>https://op-tec.co.uk/latest/avoid-being-disappointed-by-your-control-system-upgrade</id><content type="html" xml:base="https://op-tec.co.uk/latest/avoid-being-disappointed-by-your-control-system-upgrade">&lt;p&gt;For many of us looking to upgrade our long loved (or hated) incumbent control systems fills us with both excitement and concern. Excitement because we always feel that something new will be better than something that is old, but concern because we always wonder whether the replacement system will meet all of our expectations.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://op-tec.co.uk/atom.xml" rel="self" type="application/atom+xml" /><link href="https://op-tec.co.uk/" rel="alternate" type="text/html" /><updated>2022-02-15T20:00:43+00:00</updated><id>https://op-tec.co.uk/atom.xml</id><title type="html">Op-tec Systems</title><subtitle>Independent automation consultant</subtitle><entry><title type="html">Using Variable Speed Drives to increase quality and reduce energy costs</title><link href="https://op-tec.co.uk/knowledge/using-variable-speed-drives-to-increase-quality-and-reduce-energy-costs" rel="alternate" type="text/html" title="Using Variable Speed Drives to increase quality and reduce energy costs" /><published>2022-02-15T00:00:00+00:00</published><updated>2022-02-15T00:00:00+00:00</updated><id>https://op-tec.co.uk/knowledge/using-variable-speed-drives-to-increase-quality-and-reduce-energy-costs</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/using-variable-speed-drives-to-increase-quality-and-reduce-energy-costs">&lt;h2 id=&quot;-tech-note-&quot;&gt;[ Tech Note ]&lt;/h2&gt;
+
+&lt;div style=&quot;text-align: right&quot;&gt;&lt;small&gt;Download a PDF copy of this article &lt;a href=&quot;https://op-tec.co.uk/downloads/Using_Variable_Speed_Drives_to_increase_quality_and_reduce_energy_costs.pdf&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt;&lt;/small&gt;&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Many industrial applications can benefit from the use of Variable Speed Drives (also known as Variable Frequency or Inverter Drives). The increased motor control VSDs provide can improve product quality, and reduce energy consumption.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Technologies&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Most automation vendors offer VSDs. Market leaders such as ABB and Siemens have wide product portfolios to suit the needs of every type and size of application. VSD technology is well established and involves input power (AC) is rectified and is then switched (either in single or 3 phase configurations) to supply the motor windings. This switching determines the motor frequency feeding the motor windings which in turn determines the motor speed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Benefits&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Variable torque applications such as pumps and fans typically have the most scope for reducing energy consumption. In these applications more energy is required to drive increased air or fluid flow as motor speed increases. This relationship is demonstrated in the power curve for an example 50kW fan motor (shown). In many situations, motors are oversized to allow for peak demand meaning that in normal operation the motor is running at a higher speed demanded by the process. This is sometimes exacerbated by mechanical throttling of the motor with some form of restriction such as a damper or throttle valve in order to control the air or fluid flow at a fixed rate (analogous to driving your car on the motorway with one foot on the accelerator and with the other foot on the brake to control the speed). By controlling the motor to run at slower speeds and by removing any unnecessary restriction then a drastic reduction in energy consumption can be achieved.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Motor-power-curve.png&quot; alt=&quot;Typical 50kw motor power curve&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;VSDs don’t only have the advantage of being able to control motor speeds but are also able to provide other advantages such as soft starting and, if fitted with suitable filtering systems can also reduce the effects of harmonics across the electrical network. The fact VSDs can be incorporated in closed loop control systems means processes can also be optimised. Another benefit of using VSDs is the motor bearings and associated hardware is less prone to stress and is therefore far more likely to operate over extended periods and with reduced maintenance. In short there really aren’t any disadvantages to introducing VSDs to your site except perhaps the initial capital costs. However, the payback periods can easily be calculated based on the energy savings which simply depend upon the reduced duty and reduced speeds that would be implemented following installation.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For more information follow the link below to the Services section of our website where you can learn more about the help we can offer on this topic and many others relating to industrial process and manufacturing automation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/services&quot;&gt;https://op-tec.co.uk/services&lt;/a&gt;&lt;/p&gt;</content><author><name>Roger Halliwell</name><email>roger.halliwell@op-tec.co.uk</email></author><category term="knowledge" /><summary type="html">[ Tech Note ]</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22crystal-kwok-XUEdfpPIhXg-unsplash-small.jpg%22,%20%22thumb%22=%3E%22crystal-kwok-XUEdfpPIhXg-unsplash-small.jpg%22,%20%22feature%22=%3E%22crystal-kwok-XUEdfpPIhXg-unsplash.jpg%22,%20%22credit%22=%3E%22Would%20you%20motors%20benefit%20from%20better%20control?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22crystal-kwok-XUEdfpPIhXg-unsplash-small.jpg%22,%20%22thumb%22=%3E%22crystal-kwok-XUEdfpPIhXg-unsplash-small.jpg%22,%20%22feature%22=%3E%22crystal-kwok-XUEdfpPIhXg-unsplash.jpg%22,%20%22credit%22=%3E%22Would%20you%20motors%20benefit%20from%20better%20control?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Avoid being disappointed by your control system upgrade</title><link href="https://op-tec.co.uk/latest/avoid-being-disappointed-by-your-control-system-upgrade" rel="alternate" type="text/html" title="Avoid being disappointed by your control system upgrade" /><published>2022-02-01T00:00:00+00:00</published><updated>2022-02-01T00:00:00+00:00</updated><id>https://op-tec.co.uk/latest/avoid-being-disappointed-by-your-control-system-upgrade</id><content type="html" xml:base="https://op-tec.co.uk/latest/avoid-being-disappointed-by-your-control-system-upgrade">&lt;p&gt;For many of us looking to upgrade our long loved (or hated) incumbent control systems fills us with both excitement and concern. Excitement because we always feel that something new will be better than something that is old, but concern because we always wonder whether the replacement system will meet all of our expectations.&lt;/p&gt;
 
 &lt;p&gt;Having worked in automation longer than I care to remember I’ve seen this situation countless times. Often, customers are only too keen to race ahead and get a replacement system only to suffer disappointment that the new system did not solve all their problems and deliver the improvements that they desired.&lt;/p&gt;
 
 &lt;p&gt;So why is this? Well there are a number of reasons which when you think about it are quite obvious but rarely heeded!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Reason 1: Lack of Documentation&lt;/strong&gt; - The existing system operation was not monitored or documented on how it originally worked prior to the upgrade. This is a huge mistake because neglecting to carry out an inspection and review how the existing system operates could mean that the existing functionality is lost and this could be extremely expensive when commissioning begins. This situation arises when the system documentation is not kept up to date and often occurs when changes are made on the fly or in the heat of the moment and without the necessary change control procedures in place. So you might think that how a system operates is obvious where you simply watch it, watch the operator does and that’s it. Unfortunately, this is seldom the case. An analogy is a printed circuit board containing microprocessor chips, memory ICs, capacitors and resistors etc – do you think you could tell me exactly how it functions? No of course not and its similar with control systems where you really need to look under the hood to understand how the software operates – especially under fault conditions. This leads me to the next reason that is so often overlooked.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reason 1: Lack of Documentation&lt;/strong&gt; - The existing system operation was not monitored or documented on how it originally worked prior to the upgrade. This is a huge mistake because neglecting to carry out an inspection and review how the existing system operates could mean that the existing functionality is lost and this could be extremely expensive when commissioning begins. This situation arises when the system documentation is not kept up to date and often occurs when changes are made on the fly or in the heat of the moment and without the necessary change control procedures in place. So you might think that how a system operates is obvious where you simply watch it, watch the operator does and that’s it. Unfortunately, this is seldom the case. An analogy is a printed circuit board containing microprocessor chips, memory ICs, capacitors and resistors, etc. – do you think you could tell me exactly how it functions? No of course not and its similar with control systems where you really need to look under the hood to understand how the software operates – especially under fault conditions. This leads me to the next reason that is so often overlooked.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Reason 2: Purpose&lt;/strong&gt; - What helps enormously in replacing an existing system is the unambiguous purpose. Once we understand the purpose we begin to ask all sorts of questions that we must be aware of and that may well have changed since the system was initially installed such as the Environment (does the system have to be IP66 rated or ATEX rated etc) are there safety issues to consider (e.g. manual operations where operators must be safe from any moving parts?), does the system need to communicate with other parts of the company (e.g. ERP Systems, 3rd Party Equipment etc)?. Not only this but we must also understand if there are any requirements in terms of speed of operation, productivity rates etc.  Then of course the issue of functionality must be carefully documented e.g. the order of preparation in a chemicals manufacturing plant, in-flight considerations, PID control, Alarms, Interlocks and the HMI (Human Machine Interface).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reason 2: Purpose&lt;/strong&gt; - What helps enormously in replacing an existing system is the unambiguous purpose. Once we understand the purpose we begin to ask all sorts of questions we must be aware of and that may well have changed since the system was initially installed such as the Environment (does the system have to be IP66 rated or ATEX rated etc) are there safety issues to consider (e.g. manual operations where operators must be safe from any moving parts?), does the system need to communicate with other parts of the company (e.g. ERP Systems, 3rd Party Equipment etc)?. Not only this but we must also understand if there are any requirements in terms of speed of operation, productivity rates etc.  Then of course the issue of functionality must be carefully documented e.g. the order of preparation in a chemicals manufacturing plant, in-flight considerations, PID control, Alarms, Interlocks and the HMI (Human Machine Interface).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Reason 3: Cheapest Price Wins&lt;/strong&gt; - As the old saying goes ‘You get what you pay for’. In automation this is undoubtedly true and really companies should be very careful here to ensure that the system that they are getting will provide both the existing system functionality plus the new functionality required and according to current standards and regulations. Many suppliers play the game of providing a so called ‘fixed’ price for replacing an existing system only to result in a list of variations as long as your arm. To avoid this you should make sure that the existing operation is understood (getting back to Reason No 1). You can either do this yourself if you have the inhouse skills and resource or use an external control systems supplier that you can trust.&lt;/p&gt;
 
@@ -482,129 +505,4 @@ PLC-SCADA Total Cost of Ownership 	= 	£4,920,250&lt;br /&gt;
 
 &lt;p&gt;This doesn’t only apply to highly automated and integrated companies. How many machine suppliers now build a facility for remote access into their equipment? Who owns the data, taken from your plant, driving the web portal you use to monitor energy consumption? I could go on.&lt;/p&gt;
 
-&lt;p&gt;Treat the future vision presented by suppliers with healthy scepticism. Ensuring you fully understand the long-term implications of competing designs and approaches will ensure you don’t end up living someone else’s future.&lt;/p&gt;</content><author><name>Richard Banyard</name><email>richard.banyard@op-tec.co.uk</email></author><category term="latest" /><summary type="html">Automation vendors develop great products and services. They excel at leveraging the latest technological developments to solve the problems facing industries they work in. After creating a vision for the future, vendors put a lot of effort into communicating it to the market.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22thumb%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22feature%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash.jpg%22,%20%22credit%22=%3E%22Are%20you%20being%20pushed%20into%20someone%20else's%20future?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22thumb%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22feature%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash.jpg%22,%20%22credit%22=%3E%22Are%20you%20being%20pushed%20into%20someone%20else's%20future?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Avoid getting locked into a single automation vendor</title><link href="https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in" rel="alternate" type="text/html" title="Avoid getting locked into a single automation vendor" /><published>2021-07-13T00:00:00+01:00</published><updated>2021-07-13T00:00:00+01:00</updated><id>https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/how-to-avoid-vendor-lock-in">&lt;p&gt;If you represent a large multi-national company, and are looking to standardise on one automation vendor who will become a strategic partner, this article isn’t for you. With your scale you’ll have enough power over your chosen supplier to agree pricing structures, encourage development of new products, and ensure support for your equipment continues for as long as you need it.&lt;/p&gt;
-
-&lt;p&gt;For everyone else, particularly SMEs, the downsides of being reliant on a single supplier often outweigh the ups. Do any of these sound familiar: lack of bargaining power; no access to the latest innovations until they’re adopted by your supplier; feeling forced into product updates; excessive license costs to transfer data into other systems?&lt;/p&gt;
-
-&lt;p&gt;If so keep reading.&lt;/p&gt;
-
-&lt;p&gt;The established automation vendors have a wealth of industry experience and expertise, product portfolios which meet almost every need, and provide high-quality support throughout the lifecycle of their products. The flip side to this is their ability to lock customers into their ecosystems, securing future revenue.&lt;/p&gt;
-
-&lt;p&gt;So is it possible to benefit from the undoubtedly high quality products and services offered by the main vendors without getting locked-in? I believe so. Below is high-level guidance for how to do so, followed by more detailed considerations intended to help engineers with the practical implementation.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;guidance&quot;&gt;Guidance&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;1-own-your-digital-infrastructure&quot;&gt;1. Own your ‘digital infrastructure’&lt;/h3&gt;
-
-&lt;p&gt;This isn’t just your networks and computer systems, but the intellectual property built into software.&lt;/p&gt;
-
-&lt;p&gt;At the centre of any business which has digitally transformed is a datastore containing every data point and piece of information about the company’s operations. This isn’t unstructured data, a lot of effort will have gone into developing data structures which model physical assets. These ‘Digital Twins’ not only define the characteristics of individual pieces of equipment, but also how they communicate with one another and the human workforce.&lt;/p&gt;
-
-&lt;p&gt;Having ownership and control of this central datastore sounds like a no-brainer, it contains the inner workings of your business and a substantial amount of its IP after all. But you’d be surprised at how many companies let automation vendors design these data structures. In so doing, handing them control over how they operate now and into the future.&lt;/p&gt;
-
-&lt;h3 id=&quot;2-standardise-on-open-technology&quot;&gt;2. Standardise on ‘Open Technology’&lt;/h3&gt;
-
-&lt;p&gt;Wherever possible Open communication protocols should be used, between equipment provided by different suppliers and perhaps more importantly within systems and solutions. Do not accept arguments about proprietary technology being cheaper and more efficient. This may be the case during project execution, but will almost certainly not be over the equipment’s lifecycle.&lt;/p&gt;
-
-&lt;p&gt;Yes, you should standardise on certain protocols and technology to reduce costs associated with operation and maintenance. But an architecture built using well selected open technologies will ensure you always have a choice of supplier for any future maintenance, modification or migration work.&lt;/p&gt;
-
-&lt;h3 id=&quot;3-produce-accurate-and-comprehensive-user-requirement-specifications&quot;&gt;3. Produce accurate and comprehensive User Requirement Specifications&lt;/h3&gt;
-
-&lt;p&gt;Time invested in developing complete User Requirement Specification (URS) documents will rarely be wasted - only if you later decide not to proceed with the project. These are the vehicle for communicating your work to this point to your supply chain. Not only do accurate and comprehensive URSs make it easier to evaluate proposals, but also ensure your suppliers deliver according to your needs and not what’s easiest or most profitable for them.&lt;/p&gt;
-
-&lt;p&gt;URSs which identify and set out how your supplier’s scope of supply will contribute to your business’s objectives also make evaluated success on contribution to the business rather than simply ‘delivered to scope’ far easier and speeds up the rate at which your organisation learns lessons and improves.&lt;/p&gt;
-
-&lt;h3 id=&quot;4-align-your-procurement-strategy-to-your-objectives&quot;&gt;4. Align your procurement strategy to your objectives&lt;/h3&gt;
-
-&lt;p&gt;And not cost.&lt;/p&gt;
-
-&lt;p&gt;This can’t be emphasised enough. If cost was the only factor driving technology projects you’d evaluate every one against the cost of simply maintaining your current equipment. No, the benefits of technology projects need to be clearly identified and built into your procurement process.&lt;/p&gt;
-
-&lt;p&gt;It’s important to note, this doesn’t necessitate making crucial decisions on qualitative measures of success – business cases which put a monetary value on achieving strategic objectives are a powerful tool to prioritise and justify investment.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;implementation&quot;&gt;Implementation&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;1-own-your-digital-infrastructure-1&quot;&gt;1. Own your ‘digital infrastructure’&lt;/h3&gt;
-
-&lt;p&gt;Digital infrastructure, as we define it, can be broken into hardware and software components. To ensure your physical infrastructure is capable of supporting equipment from any vendor and future expansion and upgrade, you’ll need to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Create and maintain an up-to-date asset register which documents all ‘active’ devices and the connections between them and external systems&lt;/li&gt;
-  &lt;li&gt;Determine standards for connections at all levels of your system architecture, considering different requirements for resilience, bandwith and determinism&lt;/li&gt;
-  &lt;li&gt;Decide where your central datastore/unified namespace/single source of truth will or does reside&lt;/li&gt;
-  &lt;li&gt;Review your asset register identifying objects with similar characteristics&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;A strong relationship with your IT department is crucial to your success. They’re your gateway to delivering data to users via higher level company networks, and can support you with expertise and resources in areas such as networking, security and cloud computing.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The software component of your infrastructure is all about establishing standards you can impose on suppliers of automation, which define how your facility runs. This largely takes the form of data structures for communications between systems, and the digital twins which reside in your central datastore. Standards are required for:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Communications between equipment, systems and the human workforce&lt;/li&gt;
-  &lt;li&gt;Object types for tangible assets like shop floor equipment and fleet vehicles, as well as intangible assets like production batches and material deliveries&lt;/li&gt;
-  &lt;li&gt;All types of HMI&lt;/li&gt;
-  &lt;li&gt;Data structures for all databases and communication pathways&lt;/li&gt;
-  &lt;li&gt;Security models for managing access to data and information&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-standardise-on-open-technology-1&quot;&gt;2. Standardise on ‘Open Technology’&lt;/h3&gt;
-
-&lt;p&gt;Ideally all communications between your automation systems and system components should be via open protocols. In practice this isn’t always in your control, for example packaged equipment must be treated in many cases as a ‘black box’.&lt;/p&gt;
-
-&lt;p&gt;Consider how far down in your architecture you wish to specify the protocols in use. You may, for example, be willing to tolerate proprietary communciation between a PLC’s processor and input/output cards. In which case you’ll have to accept using equipment from the same manufacturer for any future upgrade or expansion of this device - unless complete replacement is acceptable.&lt;/p&gt;
-
-&lt;p&gt;Now review your facility in light of this decision:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Review existing systems, noting the protocols used to communciate within individual systems (between CPUs, I/O modules, HMIs, …), and across the entire facility (between PLCs, SCADA systems, smart devices, historians, reporting tools, …)&lt;/li&gt;
-  &lt;li&gt;Record this information in your asset register&lt;/li&gt;
-  &lt;li&gt;Create a list of the communication protocols in use across your site, noting which are proprietary and which open&lt;/li&gt;
-  &lt;li&gt;Determine the protocols you wish to standardise on for each type of communication path&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;3-produce-accurate-and-comprehensive-user-requirement-specifications-1&quot;&gt;3. Produce accurate and comprehensive User Requirement Specifications&lt;/h3&gt;
-
-&lt;p&gt;Centralising requirements for HMI design, communication protocols, HMI design, alarming, etc. will ensure technology you invest in is consistent in quality and will communciate with any other system you install in the future.&lt;/p&gt;
-
-&lt;p&gt;You’ll need to create a URS, however brief, to define every project you undertake. However this will become easier as you build a core library of standards detailing your expectations and requirements for suppliers.&lt;/p&gt;
-
-&lt;p&gt;How many specification documents you need, and the level of detail they go into, depends on many factors. These include: the scale and complexity of your operations, the currentl level of automation, in-house skills and expertise, and existing relationships with suppliers. If you are early in this process prioritise according to where your company will see the greatest gains. Below is a list of questions to get you thinking:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How much do you anticipate spending on automation in the coming years?&lt;/li&gt;
-  &lt;li&gt;What impact has an over-reliance on certain suppliers had on your business to this point?&lt;/li&gt;
-  &lt;li&gt;Do you have skills and expertise in-house?&lt;/li&gt;
-  &lt;li&gt;Can you allocate sufficient resource to this, not just now, but in the future?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;4-align-your-procurement-strategy-to-your-objectives-1&quot;&gt;4. Align your procurement strategy to your objectives&lt;/h3&gt;
-
-&lt;p&gt;Investments in automation should be treated by the business as strategic, as those into CRM or ERP systems. Not all automation solutions are the same, and companies will have to live with the costs of selecting the wrong technology for decades. Particularly if they allow suppliers to deliver to their own specifications.&lt;/p&gt;
-
-&lt;p&gt;Those responsible for procuring automation, should be educated in these consequences along with the potential upsides of putting in digital technology which will drive performance increases across the organisation. Buyers must be incentivised to provide the technology which will best deliver on the company’s strategic objectives.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;Incorporate learning back into your specification documents and guidance to buyers. Sometimes the true cost of a particular technology is only revealed once the equipment is in production, or even when the time comes to replace it. The main vendors are very adept at concealing the costs of maintaining, upgrading and modifying their systems so every effort should be made to anticipate this in your URS documentation.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Systems should be supplied with any functionality and license costs included, which allow connection via open protocols. This is particularly important for users of distributed control systems (DCS), where 5 figure sums are not uncommon for the equipment and licenses needed to allow data to be retrieved from systems via OPC an extremely common industrial ethernet-based protocol. Include the additional costs suppliers apply to such functionality in any comparisons you make between solutions.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Putting the processes and procedures in place to ensure you correctly specify automation projects to avoid being locked into a suppliers’ ecosystem is not free. It may put more pressure on your existing engineering team, or even require you to recruit or contract the necessary expertise.&lt;/p&gt;
-
-&lt;p&gt;Whether this expense is worth it will depend on your situation. By ‘commoditising’ the components of your automation systems you’ll have much greater control over the technology available and what you pay for it.&lt;/p&gt;</content><author><name>Richard Banyard</name><email>richard.banyard@op-tec.co.uk</email></author><category term="knowledge" /><category term="chemicals" /><category term="food&amp;drink" /><category term="power" /><summary type="html">If you represent a large multi-national company, and are looking to standardise on one automation vendor who will become a strategic partner, this article isn’t for you. With your scale you’ll have enough power over your chosen supplier to agree pricing structures, encourage development of new products, and ensure support for your equipment continues for as long as you need it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22hasan-almasi-aIRBGPafi74-unsplash-thumb.jpg%22,%20%22thumb%22=%3E%22hasan-almasi-aIRBGPafi74-unsplash-thumb.jpg%22,%20%22feature%22=%3E%22hasan-almasi-aIRBGPafi74-unsplash.jpg%22,%20%22credit%22=%3E%22Is%20a%20single%20vendor%20system%20based%20on%20open%20technology%20possible?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22hasan-almasi-aIRBGPafi74-unsplash-thumb.jpg%22,%20%22thumb%22=%3E%22hasan-almasi-aIRBGPafi74-unsplash-thumb.jpg%22,%20%22feature%22=%3E%22hasan-almasi-aIRBGPafi74-unsplash.jpg%22,%20%22credit%22=%3E%22Is%20a%20single%20vendor%20system%20based%20on%20open%20technology%20possible?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Treat the future vision presented by suppliers with healthy scepticism. Ensuring you fully understand the long-term implications of competing designs and approaches will ensure you don’t end up living someone else’s future.&lt;/p&gt;</content><author><name>Richard Banyard</name><email>richard.banyard@op-tec.co.uk</email></author><category term="latest" /><summary type="html">Automation vendors develop great products and services. They excel at leveraging the latest technological developments to solve the problems facing industries they work in. After creating a vision for the future, vendors put a lot of effort into communicating it to the market.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22thumb%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22feature%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash.jpg%22,%20%22credit%22=%3E%22Are%20you%20being%20pushed%20into%20someone%20else's%20future?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22thumb%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash_small.jpg%22,%20%22feature%22=%3E%22artyom-kim-uydt8hNz3hE-unsplash.jpg%22,%20%22credit%22=%3E%22Are%20you%20being%20pushed%20into%20someone%20else's%20future?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
