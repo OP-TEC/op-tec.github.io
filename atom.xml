@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://op-tec.co.uk/atom.xml" rel="self" type="application/atom+xml" /><link href="https://op-tec.co.uk/" rel="alternate" type="text/html" /><updated>2022-05-31T15:32:53+01:00</updated><id>https://op-tec.co.uk/atom.xml</id><title type="html">Op-tec Systems</title><subtitle>Independent automation consultant</subtitle><entry><title type="html">Process Historians</title><link href="https://op-tec.co.uk/knowledge/process-historians" rel="alternate" type="text/html" title="Process Historians" /><published>2022-05-27T00:00:00+01:00</published><updated>2022-05-27T00:00:00+01:00</updated><id>https://op-tec.co.uk/knowledge/process-historians</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/process-historians">&lt;p&gt;Process historians have been used for decades in automated industries to keep a historical record of process conditions.They collect, organise and store time-series data, providing an archive of plant status through time. Then make this available either through a variety of visualisation tools such as dashboards, reports and interactive displays, or by allowing third party software access to the data they hold.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://op-tec.co.uk/atom.xml" rel="self" type="application/atom+xml" /><link href="https://op-tec.co.uk/" rel="alternate" type="text/html" /><updated>2022-06-13T20:01:07+01:00</updated><id>https://op-tec.co.uk/atom.xml</id><title type="html">Op-tec Systems</title><subtitle>Independent automation consultant</subtitle><entry><title type="html">Who owns your automation software?</title><link href="https://op-tec.co.uk/latest/who-owns-your-automation-software" rel="alternate" type="text/html" title="Who owns your automation software?" /><published>2022-06-13T00:00:00+01:00</published><updated>2022-06-13T00:00:00+01:00</updated><id>https://op-tec.co.uk/latest/who-owns-your-automation-software</id><content type="html" xml:base="https://op-tec.co.uk/latest/who-owns-your-automation-software">&lt;p&gt;The ‘rent or buy’ concept is not a new one. It’s the difference between buying software on a perpetual or subscription basis:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Perpetual license&lt;/strong&gt; - Pay once, to use the software for as long as you wish. Ongoing updates and support will be an ‘optional extra’ or provided for a limited time from the date of purchase.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Subscription license&lt;/strong&gt; - Regularly pay a recurring fee for access to the software. Product updates and support costs are bundled into the subscription.&lt;/p&gt;
+
+&lt;p&gt;Despite a wider trend towards subscription and ‘Software as a Service’ (SaaS) products; when you buy industrial automation software you can still choose the licensing model which best suits your needs. Where you may get less choice however, is whether you actually own the software which runs your plant at all…&lt;/p&gt;
+
+&lt;p&gt;In this post I want to highlight several characteristics of automation software which everyone who buys it needs to be aware of. Buying automation software without this understanding can turn out to be an expensive mistake. One that’s easy to make, and even large blue-chip companies get it wrong.&lt;/p&gt;
+
+&lt;p&gt;Hopefully this equips you to ask the right questions when engaging automation suppliers. Helping you buy &lt;a href=&quot;/latest/open-technology&quot;&gt;open technology&lt;/a&gt; and &lt;strong&gt;putting you in control&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;automation-software&quot;&gt;Automation software&lt;/h4&gt;
+
+&lt;p&gt;First it’s important to understand the components of automation software, as the language used by vendors isn’t always clear. Broadly industrial automation software can be categoriesd in two ways:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;System&lt;/strong&gt; - The ‘system’ is the software package created by (typically) a large automation manufacturer. It’s the software environment your vendor uses to configure the equipment they are supplying so it operates your plant correctly. The ‘system’ can be likened to your computers’ operating system, except in most cases it’s tied to the hardware being used so is more like macOS than Windows or Linux. For example, you must use a Siemens &lt;a href=&quot;https://new.siemens.com/global/en/products/automation/industry-software/automation-software/tia-portal.html&quot;&gt;TIA Portal&lt;/a&gt; or &lt;a href=&quot;https://new.siemens.com/global/en/products/automation/industry-software/automation-software/tia-portal/software/step7-tia-portal.html[&quot;&gt;STEP 7&lt;/a&gt; system to configure a Siemens PLC; likewise Rockwell’s &lt;a href=&quot;https://www.rockwellautomation.com/en-gb/products/software/factorytalk/designsuite/studio-5000.html&quot;&gt;Studio 5000&lt;/a&gt; or &lt;a href=&quot;https://www.rockwellautomation.com/en-gb/capabilities/industrial-automation-control/design-and-configuration-software.html&quot;&gt;Connected Components Workbench&lt;/a&gt; is needed to configure it’s Allen-Bradley PLCs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Configuration&lt;/strong&gt; - Using the ‘system’ your vendor will create a Project containing the software configuration used for programming the automation equipment to control your plant and machinery. The ‘configuration’ is the source code discussed below, and can also be referred to as the application, logic, project or config.&lt;/p&gt;
+
+&lt;p&gt;With this distinction clear, read on to learn about the methods automation vendors use to keep ownership of software in order to secure the loyalty of their customers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;what-have-you-bought&quot;&gt;What have you bought?&lt;/h4&gt;
+
+&lt;p&gt;We recently received an enquiry from one of our clients - a multinational, publicly listed enterprise. Several of their sites had used a systems integrator to upgrade their &lt;a href=&quot;/knowledge/process-historians&quot;&gt;process historians&lt;/a&gt;. The contracts looked good value at the time, pricing was competitve and included a comprehensive support agreement.&lt;/p&gt;
+
+&lt;p&gt;A few years on, things looked a little different. The process historians were not being backed up or maintained. On looking into changing suppliers our client discovered system software licenses they thought were purchased in their name had in fact been leased to them by the systems integrator. Meaning the cost of changing to another supplier, even the software manufacturer, would include paying for the software again.&lt;/p&gt;
+
+&lt;p&gt;The enquiry? Could we help upgrade the process historians, and move them onto new licenses they’d purchased to exit the supplier relationship.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When buying control systems with a software component ensure your automation vendor buys the software in your name, not theirs. This does not prevent the vendor from providing you with support, but ensures the software manufacturer has your details on file as the end-user.&lt;/p&gt;
+
+  &lt;p&gt;Regardless of whether you change vendors in the future, or decide to ‘self-maintain’, you retain ownership of the software and access to manufacturer support.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;wheres-the-source-code&quot;&gt;Where’s the source code?&lt;/h4&gt;
+
+&lt;p&gt;More common when buying a pre-built machine, but not unknown in distributed control systems, is the practice of vendors keeping ownership of &lt;a href=&quot;/knowledge/using-programmable-logic-controllers&quot;&gt;PLC&lt;/a&gt; ‘source code’. This is the program which tells a machine’s embedded controller how to operate the equipment and communicate with other systems.&lt;/p&gt;
+
+&lt;p&gt;In the case of machinery, the manufacturer has invested significantly in developing their product and likely doesn’t want their know-how falling into the wrong hands. Also, their business is better equipped than others to provide follow on service and support.&lt;/p&gt;
+
+&lt;p&gt;Longer-term this situation can hurt end-users, when:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The original equipment manaufacturer (OEM) decides to withdraw support for the product line&lt;/li&gt;
+  &lt;li&gt;Over time the OEM loses the experts who originally designed and manufactured the machine&lt;/li&gt;
+  &lt;li&gt;OEM goes out of business, or otherwise, can’t meet its obligations&lt;/li&gt;
+  &lt;li&gt;Control of source code is used to prevent the end-user going elsewhere for related systems&lt;/li&gt;
+  &lt;li&gt;The PLC within the machine fails, and they are reliant on the OEM to fix it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For process control systems, where PLC software has been written specifically for the end-user in line with their requirements, there’s no justification for withholding access to source code. If IP must be protected this can be done to specific code blocks (see below), rather than the entire configuration and holding the end user to ransom.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ensure you have a copy of the source code for every PLC you own.&lt;/p&gt;
+
+  &lt;p&gt;Do not accept arguments your supplier may give about protecting their IP. If they need to protect know-how this can be done as described below while allowing you to have a copy for disaster recovery.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;ip-protected-software&quot;&gt;IP-protected software&lt;/h4&gt;
+
+&lt;p&gt;A feature of almost all the systems used to configure PLCs have is the ability to password protect the software components. This feature is often referred to as IP or know-how protection and allows automation vendors to protect software they develop from being copied or used without their knowledge. Vendors often develop clever solutions to industry specific problems or applications, investing time which they may only be able to recover by selling the resulting product more than once.&lt;/p&gt;
+
+&lt;p&gt;However this feature can also be used to completely remove the ability of end-users to view and modify the software they’ve paid to develop and are reliant on to run their plant. Meaning the original supplier must be used for all future support, modifications and updates&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ask whether any of the configuration developed for your project will be IP-protected, and for documentation which describes what this does to allow future modifications, additions or upgrades of the software.&lt;/p&gt;
+
+  &lt;p&gt;If a software configuration is developed against detailed requirements you’ve supplied it’s your IP, not your suppliers. They may implement specific code blocks they own to increase project efficiency and quality but how the plant works and should be controlled is your company’s know-how.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;</content><author><name>Richard Banyard</name><email>richard.banyard@op-tec.co.uk</email></author><category term="latest" /><category term="software" /><category term="food&amp;drink" /><category term="textiles" /><category term="power" /><category term="chemicals" /><summary type="html">The ‘rent or buy’ concept is not a new one. It’s the difference between buying software on a perpetual or subscription basis:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22filip-szalbot-PxiAc1aElFQ-unsplash-thumbnail.jpg%22,%20%22thumb%22=%3E%22filip-szalbot-PxiAc1aElFQ-unsplash-thumbnail.jpg%22,%20%22feature%22=%3E%22filip-szalbot-PxiAc1aElFQ-unsplash.jpg%22,%20%22credit%22=%3E%22Who%20holds%20the%20keys%20to%20your%20systems?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22filip-szalbot-PxiAc1aElFQ-unsplash-thumbnail.jpg%22,%20%22thumb%22=%3E%22filip-szalbot-PxiAc1aElFQ-unsplash-thumbnail.jpg%22,%20%22feature%22=%3E%22filip-szalbot-PxiAc1aElFQ-unsplash.jpg%22,%20%22credit%22=%3E%22Who%20holds%20the%20keys%20to%20your%20systems?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Process Historians</title><link href="https://op-tec.co.uk/knowledge/process-historians" rel="alternate" type="text/html" title="Process Historians" /><published>2022-05-27T00:00:00+01:00</published><updated>2022-05-27T00:00:00+01:00</updated><id>https://op-tec.co.uk/knowledge/process-historians</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/process-historians">&lt;p&gt;Process historians have been used for decades in automated industries to keep a historical record of process conditions.They collect, organise and store time-series data, providing an archive of plant status through time. Then make this available either through a variety of visualisation tools such as dashboards, reports and interactive displays, or by allowing third party software access to the data they hold.&lt;/p&gt;
 
 &lt;p&gt;Originally used by operational personal to optimise production, and maintenance teams to analyse then predict equipment failures. Increasingly process historians are integrated into business systems giving data analysts operational and commercial information. This makes process historians a core component of digital transformation as companies move towards data-driven decision making and automation of business processes.&lt;/p&gt;
 
@@ -243,38 +323,4 @@
 }},
 {&quot;@type&quot;: &quot;Question&quot;,&quot;name&quot;: &quot;Is there a simple explanation for Computer System Validation?&quot;,&quot;acceptedAnswer&quot;: {&quot;@type&quot;: &quot;Answer&quot;,&quot;text&quot;: &quot;Computer System Validation can be thought of in 3 stages: 1) Say what you are going to do - specify and document your requirements and how they will be met. 2) Do what you said you would do - develop and build the system according to the specifications you have written. 3) Prove you did what you said you would do - test the system according to the specifications you have written.&quot;
 }}]
-}&lt;/script&gt;</content><author><name>Roger Halliwell</name><email>roger.halliwell@op-tec.co.uk</email></author><category term="knowledge" /><category term="pharmaceuticals" /><summary type="html">It’s quite a while now since I was first involved with Computer System Validation (CSV). It was around 1994 if I recall correctly and it was during a large project for AstraZeneca that I cut my teeth on the computer system lifecycle approach to all things regulated.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22pexels-pixabay-357514-small.jpg%22,%20%22thumb%22=%3E%22pexels-pixabay-357514-small.jpg%22,%20%22feature%22=%3E%22pexels-pixabay-357514.jpg%22,%20%22credit%22=%3E%22Computer%20System%20Validation%20creates%20documentation...%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22pexels-pixabay-357514-small.jpg%22,%20%22thumb%22=%3E%22pexels-pixabay-357514-small.jpg%22,%20%22feature%22=%3E%22pexels-pixabay-357514.jpg%22,%20%22credit%22=%3E%22Computer%20System%20Validation%20creates%20documentation...%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Is your DMZ a no man’s land?</title><link href="https://op-tec.co.uk/latest/is-your-DMZ-a-no-mans-land" rel="alternate" type="text/html" title="Is your DMZ a no man’s land?" /><published>2021-12-14T00:00:00+00:00</published><updated>2021-12-14T00:00:00+00:00</updated><id>https://op-tec.co.uk/latest/is-your-DMZ-a-no-mans-land</id><content type="html" xml:base="https://op-tec.co.uk/latest/is-your-DMZ-a-no-mans-land">&lt;p&gt;Organisations continue to digitise. Whether intentionally via planned projects with dedicated budgets and resources, or unintentionally as suppliers embed remote monitoring into equipment and encourage migration to cloud-based software.&lt;/p&gt;
-
-&lt;p&gt;At the same time industrial automation (Operational Technology, OT) is making more use of the same open protocols used by Information Technology (IT). Pressures to improve efficiency mean organisations are increasingly integrating OT and IT systems to streamline processes and automate menial tasks.&lt;/p&gt;
-
-&lt;p&gt;These trends mean there’s more crossover than ever between IT and OT, leading to more interaction between the teams responsible for each. The relationship between these teams can often be gauged by how they use the &lt;a href=&quot;https://en.wikipedia.org/wiki/DMZ_(computing)&quot;&gt;demilitarised zone&lt;/a&gt; (DMZ).&lt;/p&gt;
-
-&lt;p&gt;If the DMZ(s) in your organisation is treated as &lt;a href=&quot;https://en.wikipedia.org/wiki/No_man%27s_land&quot;&gt;no man’s land&lt;/a&gt; by the IT and OT departments, a huge opportunity to increase the rate and quality of innovation and process improvement is being missed.&lt;/p&gt;
-
-&lt;p&gt;You’ll know this is happening if people tend to avoid communicating with the other ‘side’ when working in this network. They avoid it altogether. Or don’t take responsibility of the outcome when they do.&lt;/p&gt;
-
-&lt;p&gt;The reasons friction can exist between IT and OT teams are well-documented and vary between organisations. The most common retort from people in OT is that IT personnel don’t appreciate the importance of planning system updates and changes, they don’t feel pain when systems go offline (planned or unplanned). People in IT have the opposite perspective, operational teams seem oblivious to security risks and the need to keep systems up to date so they can communicate securely with other parts of the organisation.&lt;/p&gt;
-
-&lt;p&gt;Instead of dividing people, use the DMZ to bridge the gap between them. Encourage experimentation to generate ideas for how the organisation can make use of its data. Rather than a little used buffer between networks, make the DMZ the location for proof of concepts, pilot projects and collaboration activities between business and operational teams.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Some ideas to get you started:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Set ground rules&lt;/strong&gt;. The DMZ is not a &lt;a href=&quot;https://en.wikipedia.org/wiki/Sandbox_(software_development)&quot;&gt;sandbox&lt;/a&gt;, it’s likely the only connection between your operational and business systems. Put measures in place to ensure production data moving through your DMZ can’t be impacted by trials.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Have clearly defined projects&lt;/strong&gt;. Ensure there is a single person responsible and accountable for every project. Then that all activity takes place within a defined project.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Require, rather than expect collaboration&lt;/strong&gt;. Any work done in the DMZ - whether it’s replacing a patch lead or deploying a new process historian - should be done with the knowledge and preferably involvement of individuals from both OT and IT teams.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Log and record everything&lt;/strong&gt;. So you don’t lose out on any learning, and can explain why things work (or don’t).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Maintain good cyber security hygiene&lt;/strong&gt;. Remember the DMZ’s main purpose is to secure your OT networks. Segregate production and non-production data. Only read data from your operational systems (you’ll likely have firewalls configured to do this already). Ensure you keep track of all assets connected to the network.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;So if your DMZ resembles the image at the top of this article, think about taking down the razor wire and clearing the mines. Companies who master integration of their operational and business systems stand a far greater chance of remaining competitive in their markets.&lt;/p&gt;
-
-&lt;p&gt;Create an environment where it raises a flag if someone mutters, “IT must have installed an update”, or “OT have plugged in another XP machine…” and make the most of this valuable resource sitting in clear view.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/ITandOT_DMZ.jpg&quot; alt=&quot;Simplified DMZ Architecture&quot; /&gt;&lt;/p&gt;</content><author><name>Richard Banyard</name><email>richard.banyard@op-tec.co.uk</email></author><category term="latest" /><category term="chemicals" /><category term="power" /><category term="oil&amp;gas" /><summary type="html">Organisations continue to digitise. Whether intentionally via planned projects with dedicated budgets and resources, or unintentionally as suppliers embed remote monitoring into equipment and encourage migration to cloud-based software.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22picfair-06597943-no-mans-land-famagusta-cyprus-thumbnail.jpg%22,%20%22thumb%22=%3E%22picfair-06597943-no-mans-land-famagusta-cyprus-thumbnail.jpg%22,%20%22feature%22=%3E%22picfair-06597943-no-mans-land-famagusta-cyprus-licensed.jpg%22,%20%22credit%22=%3E%22Is%20this%20how%20your%20people%20treat%20the%20DMZ?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22picfair-06597943-no-mans-land-famagusta-cyprus-thumbnail.jpg%22,%20%22thumb%22=%3E%22picfair-06597943-no-mans-land-famagusta-cyprus-thumbnail.jpg%22,%20%22feature%22=%3E%22picfair-06597943-no-mans-land-famagusta-cyprus-licensed.jpg%22,%20%22credit%22=%3E%22Is%20this%20how%20your%20people%20treat%20the%20DMZ?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+}&lt;/script&gt;</content><author><name>Roger Halliwell</name><email>roger.halliwell@op-tec.co.uk</email></author><category term="knowledge" /><category term="pharmaceuticals" /><summary type="html">It’s quite a while now since I was first involved with Computer System Validation (CSV). It was around 1994 if I recall correctly and it was during a large project for AstraZeneca that I cut my teeth on the computer system lifecycle approach to all things regulated.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22pexels-pixabay-357514-small.jpg%22,%20%22thumb%22=%3E%22pexels-pixabay-357514-small.jpg%22,%20%22feature%22=%3E%22pexels-pixabay-357514.jpg%22,%20%22credit%22=%3E%22Computer%20System%20Validation%20creates%20documentation...%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22pexels-pixabay-357514-small.jpg%22,%20%22thumb%22=%3E%22pexels-pixabay-357514-small.jpg%22,%20%22feature%22=%3E%22pexels-pixabay-357514.jpg%22,%20%22credit%22=%3E%22Computer%20System%20Validation%20creates%20documentation...%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
