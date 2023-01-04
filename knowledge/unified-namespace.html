@@ -2,32 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Process Historians • Op-tec Systems</title>
-    <meta name="description" content="Using process historians">
+    <title>Unified Namespace • Op-tec Systems</title>
+    <meta name="description" content="The unified namespace explained">
     
     <meta name="keywords" content="tech-note, food&drink, textiles, power, chemicals">
     
     	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Process Historians">
-	<meta name="twitter:description" content="Using process historians">
+	<meta name="twitter:title" content="Unified Namespace">
+	<meta name="twitter:description" content="The unified namespace explained">
 	
 	
 	<meta name="twitter:creator" content="@https://twitter.com/richard_banyard">
 	
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="https://op-tec.co.uk/images/pexels-panumas-nikhomkhai-1148820.jpg">
+	<meta name="twitter:image" content="https://op-tec.co.uk/images/clint-mckoy-9oYHSMxt7tg-unsplash.jpg">
 	
 	<!-- Open Graph -->
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Process Historians">
-	<meta property="og:image" content="https://op-tec.co.uk/images/bandwidth-close-up-computer-1148820.jpg">
-	<meta name="og:description" content="Using process historians">
+	<meta property="og:title" content="Unified Namespace">
+	<meta property="og:image" content="https://op-tec.co.uk/images/clint-mckoy-9oYHSMxt7tg-unsplash-thumb.jpg">
+	<meta name="og:description" content="The unified namespace explained">
 	
-	<meta property="og:url" content="https://op-tec.co.uk/knowledge/process-historians">
+	<meta property="og:url" content="https://op-tec.co.uk/knowledge/unified-namespace">
 	<meta property="og:site_name" content="Op-tec Systems">
 
-    <link rel="canonical" href="https://op-tec.co.uk/knowledge/process-historians">
+    <link rel="canonical" href="https://op-tec.co.uk/knowledge/unified-namespace">
 
     <link href="https://op-tec.co.uk/atom.xml" type="application/atom+xml" rel="alternate" title="Op-tec Systems Atom Feed">
     <link href="https://op-tec.co.uk/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -158,40 +158,42 @@
 		
 		<div class="page-feature">
 			<div class="page-image">
-				<img src="https://op-tec.co.uk/images/pexels-panumas-nikhomkhai-1148820.jpg" class="page-feature-image" alt="Process Historians" itemprop="image">
-				<div class="image-credit"><a href="" itemprop="citation">Core to your digitisation strategy</a></div><!-- /.image-credit -->
+				<img src="https://op-tec.co.uk/images/clint-mckoy-9oYHSMxt7tg-unsplash.jpg" class="page-feature-image" alt="Unified Namespace" itemprop="image">
+				<div class="image-credit"><a href="" itemprop="citation">Have you moved to hub and spoke?</a></div><!-- /.image-credit -->
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
 		
-		<div style="text-align: right"><small><br><a style="text-decoration:none; border-bottom: 1px dotted #a2a2a2;" href="https://op-tec.co.uk/downloads/Using_Process_Historians.pdf" target="_blank">Download <i class="fas fa-arrow-down" aria-hidden="true"></i></a></small></div>
+		<div style="text-align: right"><small><br><a style="text-decoration:none; border-bottom: 1px dotted #a2a2a2;" href="https://op-tec.co.uk/downloads/Unified_Namespace.pdf" target="_blank">Download <i class="fas fa-arrow-down" aria-hidden="true"></i></a></small></div>
 		<div class="page-title">
-			<h1>Process Historians</h1>
+			<h1>Unified Namespace</h1>
 		</div>
 		<div class="inner-wrap" style="width: auto;">
 			<div id="content" class="page-content" itemprop="articleBody">
-				<p>Process historians have been used for decades in automated industries to keep a historical record of process conditions.They collect, organise and store time-series data, providing an archive of plant status through time. Then make this available either through a variety of visualisation tools such as dashboards, reports and interactive displays, or by allowing third party software access to the data they hold.</p>
-
-<p>Originally used by operational personal to optimise production, and maintenance teams to analyse then predict equipment failures. Increasingly process historians are integrated into business systems giving data analysts operational and commercial information. This makes process historians a core component of digital transformation as companies move towards data-driven decision making and automation of business processes.</p>
+				<p>A unified namespace is intended to be the ‘single source of truth’ for an organisation’s production data and is a key component of network architectures which make the most of the Industry 4.0 concept. Manufacturers who implement a unified namespace build networks in a hub and spoke layout providing all major systems a direct link to the unified namespace.</p>
 
 <h4 id="key-technologies">Key Technologies</h4>
 
-<p>Most process historians make use of proprietary database technology. Performance, security and resilience are typically the reasons given. In practice this is fine as they provide connectivity via commonly used open protocols, for communicating to both plant-level operational equipment and business systems.</p>
+<p>The unified namespace, or central repository, is the hub of an organisation’s networks. It features details of every data point in the organisation and all information passses through it. Software providing this service is commonly referred to as a ‘data broker’.</p>
 
-<p>To collect data from plant-level Operational Technology (OT) process historians make use of open industrialised protocols like OPC and MQTT, as well as being compatible with proprietary communications utilised by specialised or legacy systems.</p>
+<p><img src="/images/unified-namespace.png" alt="Network overview - unified namespace" /></p>
 
-<p>Process information is made available to Information Technology (IT) via application programming interfaces, accessed using methods such as SQL, OData and ODBC.</p>
+<p>Network architectures which utilise a unified namespace don’t conform to the traditional Purdue Enterprise Reference Architecture, the standard model for company networks since the 1990’s.</p>
+
+<p>The success of this approach relies on lighteight ‘report by exception’ communication protocols (e.g. MQTT). This ensures the data broker(s) which making up the unified namespace can handle the huge amount of data flowing through them and minimises loading on ‘satellite’ systems.</p>
 
 <h4 id="benefits">Benefits</h4>
 
-<p><strong>Electronic records for regulatory compliance</strong> – Digital records reduce stationary, storage and retrival costs, increase staff efficiency and speed up responsiveness to information requests and audits.</p>
+<p><strong>Reduced system and network complexity</strong> – Maximum of 2 connections between any two systems.</p>
 
-<p><strong>Gateway between OT and IT networks</strong>  – Located between operational and information networks process historians ensure the business has constant access to plant information without exposing more vulnerable industrial equipment to the security risks associated with systems connected to the internet.</p>
+<p><strong>Scalable architecture which supports digitalisation</strong>  – Minimises cost of future modification, expansion or integration. Reduces cost of experimentation, proof of concepts and improvements projects.</p>
 
-<p><strong>Enterprise-wide data architecture</strong> – Local process historians can report data to a central system giving HQ the information needed to make decisions while reducing the reporting overhead across the organisation.</p>
+<p><strong>Lower integration costs</strong> – Addition of new systems or data points simplied with changes only required to a single connection.</p>
 
-<p><strong>Enable proactive and predictive maintenance</strong> – Knowledge of the conditions which led to an undesirable process event mean these can be predicted, even avoided, in future. Monitor for similar situations then alert personnel or take automatic preventative action.</p>
+<p><strong>Supports OT/IT convergence</strong> – Having a centralised and shared resource necessitates teams responsible for operational and information technology to work effectively together.</p>
 
-<p><strong>Discovery and replication of best practice</strong> – Conversely, desirable conditions can be discovered then replicated.</p>
+<p><strong>Removes need for system knowledge</strong> – Object-orientated/contextualised approach allows creation of digital twins. Enables people with little or even no knowledge of operational technology will be able to navigate and use data from the UNS.</p>
+
+<p><strong>Standard presentation for data from different providers</strong> – Plant or equipment with the same functions from different suppliers can be presented in a uniform and consistent manner.</p>
 
 <hr />
 
@@ -201,7 +203,7 @@
 
 				<br>
 				<div class="page-meta">
-	<p>Published: <time datetime="2022-05-27T00:00:00Z" itemprop="datePublished">27 May 2022</time></p>
+	<p>Published: <time datetime="2023-01-04T00:00:00Z" itemprop="datePublished">04 January 2023</time></p>
 </div><!-- /.page-meta -->
 				<hr />
 				<footer class="page-footer">
