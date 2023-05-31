@@ -1,4 +1,0 @@
-version: STSv1
-mode: testing
-mx: 0 optec-co-uk0e.mail.protection.outlook.com
-max_age: 86401
