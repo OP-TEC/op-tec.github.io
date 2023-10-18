@@ -1,4 +1,323 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://op-tec.co.uk/atom.xml" rel="self" type="application/atom+xml" /><link href="https://op-tec.co.uk/" rel="alternate" type="text/html" /><updated>2023-10-14T16:33:10+01:00</updated><id>https://op-tec.co.uk/atom.xml</id><title type="html">Op-tec Systems</title><subtitle>Independent automation consultant</subtitle><entry><title type="html">Towards absolute reliability</title><link href="https://op-tec.co.uk/knowledge/towards-absolute-reliability" rel="alternate" type="text/html" title="Towards absolute reliability" /><published>2023-10-11T00:00:00+01:00</published><updated>2023-10-11T00:00:00+01:00</updated><id>https://op-tec.co.uk/knowledge/towards-absolute-reliability</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/towards-absolute-reliability">&lt;p&gt;Whatever the sector, the industry, the process, the machine, the component, things will go wrong. Component failures cause machine downtime, processes get interrupted, an entire industry may be affected by the same root cause, bringing similar problems across a whole sector.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://op-tec.co.uk/atom.xml" rel="self" type="application/atom+xml" /><link href="https://op-tec.co.uk/" rel="alternate" type="text/html" /><updated>2023-10-18T19:45:15+01:00</updated><id>https://op-tec.co.uk/atom.xml</id><title type="html">Op-tec Systems</title><subtitle>Independent automation consultant</subtitle><entry><title type="html">Control System Validation Explained</title><link href="https://op-tec.co.uk/knowledge/control-system-validation-explained" rel="alternate" type="text/html" title="Control System Validation Explained" /><published>2023-10-18T00:00:00+01:00</published><updated>2023-10-18T00:00:00+01:00</updated><id>https://op-tec.co.uk/knowledge/control-system-validation-explained</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/control-system-validation-explained">&lt;p&gt;As companies continue adopting technology to increase efficiency and automate complex operational processes, external factors exert pressure on capital and operational budgets. External factors squeeze profit margins, making operational excellence more vital than ever. This paper will explore the role of control system validation in ensuring automation technology delivers improvements in efficiency, reliability, and the cost of ownership.&lt;/p&gt;
+
+&lt;p&gt;If your business uses industrial automation technology, you’ll benefit from adopting system validation processes. A comprehensive understanding of control systems validation is crucial to any engineer working on projects to implement this technology. For leaders and managers, knowledge of this process will enable you to maximise the value automation projects bring to your business.&lt;/p&gt;
+
+&lt;p&gt;System validation requires investment, so businesses confront common pitfalls. Among these hazards are delayed validation, inadequate inclusion of stakeholders, and poor planning. Such blunders can lead to systems failing to meet user requirements, subpar performance, and unanticipated operational hazards. This whitepaper equips readers with the skills necessary to navigate these obstacles effectively. It teaches them to construct a robust validation strategy, align stakeholders, and orchestrate adequate verification and validation processes. By understanding the nuances of automation system validation, readers can optimise system performance, reduce risks, and increase stakeholder confidence.&lt;/p&gt;
+
+&lt;p&gt;Adopting the suggested insights presented here will leave you better equipped to navigate the complex landscape of automation system validation, thereby assuring the success and resilience of your business operations in an increasingly automated world.&lt;/p&gt;
+
+&lt;h4 id=&quot;key-takeaways&quot;&gt;Key Takeaways&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Role of system validation in enhancing dependability, productivity, and safety&lt;/li&gt;
+  &lt;li&gt;Difference between validation and verification&lt;/li&gt;
+  &lt;li&gt;How stakeholder engagement ensures system validation aligns with user requirements&lt;/li&gt;
+  &lt;li&gt;Avoiding common pitfalls, such as delayed initiation and exclusion of key stakeholders&lt;/li&gt;
+  &lt;li&gt;Best practices for system testing, documentation, and ongoing maintenance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Businesses rely increasingly on control and automation technology. As system complexity grows, ensuring technology does everything we intended and is performing as required becomes crucial. So does our ability to understand how and why equipment functions the way it does, allowing us to maintain, modify and improve it as requirements change.&lt;/p&gt;
+
+&lt;p&gt;System validation is the process of documenting and testing technology, to make sure it operates as intended in terms of functionality and performance. The documentation generated allows the system to deliver maximum value to users who know what it is capable of. Inadequate validation can lead to various issues, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deviation from user-specific requirements&lt;/li&gt;
+  &lt;li&gt;Suboptimal system performance&lt;/li&gt;
+  &lt;li&gt;Reduced system reliability&lt;/li&gt;
+  &lt;li&gt;Compromised safety and security&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this paper we will explain the significance of validation. In highlighting common mistakes companies make and pointing to best practice hopefully you’ll finish reading inspired and equipped to validate control systems.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-is-validation&quot;&gt;What is Validation?&lt;/h2&gt;
+
+&lt;p&gt;Validation is a systematic process which – if followed – guarantees a system’s adherence to requirements and intended performance. It methodically documents user requirements and establishes comprehensive traceability between these requirements and the final system implementation. For industrial control and automation systems, this process follows the ‘Computer System Validation’ philosophy.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;Ensuring the automation system meets specified requirements is pivotal in guaranteeing its fitness for purpose and alignment with user needs&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Breaking down validation to its elemental components reveals a straightforward approach:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clearly define the intended functionality with accurate and unambiguous documentation.&lt;/li&gt;
+  &lt;li&gt;Construct the system hardware and software in strict adherence to specifications.&lt;/li&gt;
+  &lt;li&gt;Substantiate the system functions precisely as specified through meticulous testing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Typically, the validation process is categorised into three core areas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Installation Qualification&lt;/strong&gt; - Ensuring the installed system meets the specified requirements.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Operational Qualification&lt;/strong&gt; - Verifying the system functions as intended under normal and abnormal fault conditions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Performance Qualification&lt;/strong&gt; - Validating the automation system yields a product in line with the end user’s specifications, emphasising final product quality and consistency over operational functionality.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;Validation is instrumental in affirming the system’s intended performance, fostering reliability, accuracy, and consistency&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The validation process typically includes the following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Defining Requirements:&lt;/strong&gt; The initial phase involves establishing the requirements the automation system must meet, including functional, performance, and safety aspects. This is typically documented in a User Requirements Specification, produced either by the end-users or a third-party representative.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Creating a Validation Plan:&lt;/strong&gt; With requirements in place, the next step is formulating the validation plan. This plan outlines the scope, methods, and expected outcomes of the validation, encompassing Installation Qualification, Operational Qualification, and Performance Qualification.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Executing Validation Plan:&lt;/strong&gt; This phase involves rigorous testing of the automation system to ensure it aligns with the established requirements.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Analysing Results:&lt;/strong&gt; Post-execution, results are scrutinised, identifying discrepancies and proposing enhancement recommendations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Documenting Results:&lt;/strong&gt; Comprehensive documentation of the validation process aids in monitoring progress and addressing potential issues in the future.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;&lt;em&gt;By identifying and rectifying issues early on, validation plays a critical role in risk reduction associated with the automation system&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;verification-vs-validation&quot;&gt;Verification vs. Validation?&lt;/h4&gt;
+
+&lt;p&gt;Verification and validation are two important concepts in engineering. Unfortunately, they are often confused with one another.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Verification&lt;/strong&gt; is the process of ensuring a system meets its specifications. This tests the system has been implemented correctly and meets all documented requirements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Validation&lt;/strong&gt; is the process of ensuring a system delivers on project objectives. This typically means it meets the needs of its intended user. This tests the system is usable and meets stakeholder expectations.&lt;/p&gt;
+
+&lt;p&gt;In other words, verification checks a system does what it was designed to do. Validation checks the design fulfils user needs.&lt;/p&gt;
+
+&lt;p&gt;The practical difference between verification and validation is the focus of the process. Verification focuses on the implementation of the automation system, while validation focuses on the usability and functionality of the automation system.&lt;/p&gt;
+
+&lt;p&gt;Project engineering teams usually undertake verification. Validation is typically performed by system users or a third party.&lt;/p&gt;
+
+&lt;p&gt;This table summarises key differences between verification and validation:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Verification&lt;/th&gt;
+      &lt;th&gt;Validation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ensures system meets specifications&lt;/td&gt;
+      &lt;td&gt;Ensures system meets needs of users&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Focused on implementation of the system design&lt;/td&gt;
+      &lt;td&gt;Focused on system usability and functionality&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Typically performed by the project team&lt;/td&gt;
+      &lt;td&gt;Typically performed by users or a third-party&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Verification ensures the automation system is implemented correctly, while validation ensures the automation system is usable and meets users’ needs. By performing both verification and validation, you can be confident your automation system is of high quality and meets the needs of its users.&lt;/p&gt;
+
+&lt;h4 id=&quot;relationship-with-the-v-model&quot;&gt;Relationship with the V-model&lt;/h4&gt;
+
+&lt;p&gt;The V-model serves as a visual representation of the validation process for computer systems, illustrating the interconnectedness of different phases. It comprises of three main sections: design, build, and test. The build section is a relatively small component which sits at the bottom of the ‘V’. The design process leads up to it, from requirements capture to module/unit design. Following the build the test process features stages which align too design stages, allowing a modular and phased approach to overall system validation. User requirements phase, followed by the design phase.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/V-model-validation.png&quot; alt=&quot;V-model process guide for control and automation projects&quot; style=&quot;float: left&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In addition to the activities described in the diagram above, a Traceability Matrix is produced. The traceability matrix is a document cross-referencing all the user requirements through the relevant design and test documents. The traceability matrix is used throughout the validation process to ensure all user requirements have been fully implemented in the design, build and test phases.&lt;/p&gt;
+
+&lt;p&gt;The V-model is a helpful tool for validating automation systems. It visually represents the validation process and helps ensure all the necessary steps are taken.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;costs-and-benefits&quot;&gt;Costs and Benefits&lt;/h2&gt;
+
+&lt;p&gt;The cost of effective validation can vary depending on the size and complexity of the automation system. However, it is important to remember the cost of validation is an investment in the future success of the automation system. A well-validated automation system is more likely to be reliable, efficient, and secure. This can lead to significant savings in time, money, and resources.&lt;/p&gt;
+
+&lt;p&gt;The cost of validation can be broken down into two categories:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Initial Cost&lt;/li&gt;
+  &lt;li&gt;Ongoing Commitments&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The benefits of effective validation can outweigh the cost in many cases. For example, a well-validated automation system can:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reduce the number of defects in the automation system.&lt;/li&gt;
+  &lt;li&gt;Enhance the system’s reliability.&lt;/li&gt;
+  &lt;li&gt;Augment the system’s efficiency.&lt;/li&gt;
+  &lt;li&gt;Reduce the risk of problems with the automation system.&lt;/li&gt;
+  &lt;li&gt;Provide comprehensive documentation needed for future changes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;initial-cost&quot;&gt;Initial Cost&lt;/h4&gt;
+
+&lt;p&gt;Initial validation costs can be significant, especially for large and complex automation systems. Creating test cases can be expensive, as it requires time and expertise to identify all possible scenarios the automation system should be tested. The cost of executing test cases can also be high, as it can require significant resources to run the tests on all the different platforms and environments the automation system is expected to run on. The cost of analysing test results can also be high, as it requires time and expertise to identify and understand the results of the tests. 
+A point to note here is ‘don’t start from scratch’. Several templates are available regarding the documentation needed to validate an automation system. One of the best resources is the &lt;a href=&quot;https://ispe.org/initiatives/regulatory/what-gamp&quot;&gt;Good Automated Manufacturing Guide&lt;/a&gt; published by the International Society of Pharmaceutical Engineering.&lt;/p&gt;
+
+&lt;h4 id=&quot;ongoing-commitments&quot;&gt;Ongoing Commitments&lt;/h4&gt;
+
+&lt;p&gt;The ongoing validation cost is often lower than the initial cost, but it is still important to budget for it. The cost of maintaining test cases can be high, as it requires time and effort to keep them up to date as the automation system changes. The cost of executing test cases as the automation system changes can also be high, as it requires time and resources to run the tests on the new versions of the automation system. The cost of analysing test results can also be high, as it requires time and expertise to identify and understand the results of the tests.&lt;/p&gt;
+
+&lt;h4 id=&quot;benefits&quot;&gt;Benefits&lt;/h4&gt;
+
+&lt;p&gt;Effective validation yields many benefits, underscoring its critical role in system development and maintenance.&lt;/p&gt;
+
+&lt;p&gt;Initial benefits, realised during project execution, include ensuring supplied control systems meet project and business objectives, managing change, and providing a framework for project management.&lt;/p&gt;
+
+&lt;p&gt;During the system’s operation, benefits continue to be realised in reduced maintenance costs, third parties can be given access to documentation and so don’t need to undertake system audits, and modifications and upgrades can be planned without interrupting production.&lt;/p&gt;
+
+&lt;p&gt;The following table lists some key benefits.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Benefit&lt;/th&gt;
+      &lt;th&gt;Value&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Facilitates future modifications&lt;/td&gt;
+      &lt;td&gt;A thoroughly validated system offers a comprehensive documentation framework, easing the process of future modifications and updates.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Reduces Mean Time To Repair&lt;/td&gt;
+      &lt;td&gt;Well-documented systems streamline fault tracing, leading to a reduction in Mean Time To Repair and minimising downtime.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Enhances system quality&lt;/td&gt;
+      &lt;td&gt;Validation serves as a mechanism for identifying and rectifying defects within the automation system, thereby elevating its overall quality and performance.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fosters user confidence&lt;/td&gt;
+      &lt;td&gt;Users are more inclined to trust and rely on an automation system which has undergone thorough validation, instilling confidence in its reliability and efficacy.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ensures regulatory compliance&lt;/td&gt;
+      &lt;td&gt;In specific industries, validation may be a mandatory prerequisite to meet regulatory standards. For instance, the FDA mandates validation for medical devices prior to market release.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;stakeholders&quot;&gt;Stakeholders&lt;/h2&gt;
+
+&lt;p&gt;Early identification and involvement of stakeholders is paramount to the validation process. A proactive approach ensures a successful validation process and guarantees the resulting system aligns with the needs and aspirations of all interested parties.&lt;/p&gt;
+
+&lt;p&gt;Stakeholders in control system validation are people with a vested interest in the technology’s success. They include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Project Managers&lt;/li&gt;
+  &lt;li&gt;System Engineers&lt;/li&gt;
+  &lt;li&gt;Automation Developers&lt;/li&gt;
+  &lt;li&gt;Quality Assurance Engineers&lt;/li&gt;
+  &lt;li&gt;End Users&lt;/li&gt;
+  &lt;li&gt;Senior Management Team&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;avoiding-pitfalls&quot;&gt;Avoiding Pitfalls&lt;/h2&gt;
+
+&lt;p&gt;There are many common mistakes companies make when validating their automation systems. The table below outlines some validation mistakes and their consequences.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Mistake&lt;/th&gt;
+      &lt;th&gt;Consequence&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Validating too late&lt;/td&gt;
+      &lt;td&gt;Identifying and rectifying problems later in the project execution process is both costly and can lead to quality issues as compromises are made to accommodate changes.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Excluding key stakeholders&lt;/td&gt;
+      &lt;td&gt;The requirements capture process is not comprehensive, leading to new requirements being “discovered” late in the day – see above.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Poor planning&lt;/td&gt;
+      &lt;td&gt;Poor management has a huge impact on project success, ideally, the project team will be trained and have experience in system validation.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Using non-standard methodology&lt;/td&gt;
+      &lt;td&gt;Inconsistency and lack of repeatability in the validation process impact not only project delivery but also the lifecycle benefits of system validation.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Avoiding these common pitfalls is crucial for a successful validation process. By addressing these issues proactively, companies can ensure your industrial control and automation systems meet quality, reliability, and performance standards.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;best-practices&quot;&gt;Best Practices&lt;/h2&gt;
+
+&lt;p&gt;There are many best practices for validating automation systems. Some of the most important are outlined below.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Best Practice&lt;/th&gt;
+      &lt;th&gt;Rationale&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Diverse Environment Testing. Test the automation system across a spectrum of environments, encompassing various operating systems, hardware setups, and datasets.&lt;/td&gt;
+      &lt;td&gt;This ensures the automation system performs reliably across different scenarios and environments.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Comprehensive Data Testing. Thoroughly test the automation system using a wide range of data, including both standard and unconventional datasets.&lt;/td&gt;
+      &lt;td&gt;This validates the system’s ability to handle diverse inputs, enhancing its robustness and adaptability.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Sustained Performance Testing. Conduct periodic tests to confirm the automation system maintains its expected performance over time.&lt;/td&gt;
+      &lt;td&gt;This is particularly critical for systems deployed in mission-critical applications, ensuring they remain reliable and consistent.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Checklist Utilisation. Employ a detailed checklist as a guiding tool to ensure all necessary steps are executed during the validation process.&lt;/td&gt;
+      &lt;td&gt;A checklist provides a structured approach, minimising the risk of overlooking vital validation tasks.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thorough Documentation. Document all results obtained during the validation process.&lt;/td&gt;
+      &lt;td&gt;Comprehensive documentation serves as a crucial reference point, enabling the tracking of validation progress and identifying potential issues for future resolution.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Recommendations for Enhancement. Derive actionable recommendations for system improvement because of the validation process.&lt;/td&gt;
+      &lt;td&gt;Implementing these recommendations enhances the current automation system and serves as a proactive measure to prevent future issues.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Companies can improve their automation systems’ quality, reliability, and performance by adhering to best practices. This ensures these systems operate optimally across various environments and datasets, even in critical applications. Furthermore, the systematic approach provided by these practices facilitates thorough validation and sets the stage for continuous improvement.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In this whitepaper, we’ve explained the control system validation process at a high level, illuminating its critical role in ensuring the success and reliability of automation systems.&lt;/p&gt;
+
+&lt;p&gt;Effective validation represents a strategic investment in the future performance of your automation ecosystem. By adhering to best practices, engaging key stakeholders, and avoiding common pitfalls, companies can reduce ownership costs and maintain their systems’ performance throughout their lifecycle.&lt;/p&gt;
+
+&lt;p&gt;The value of validation extends beyond compliance. It equips organisations with the resilience and adaptability needed to navigate an ever-evolving technological landscape. Well-documented systems expedite troubleshooting and instil confidence in users, fostering a culture of trust and reliability.&lt;/p&gt;
+
+&lt;p&gt;If you‘d like help or advice regarding the process described, please contact us for a no pressure, no-obligation discussion.&lt;/p&gt;
+
+&lt;p class=&quot;center&quot;&gt;&lt;span class=&quot;fas fa-phone-alt&quot;&gt;&lt;/span&gt;
+  &lt;abbr title=&quot;Phone&quot;&gt;&lt;/abbr&gt; &amp;nbsp; &lt;a href=&quot;tel:00441616604293&quot; id=&quot;number&quot;&gt;+44 161 660 4293&lt;/a&gt;
+&lt;/p&gt;
+&lt;p class=&quot;center&quot;&gt;&lt;span class=&quot;fas fa-envelope&quot;&gt;&lt;/span&gt;
+  &lt;abbr title=&quot;Email&quot;&gt;&lt;/abbr&gt; &amp;nbsp; &lt;a href=&quot;mailto:projects@op-tec.co.uk?subject=Maximising%20the%20return%20from%20technology%20projects&quot;&gt;projects&amp;#64;op-tec.co.uk&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div style=&quot;text-align: right&quot;&gt;&lt;small&gt;Download a PDF copy of this article &lt;a href=&quot;https://op-tec.co.uk/downloads/Control_System_Validation_Explained.pdf&quot; target=&quot;_blank&quot;&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt;&lt;/small&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name>Obiefuna Obidike</name><email>obiefuna.obidike@op-tec.co.uk</email></author><category term="knowledge" /><category term="chemicals" /><category term="power" /><category term="pharmaceuticals" /><category term="oil&amp;gas" /><category term="whitepaper" /><summary type="html">As companies continue adopting technology to increase efficiency and automate complex operational processes, external factors exert pressure on capital and operational budgets. External factors squeeze profit margins, making operational excellence more vital than ever. This paper will explore the role of control system validation in ensuring automation technology delivers improvements in efficiency, reliability, and the cost of ownership.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22Validation-AI-generated-thumb.png%22,%20%22thumb%22=%3E%22Validation-AI-generated-thumb.png%22,%20%22feature%22=%3E%22Validation-AI-generated.png%22,%20%22credit%22=%3E%22Is%20your%20control%20system%20fully%20validated?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22Validation-AI-generated-thumb.png%22,%20%22thumb%22=%3E%22Validation-AI-generated-thumb.png%22,%20%22feature%22=%3E%22Validation-AI-generated.png%22,%20%22credit%22=%3E%22Is%20your%20control%20system%20fully%20validated?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Towards absolute reliability</title><link href="https://op-tec.co.uk/knowledge/towards-absolute-reliability" rel="alternate" type="text/html" title="Towards absolute reliability" /><published>2023-10-11T00:00:00+01:00</published><updated>2023-10-11T00:00:00+01:00</updated><id>https://op-tec.co.uk/knowledge/towards-absolute-reliability</id><content type="html" xml:base="https://op-tec.co.uk/knowledge/towards-absolute-reliability">&lt;p&gt;Whatever the sector, the industry, the process, the machine, the component, things will go wrong. Component failures cause machine downtime, processes get interrupted, an entire industry may be affected by the same root cause, bringing similar problems across a whole sector.&lt;/p&gt;
 
 &lt;p&gt;One recent example is the food retail sector. Refrigeration fails during the hot spells of (even our British) summers. Why? If reliability can be improved, then how?&lt;/p&gt;
 
@@ -223,28 +542,4 @@ However, she didn’t understand the parameters that would be used to implement 
 
 &lt;p&gt;I expect you’re hoping for a punchline to this article. Well in my mind its what you can come to understand by using diagnostic systems and how they can save you money. It’s interesting to observe the motor industry providing advanced diagnostic systems to consumers, while many manufacturers supplying the very same industry remain reluctant to adopt similar technology. Systems such as &lt;a href=&quot;/latest/control-system-types&quot;&gt;SCADAs&lt;/a&gt; and &lt;a href=&quot;/knowledge/process-historians&quot;&gt;Process Historians&lt;/a&gt; can be used to diagnose faults and better understand how to run a plant at maximum efficiency.&lt;/p&gt;
 
-&lt;p&gt;So my punchline (or moral to the story) is to advocate you implement a diagnosis system to drive (pun intended) process optimisation in your company. Get past measuring success by not breaking down and move to being able to predict failures and tune the performance of your equipment. Develop a diagnostic system which provides a clear visualisation of everything happening in your plant. Then alerts you when something needs attention and how to correct it - before it goes wrong!&lt;/p&gt;</content><author><name>Roger Halliwell</name><email>roger.halliwell@op-tec.co.uk</email></author><category term="latest" /><category term="software" /><category term="food&amp;drink" /><category term="textiles" /><category term="chemicals" /><category term="power" /><summary type="html">We have four cars in our household and three of them are more than 10 years old. They all have engine management lights showing. The trouble is, the engine management light doesn’t tell you what the actual fault is – it’s just a warning to tell you something’s up. To help understand the problem you need to interrogate the car’s control system, known as the ECU (Engine Control Unit) by reading the fault codes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22c-joyful-heFTscwGDCA-unsplash-thumb.jpg%22,%20%22thumb%22=%3E%22c-joyful-heFTscwGDCA-unsplash-thumb.jpg%22,%20%22feature%22=%3E%22c-joyful-heFTscwGDCA-unsplash.jpg%22,%20%22credit%22=%3E%22Do%20you%20know%20what%20you're%20looking%20for?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22c-joyful-heFTscwGDCA-unsplash-thumb.jpg%22,%20%22thumb%22=%3E%22c-joyful-heFTscwGDCA-unsplash-thumb.jpg%22,%20%22feature%22=%3E%22c-joyful-heFTscwGDCA-unsplash.jpg%22,%20%22credit%22=%3E%22Do%20you%20know%20what%20you're%20looking%20for?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Give your manufacturing business an MOT</title><link href="https://op-tec.co.uk/latest/give-your-manufacturing-business-an-MOT" rel="alternate" type="text/html" title="Give your manufacturing business an MOT" /><published>2022-09-26T00:00:00+01:00</published><updated>2022-09-26T00:00:00+01:00</updated><id>https://op-tec.co.uk/latest/give-your-manufacturing-business-an-MOT</id><content type="html" xml:base="https://op-tec.co.uk/latest/give-your-manufacturing-business-an-MOT">&lt;p&gt;It’s a statutory requirement that once your car is over 3 years old it be MOT’d every year. This ensures it is both safe and not hurling huge levels of emissions into the atmosphere.&lt;/p&gt;
-
-&lt;p&gt;If only there was a mandate for businesses to carry out similar testing of their manufacturing processes. Not only from an emissions and safety point of view, but also from an efficiency standpoint.&lt;/p&gt;
-
-&lt;p&gt;I recently visited a manufacturing facility here in the UK and was amazed at the levels of waste that could easily be overcome by deploying standard automation technology. We surveyed the site in terms of wasted energy, damaged product, manual operations and wasted time, finding and reporting many instances of waste. We also determined that for a small investment (under £50k) the payback period for improvements would be less than 13 weeks.&lt;/p&gt;
-
-&lt;p&gt;As you may know waste is often categorised in Lean Manufacturing in terms of the following 7 categories:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1) Transport&lt;/strong&gt; - unnecessary transportation of goods before they reach the manufacturing facility&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2) Inventory&lt;/strong&gt; - where too high stock levels waste working capital&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3) Movement&lt;/strong&gt; - unnecessary movement of goods within the manufacturing facility&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4) Time&lt;/strong&gt; - delays waiting for partly finished goods or raw materials&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5) Defects&lt;/strong&gt; - goods being either thrown away or reworked due to quality issues&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;6) Overprocessing&lt;/strong&gt; - goods worked for too long or produced at too high a specification&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;7) Overproduction&lt;/strong&gt; - the manufacture of too many goods compared to demand&lt;/p&gt;
-
-&lt;p&gt;I’d also like to add a further category: wasted talent – i.e., we often don’t get the most out of our staff either because they are overlooked, not inspired or not involved in the management side of the business.&lt;/p&gt;
-
-&lt;p&gt;Perhaps if we spend a little time considering the above we could improve our businesses, make them more profitable, enjoyable to work in, kinder to the planet - and in this current economic climate - more sustainable.&lt;/p&gt;</content><author><name>Roger Halliwell</name><email>roger.halliwell@op-tec.co.uk</email></author><category term="latest" /><category term="software" /><category term="food&amp;drink" /><category term="textiles" /><category term="chemicals" /><summary type="html">It’s a statutory requirement that once your car is over 3 years old it be MOT’d every year. This ensures it is both safe and not hurling huge levels of emissions into the atmosphere.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22sten-rademaker-UZUzvJEvKnI-unsplash-thumb.jpg%22,%20%22thumb%22=%3E%22sten-rademaker-UZUzvJEvKnI-unsplash-thumb.jpg%22,%20%22feature%22=%3E%22sten-rademaker-UZUzvJEvKnI-unsplash.jpg%22,%20%22credit%22=%3E%22Huge%20efficiency%20improvements%20are%20often%20available%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22sten-rademaker-UZUzvJEvKnI-unsplash-thumb.jpg%22,%20%22thumb%22=%3E%22sten-rademaker-UZUzvJEvKnI-unsplash-thumb.jpg%22,%20%22feature%22=%3E%22sten-rademaker-UZUzvJEvKnI-unsplash.jpg%22,%20%22credit%22=%3E%22Huge%20efficiency%20improvements%20are%20often%20available%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;So my punchline (or moral to the story) is to advocate you implement a diagnosis system to drive (pun intended) process optimisation in your company. Get past measuring success by not breaking down and move to being able to predict failures and tune the performance of your equipment. Develop a diagnostic system which provides a clear visualisation of everything happening in your plant. Then alerts you when something needs attention and how to correct it - before it goes wrong!&lt;/p&gt;</content><author><name>Roger Halliwell</name><email>roger.halliwell@op-tec.co.uk</email></author><category term="latest" /><category term="software" /><category term="food&amp;drink" /><category term="textiles" /><category term="chemicals" /><category term="power" /><summary type="html">We have four cars in our household and three of them are more than 10 years old. They all have engine management lights showing. The trouble is, the engine management light doesn’t tell you what the actual fault is – it’s just a warning to tell you something’s up. To help understand the problem you need to interrogate the car’s control system, known as the ECU (Engine Control Unit) by reading the fault codes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22c-joyful-heFTscwGDCA-unsplash-thumb.jpg%22,%20%22thumb%22=%3E%22c-joyful-heFTscwGDCA-unsplash-thumb.jpg%22,%20%22feature%22=%3E%22c-joyful-heFTscwGDCA-unsplash.jpg%22,%20%22credit%22=%3E%22Do%20you%20know%20what%20you&apos;re%20looking%20for?%22%7D" /><media:content medium="image" url="https://op-tec.co.uk/%7B%22teaser%22=%3E%22c-joyful-heFTscwGDCA-unsplash-thumb.jpg%22,%20%22thumb%22=%3E%22c-joyful-heFTscwGDCA-unsplash-thumb.jpg%22,%20%22feature%22=%3E%22c-joyful-heFTscwGDCA-unsplash.jpg%22,%20%22credit%22=%3E%22Do%20you%20know%20what%20you&apos;re%20looking%20for?%22%7D" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Control System Validation Explained • Op-tec Systems</title>
+    <meta name="description" content="Role of control system validation in ensuring automation technology delivers improvements in efficiency, reliability, and the cost of ownership">
+    
+    <meta name="keywords" content="chemicals, power, pharmaceuticals, oil&gas, whitepaper">
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Control System Validation Explained">
+	<meta name="twitter:description" content="Role of control system validation in ensuring automation technology delivers improvements in efficiency, reliability, and the cost of ownership">
+	
+	
+	
+	
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://op-tec.co.uk/images/Validation-AI-generated.png">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Control System Validation Explained">
+	<meta property="og:image" content="https://op-tec.co.uk/images/Validation-AI-generated-thumb.png">
+	<meta name="og:description" content="Role of control system validation in ensuring automation technology delivers improvements in efficiency, reliability, and the cost of ownership">
+	
+	<meta property="og:url" content="https://op-tec.co.uk/knowledge/control-system-validation-explained">
+	<meta property="og:site_name" content="Op-tec Systems">
+
+    <link rel="canonical" href="https://op-tec.co.uk/knowledge/control-system-validation-explained">
+
+    <link href="https://op-tec.co.uk/atom.xml" type="application/atom+xml" rel="alternate" title="Op-tec Systems Atom Feed">
+    <link href="https://op-tec.co.uk/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+    <link rel="stylesheet" href="https://op-tec.co.uk/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="https://op-tec.co.uk/js/vendor/html5shiv.min.js"></script>
+      <script src="https://op-tec.co.uk/js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="js-body">
+    <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="https://op-tec.co.uk/" class="site-title"><img src="https://op-tec.co.uk/images/Op-tec logo rectangle.png" class="site-logo" alt="Op-tec Systems"></a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Op-tec Systems</a></li>
+	
+    
+    <li><a href="https://op-tec.co.uk/industries" >Industries</a></li>
+  
+    
+    <li><a href="https://op-tec.co.uk/services" >Services</a></li>
+  
+    
+    <li><a href="https://op-tec.co.uk/articles" >Insights</a></li>
+  
+    
+    <li><a href="https://op-tec.co.uk/about" >About</a></li>
+  
+    
+    <li><a href="https://op-tec.co.uk/#contact" >Contact</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <ul class="menu-item">
+    <li>
+      <a href="https://op-tec.co.uk">
+        <img src="https://op-tec.co.uk/images/Op-tec-logo-nav-menu.png" alt="teaser" class="teaser">
+        <div class="title">Home</div>
+        <p class="excerpt"></p>
+      </a>
+    </li>
+    <li>
+      <a href="https://op-tec.co.uk/industries">
+        <img src="https://op-tec.co.uk/images/pexels-edward-jenner-4033148.jpg" alt="teaser" class="teaser">
+        <div class="title">Industries</div>
+        <p class="excerpt">The industries we serve</p>
+      </a>
+    </li><li>
+      <a href="https://op-tec.co.uk/services">
+        <img src="https://op-tec.co.uk/images/loui-kiaer-CielzQJR0SQ-unsplash.jpg" alt="teaser" class="teaser">
+        <div class="title">Services</div>
+        <p class="excerpt">How we help our clients</p>
+      </a>
+    </li><li>
+      <a href="https://op-tec.co.uk/articles">
+        <img src="https://op-tec.co.uk/images/pexels-brotin-biswas-518543.jpg" alt="teaser" class="teaser">
+        <div class="title">Insights</div>
+        <p class="excerpt">News, views and knowledge articles</p>
+      </a>
+    </li><li>
+      <a href="https://op-tec.co.uk/about">
+        <img src="https://op-tec.co.uk/images/Richard-working.jpg" alt="teaser" class="teaser">
+        <div class="title">About</div>
+        <p class="excerpt">More about us</p>
+      </a>
+    </li><li>
+      <a href="https://op-tec.co.uk/#contact">
+        <img src="https://op-tec.co.uk/images/pexels-laura-tancredi-7065255.jpg" alt="teaser" class="teaser">
+        <div class="title">Contact</div>
+        <p class="excerpt">Contact us</p>
+      </a>
+    </li>
+    <hr>
+    <li>
+      <a href="https://op-tec.co.uk/digital-benchmark">
+        <img src="https://op-tec.co.uk/images/Digital-Benchmark-Report-thumbnail.jpg" alt="teaser" class="teaser">
+        <div class="title">Digital Benchmark</div>
+        <p class="excerpt">Generate a Digital Benchmark Report&trade;</p>
+      </a>
+    </li>
+    <li>
+      <a href="https://op-tec.co.uk/downloads/Op-tec_Systems.pdf">
+        <img src="https://op-tec.co.uk/images/brochure-thumbnail.jpg" alt="teaser" class="teaser">
+        <div class="title">Profile</div>
+        <p class="excerpt">Download our brochure</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+<div id="js-menu-screen" class="menu-screen"></div>
+    
+      <div id="page-wrapper">
+<div id="main" role="main">
+	<article class="wrap" itemscope itemtype="http://schema.org/Article" style="max-width: 52em;">
+		
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="https://op-tec.co.uk/images/Validation-AI-generated.png" class="page-feature-image" alt="Control System Validation Explained" itemprop="image">
+				<div class="image-credit"><a href="" itemprop="citation">Is your control system fully validated?</a></div><!-- /.image-credit -->
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		
+		<div style="text-align: right"><small><br><a style="text-decoration:none; border-bottom: 1px dotted #a2a2a2;" href="https://op-tec.co.uk/downloads/Control_System_Validation_Explained.pdf" target="_blank">Download <i class="fas fa-arrow-down" aria-hidden="true"></i></a></small></div>
+		<div class="page-title">
+			<h1>Control System Validation Explained</h1>
+		</div>
+		<div class="inner-wrap" style="width: auto;">
+			<div id="content" class="page-content" itemprop="articleBody">
+				<p>As companies continue adopting technology to increase efficiency and automate complex operational processes, external factors exert pressure on capital and operational budgets. External factors squeeze profit margins, making operational excellence more vital than ever. This paper will explore the role of control system validation in ensuring automation technology delivers improvements in efficiency, reliability, and the cost of ownership.</p>
+
+<p>If your business uses industrial automation technology, you’ll benefit from adopting system validation processes. A comprehensive understanding of control systems validation is crucial to any engineer working on projects to implement this technology. For leaders and managers, knowledge of this process will enable you to maximise the value automation projects bring to your business.</p>
+
+<p>System validation requires investment, so businesses confront common pitfalls. Among these hazards are delayed validation, inadequate inclusion of stakeholders, and poor planning. Such blunders can lead to systems failing to meet user requirements, subpar performance, and unanticipated operational hazards. This whitepaper equips readers with the skills necessary to navigate these obstacles effectively. It teaches them to construct a robust validation strategy, align stakeholders, and orchestrate adequate verification and validation processes. By understanding the nuances of automation system validation, readers can optimise system performance, reduce risks, and increase stakeholder confidence.</p>
+
+<p>Adopting the suggested insights presented here will leave you better equipped to navigate the complex landscape of automation system validation, thereby assuring the success and resilience of your business operations in an increasingly automated world.</p>
+
+<h4 id="key-takeaways">Key Takeaways</h4>
+
+<ul>
+  <li>Role of system validation in enhancing dependability, productivity, and safety</li>
+  <li>Difference between validation and verification</li>
+  <li>How stakeholder engagement ensures system validation aligns with user requirements</li>
+  <li>Avoiding common pitfalls, such as delayed initiation and exclusion of key stakeholders</li>
+  <li>Best practices for system testing, documentation, and ongoing maintenance</li>
+</ul>
+
+<hr />
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Businesses rely increasingly on control and automation technology. As system complexity grows, ensuring technology does everything we intended and is performing as required becomes crucial. So does our ability to understand how and why equipment functions the way it does, allowing us to maintain, modify and improve it as requirements change.</p>
+
+<p>System validation is the process of documenting and testing technology, to make sure it operates as intended in terms of functionality and performance. The documentation generated allows the system to deliver maximum value to users who know what it is capable of. Inadequate validation can lead to various issues, including:</p>
+
+<ul>
+  <li>Deviation from user-specific requirements</li>
+  <li>Suboptimal system performance</li>
+  <li>Reduced system reliability</li>
+  <li>Compromised safety and security</li>
+</ul>
+
+<p>In this paper we will explain the significance of validation. In highlighting common mistakes companies make and pointing to best practice hopefully you’ll finish reading inspired and equipped to validate control systems.</p>
+
+<hr />
+
+<h2 id="what-is-validation">What is Validation?</h2>
+
+<p>Validation is a systematic process which – if followed – guarantees a system’s adherence to requirements and intended performance. It methodically documents user requirements and establishes comprehensive traceability between these requirements and the final system implementation. For industrial control and automation systems, this process follows the ‘Computer System Validation’ philosophy.</p>
+
+<blockquote>
+  <p><strong><em>Ensuring the automation system meets specified requirements is pivotal in guaranteeing its fitness for purpose and alignment with user needs</em></strong></p>
+</blockquote>
+
+<p>Breaking down validation to its elemental components reveals a straightforward approach:</p>
+
+<ul>
+  <li>Clearly define the intended functionality with accurate and unambiguous documentation.</li>
+  <li>Construct the system hardware and software in strict adherence to specifications.</li>
+  <li>Substantiate the system functions precisely as specified through meticulous testing.</li>
+</ul>
+
+<p>Typically, the validation process is categorised into three core areas:</p>
+
+<ul>
+  <li><strong>Installation Qualification</strong> - Ensuring the installed system meets the specified requirements.</li>
+  <li><strong>Operational Qualification</strong> - Verifying the system functions as intended under normal and abnormal fault conditions.</li>
+  <li><strong>Performance Qualification</strong> - Validating the automation system yields a product in line with the end user’s specifications, emphasising final product quality and consistency over operational functionality.</li>
+</ul>
+
+<blockquote>
+  <p><strong><em>Validation is instrumental in affirming the system’s intended performance, fostering reliability, accuracy, and consistency</em></strong></p>
+</blockquote>
+
+<p>The validation process typically includes the following steps:</p>
+
+<ol>
+  <li><strong>Defining Requirements:</strong> The initial phase involves establishing the requirements the automation system must meet, including functional, performance, and safety aspects. This is typically documented in a User Requirements Specification, produced either by the end-users or a third-party representative.</li>
+  <li><strong>Creating a Validation Plan:</strong> With requirements in place, the next step is formulating the validation plan. This plan outlines the scope, methods, and expected outcomes of the validation, encompassing Installation Qualification, Operational Qualification, and Performance Qualification.</li>
+  <li><strong>Executing Validation Plan:</strong> This phase involves rigorous testing of the automation system to ensure it aligns with the established requirements.</li>
+  <li><strong>Analysing Results:</strong> Post-execution, results are scrutinised, identifying discrepancies and proposing enhancement recommendations.</li>
+  <li><strong>Documenting Results:</strong> Comprehensive documentation of the validation process aids in monitoring progress and addressing potential issues in the future.</li>
+</ol>
+
+<blockquote>
+  <p><strong><em>By identifying and rectifying issues early on, validation plays a critical role in risk reduction associated with the automation system</em></strong></p>
+</blockquote>
+
+<h4 id="verification-vs-validation">Verification vs. Validation?</h4>
+
+<p>Verification and validation are two important concepts in engineering. Unfortunately, they are often confused with one another.</p>
+
+<p><strong>Verification</strong> is the process of ensuring a system meets its specifications. This tests the system has been implemented correctly and meets all documented requirements.</p>
+
+<p><strong>Validation</strong> is the process of ensuring a system delivers on project objectives. This typically means it meets the needs of its intended user. This tests the system is usable and meets stakeholder expectations.</p>
+
+<p>In other words, verification checks a system does what it was designed to do. Validation checks the design fulfils user needs.</p>
+
+<p>The practical difference between verification and validation is the focus of the process. Verification focuses on the implementation of the automation system, while validation focuses on the usability and functionality of the automation system.</p>
+
+<p>Project engineering teams usually undertake verification. Validation is typically performed by system users or a third party.</p>
+
+<p>This table summarises key differences between verification and validation:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Verification</th>
+      <th>Validation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ensures system meets specifications</td>
+      <td>Ensures system meets needs of users</td>
+    </tr>
+    <tr>
+      <td>Focused on implementation of the system design</td>
+      <td>Focused on system usability and functionality</td>
+    </tr>
+    <tr>
+      <td>Typically performed by the project team</td>
+      <td>Typically performed by users or a third-party</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Verification ensures the automation system is implemented correctly, while validation ensures the automation system is usable and meets users’ needs. By performing both verification and validation, you can be confident your automation system is of high quality and meets the needs of its users.</p>
+
+<h4 id="relationship-with-the-v-model">Relationship with the V-model</h4>
+
+<p>The V-model serves as a visual representation of the validation process for computer systems, illustrating the interconnectedness of different phases. It comprises of three main sections: design, build, and test. The build section is a relatively small component which sits at the bottom of the ‘V’. The design process leads up to it, from requirements capture to module/unit design. Following the build the test process features stages which align too design stages, allowing a modular and phased approach to overall system validation. User requirements phase, followed by the design phase.</p>
+
+<p><img src="/images/V-model-validation.png" alt="V-model process guide for control and automation projects" style="float: left" /></p>
+
+<p>In addition to the activities described in the diagram above, a Traceability Matrix is produced. The traceability matrix is a document cross-referencing all the user requirements through the relevant design and test documents. The traceability matrix is used throughout the validation process to ensure all user requirements have been fully implemented in the design, build and test phases.</p>
+
+<p>The V-model is a helpful tool for validating automation systems. It visually represents the validation process and helps ensure all the necessary steps are taken.</p>
+
+<hr />
+
+<h2 id="costs-and-benefits">Costs and Benefits</h2>
+
+<p>The cost of effective validation can vary depending on the size and complexity of the automation system. However, it is important to remember the cost of validation is an investment in the future success of the automation system. A well-validated automation system is more likely to be reliable, efficient, and secure. This can lead to significant savings in time, money, and resources.</p>
+
+<p>The cost of validation can be broken down into two categories:</p>
+
+<ol>
+  <li>Initial Cost</li>
+  <li>Ongoing Commitments</li>
+</ol>
+
+<p>The benefits of effective validation can outweigh the cost in many cases. For example, a well-validated automation system can:</p>
+
+<ul>
+  <li>Reduce the number of defects in the automation system.</li>
+  <li>Enhance the system’s reliability.</li>
+  <li>Augment the system’s efficiency.</li>
+  <li>Reduce the risk of problems with the automation system.</li>
+  <li>Provide comprehensive documentation needed for future changes.</li>
+</ul>
+
+<h4 id="initial-cost">Initial Cost</h4>
+
+<p>Initial validation costs can be significant, especially for large and complex automation systems. Creating test cases can be expensive, as it requires time and expertise to identify all possible scenarios the automation system should be tested. The cost of executing test cases can also be high, as it can require significant resources to run the tests on all the different platforms and environments the automation system is expected to run on. The cost of analysing test results can also be high, as it requires time and expertise to identify and understand the results of the tests. 
+A point to note here is ‘don’t start from scratch’. Several templates are available regarding the documentation needed to validate an automation system. One of the best resources is the <a href="https://ispe.org/initiatives/regulatory/what-gamp">Good Automated Manufacturing Guide</a> published by the International Society of Pharmaceutical Engineering.</p>
+
+<h4 id="ongoing-commitments">Ongoing Commitments</h4>
+
+<p>The ongoing validation cost is often lower than the initial cost, but it is still important to budget for it. The cost of maintaining test cases can be high, as it requires time and effort to keep them up to date as the automation system changes. The cost of executing test cases as the automation system changes can also be high, as it requires time and resources to run the tests on the new versions of the automation system. The cost of analysing test results can also be high, as it requires time and expertise to identify and understand the results of the tests.</p>
+
+<h4 id="benefits">Benefits</h4>
+
+<p>Effective validation yields many benefits, underscoring its critical role in system development and maintenance.</p>
+
+<p>Initial benefits, realised during project execution, include ensuring supplied control systems meet project and business objectives, managing change, and providing a framework for project management.</p>
+
+<p>During the system’s operation, benefits continue to be realised in reduced maintenance costs, third parties can be given access to documentation and so don’t need to undertake system audits, and modifications and upgrades can be planned without interrupting production.</p>
+
+<p>The following table lists some key benefits.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Benefit</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Facilitates future modifications</td>
+      <td>A thoroughly validated system offers a comprehensive documentation framework, easing the process of future modifications and updates.</td>
+    </tr>
+    <tr>
+      <td>Reduces Mean Time To Repair</td>
+      <td>Well-documented systems streamline fault tracing, leading to a reduction in Mean Time To Repair and minimising downtime.</td>
+    </tr>
+    <tr>
+      <td>Enhances system quality</td>
+      <td>Validation serves as a mechanism for identifying and rectifying defects within the automation system, thereby elevating its overall quality and performance.</td>
+    </tr>
+    <tr>
+      <td>Fosters user confidence</td>
+      <td>Users are more inclined to trust and rely on an automation system which has undergone thorough validation, instilling confidence in its reliability and efficacy.</td>
+    </tr>
+    <tr>
+      <td>Ensures regulatory compliance</td>
+      <td>In specific industries, validation may be a mandatory prerequisite to meet regulatory standards. For instance, the FDA mandates validation for medical devices prior to market release.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="stakeholders">Stakeholders</h2>
+
+<p>Early identification and involvement of stakeholders is paramount to the validation process. A proactive approach ensures a successful validation process and guarantees the resulting system aligns with the needs and aspirations of all interested parties.</p>
+
+<p>Stakeholders in control system validation are people with a vested interest in the technology’s success. They include:</p>
+
+<ul>
+  <li>Project Managers</li>
+  <li>System Engineers</li>
+  <li>Automation Developers</li>
+  <li>Quality Assurance Engineers</li>
+  <li>End Users</li>
+  <li>Senior Management Team</li>
+</ul>
+
+<hr />
+
+<h2 id="avoiding-pitfalls">Avoiding Pitfalls</h2>
+
+<p>There are many common mistakes companies make when validating their automation systems. The table below outlines some validation mistakes and their consequences.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mistake</th>
+      <th>Consequence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Validating too late</td>
+      <td>Identifying and rectifying problems later in the project execution process is both costly and can lead to quality issues as compromises are made to accommodate changes.</td>
+    </tr>
+    <tr>
+      <td>Excluding key stakeholders</td>
+      <td>The requirements capture process is not comprehensive, leading to new requirements being “discovered” late in the day – see above.</td>
+    </tr>
+    <tr>
+      <td>Poor planning</td>
+      <td>Poor management has a huge impact on project success, ideally, the project team will be trained and have experience in system validation.</td>
+    </tr>
+    <tr>
+      <td>Using non-standard methodology</td>
+      <td>Inconsistency and lack of repeatability in the validation process impact not only project delivery but also the lifecycle benefits of system validation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Avoiding these common pitfalls is crucial for a successful validation process. By addressing these issues proactively, companies can ensure your industrial control and automation systems meet quality, reliability, and performance standards.</p>
+
+<hr />
+
+<h2 id="best-practices">Best Practices</h2>
+
+<p>There are many best practices for validating automation systems. Some of the most important are outlined below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Best Practice</th>
+      <th>Rationale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Diverse Environment Testing. Test the automation system across a spectrum of environments, encompassing various operating systems, hardware setups, and datasets.</td>
+      <td>This ensures the automation system performs reliably across different scenarios and environments.</td>
+    </tr>
+    <tr>
+      <td>Comprehensive Data Testing. Thoroughly test the automation system using a wide range of data, including both standard and unconventional datasets.</td>
+      <td>This validates the system’s ability to handle diverse inputs, enhancing its robustness and adaptability.</td>
+    </tr>
+    <tr>
+      <td>Sustained Performance Testing. Conduct periodic tests to confirm the automation system maintains its expected performance over time.</td>
+      <td>This is particularly critical for systems deployed in mission-critical applications, ensuring they remain reliable and consistent.</td>
+    </tr>
+    <tr>
+      <td>Checklist Utilisation. Employ a detailed checklist as a guiding tool to ensure all necessary steps are executed during the validation process.</td>
+      <td>A checklist provides a structured approach, minimising the risk of overlooking vital validation tasks.</td>
+    </tr>
+    <tr>
+      <td>Thorough Documentation. Document all results obtained during the validation process.</td>
+      <td>Comprehensive documentation serves as a crucial reference point, enabling the tracking of validation progress and identifying potential issues for future resolution.</td>
+    </tr>
+    <tr>
+      <td>Recommendations for Enhancement. Derive actionable recommendations for system improvement because of the validation process.</td>
+      <td>Implementing these recommendations enhances the current automation system and serves as a proactive measure to prevent future issues.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Companies can improve their automation systems’ quality, reliability, and performance by adhering to best practices. This ensures these systems operate optimally across various environments and datasets, even in critical applications. Furthermore, the systematic approach provided by these practices facilitates thorough validation and sets the stage for continuous improvement.</p>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In this whitepaper, we’ve explained the control system validation process at a high level, illuminating its critical role in ensuring the success and reliability of automation systems.</p>
+
+<p>Effective validation represents a strategic investment in the future performance of your automation ecosystem. By adhering to best practices, engaging key stakeholders, and avoiding common pitfalls, companies can reduce ownership costs and maintain their systems’ performance throughout their lifecycle.</p>
+
+<p>The value of validation extends beyond compliance. It equips organisations with the resilience and adaptability needed to navigate an ever-evolving technological landscape. Well-documented systems expedite troubleshooting and instil confidence in users, fostering a culture of trust and reliability.</p>
+
+<p>If you‘d like help or advice regarding the process described, please contact us for a no pressure, no-obligation discussion.</p>
+
+<p class="center"><span class="fas fa-phone-alt"></span>
+  <abbr title="Phone"></abbr> &nbsp; <a href="tel:00441616604293" id="number">+44 161 660 4293</a>
+</p>
+<p class="center"><span class="fas fa-envelope"></span>
+  <abbr title="Email"></abbr> &nbsp; <a href="mailto:projects@op-tec.co.uk?subject=Maximising%20the%20return%20from%20technology%20projects">projects&#64;op-tec.co.uk</a>
+</p>
+
+<hr />
+<div style="text-align: right"><small>Download a PDF copy of this article <a href="https://op-tec.co.uk/downloads/Control_System_Validation_Explained.pdf" target="_blank"><u>here</u></a></small></div>
+<p><br /></p>
+
+				<br>
+				<div class="page-meta">
+	<p>Published: <time datetime="2023-10-18T00:00:00Z" itemprop="datePublished">18 October 2023</time></p>
+</div><!-- /.page-meta -->
+				<hr />
+				<footer class="page-footer">
+					
+
+<div class="author-image">
+	
+	<img src="https://op-tec.co.uk/images/Obi.jpg" alt="Obiefuna Obidike">
+	
+</div><!-- ./author-image -->
+<div class="author-content">
+	<h3 class="author-name" ><span itemprop="author">Obiefuna Obidike</span> <small><small>BSc</small></small></h3>
+	<p class="author-bio">Graduate Control Systems Engineer</p>
+	<p class="author-bio"></p>
+	
+	<a href="https://www.linkedin.com/in/obiefuna-obidike-97a525224/" class="btn-social linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i> &nbsp; LinkedIn</a>
+	
+	
+</div><!-- ./author-content -->
+<div class="row">
+	<div class="column">
+		<p class="author-bio">More from Obi ...</p>
+		<p class="author-bio">
+			
+			
+				<a href="/knowledge/control-system-validation-explained">Control System Validation Explained</a><br>
+			
+				<a href="/latest/hit-that-save-button">Hit that 'Save' button</a><br>
+			
+				<a href="/latest/will-it-work">Will it work?</a><br>
+			
+		</p>
+	</div>
+	<div class="column">
+		<p class="author-bio">More 
+			knowledge articles
+			...
+		</p>
+		<p class="author-bio">
+			
+			
+				<a href="/knowledge/control-system-validation-explained">Control System Validation Explained</a><br>
+			
+				<a href="/knowledge/towards-absolute-reliability">Towards absolute reliability</a><br>
+			
+				<a href="/knowledge/FEED-study">Front-End Engineering Design (FEED)</a><br>
+			
+				<a href="/knowledge/benefits-of-automation-technology-in-workplace-safety">The benefits of automation in workplace safety</a><br>
+			
+				<a href="/knowledge/SCADA">SCADA</a><br>
+			
+				<a href="/knowledge/unified-namespace">Unified Namespace</a><br>
+			
+				<a href="/knowledge/process-historians">Process Historians</a><br>
+			
+				<a href="/knowledge/how-to-reduce-energy-consumption">How to reduce energy consumption</a><br>
+			
+				<a href="/knowledge/improving-your-automation-system">Improving Your Automation System</a><br>
+			
+				<a href="/knowledge/using-programmable-logic-controllers">Programmable Logic Controllers</a><br>
+			
+				<a href="/knowledge/using-variable-speed-drives-to-increase-quality-and-reduce-energy-costs">Using Variable Speed Drives to increase quality and reduce energy costs</a><br>
+			
+				<a href="/knowledge/computer-system-validation">Computer System Validation - a process</a><br>
+			
+				<a href="/knowledge/the-greenshirts-are-coming">The Greenshirts of the Boiler Police are coming!</a><br>
+			
+				<a href="/knowledge/should-you-replace-your-dcs-with-PLC-SCADA">Should you replace your DCS with PLC-SCADA?</a><br>
+			
+				<a href="/knowledge/how-to-avoid-vendor-lock-in">Avoid getting locked into a single automation vendor</a><br>
+			
+				<a href="/knowledge/richard-banyard">Get to know Richard Banyard</a><br>
+			
+				<a href="/knowledge/why-technology-projects-fail-to-deliver">Maximise your ROI from technology projects</a><br>
+			
+				<a href="/knowledge/800xA">Support available for ABB System 800xA</a><br>
+			
+				<a href="/knowledge/using-data-to-inform-maintenance">Using data to inform maintenance</a><br>
+			
+		</p>
+	</div>
+</div>
+				</footer><!-- /.footer -->
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+</div>
+      <div id="page-wrapper">
+<footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<hr>
+		<div class="row">
+			<div class="column">
+				<h4 id="contact">Contact us</h4>
+				<p><span class="fas fa-phone-alt"></span>
+					<abbr title="Phone"></abbr> &nbsp; <a class="black" href="tel:00441616604293" id="number">+44 161 660 4293</a>
+				<br><br><span class="fas fa-envelope"></span>
+					<abbr title="Email"></abbr> &nbsp; <a class="black" href="mailto:projects@op-tec.co.uk">projects&#64;op-tec.co.uk</a>
+				<br><br><span class="fas fa-map-marker-alt"></span> &nbsp; <small>
+					Op-tec Systems Ltd<br>
+					&nbsp; &nbsp; &nbsp; &nbsp;Broadstone Mill<br>
+					&nbsp; &nbsp; &nbsp; &nbsp;Broadstone Road<br>
+					&nbsp; &nbsp; &nbsp; &nbsp;Stockport<br>
+					&nbsp; &nbsp; &nbsp; &nbsp;SK5 7DL</small>
+				<br><br><span class="fas fa-building"></span> &nbsp; <small>Registered in England and Wales<br>
+					&nbsp; &nbsp; &nbsp; &nbsp;Company # 03251387<br>
+					&nbsp; &nbsp; &nbsp; &nbsp;VAT # 681932119</small>
+				</p>
+			</div>
+			<div class="column">
+				<h4 style="text-align:center"><a href="https://op-tec.co.uk/downloads/FS708969.pdf" target="_blank"><img width="150" src="/images/mark-of-trust-certified-ISO-9001-quality-management-systems-black-logo-En-GB-1019.png" alt="BSI ISO 9001 mark of trust"></a><br></h4>
+				
+			</div>
+			<div>
+				<iframe src="https://richardbanyard.substack.com/embed" width="320" height="260" style="border:0px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<ul class="menu-item">
+			
+			
+				<li><a href="https://op-tec.co.uk/legal-information" >Website Terms of Use & Privacy Policy</a></li>
+			
+			
+				<li><a href="https://op-tec.co.uk/downloads/Equality_Policy.pdf" >Equality Policy</a></li>
+			
+			</ul>
+		</div>
+	</nav><!-- /.bottom-menu -->
+	<hr>
+	<p class="copyright">&#169; 1996 - 2023 <a href="https://op-tec.co.uk">Op-tec Systems Ltd</a></p>
+</footer>
+</div>
+    
+    <script src="https://op-tec.co.uk/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="https://op-tec.co.uk/js/main.js"></script>
+
+  </body>
+
+</html>
